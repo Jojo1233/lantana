@@ -61,6 +61,11 @@ table {
 strong{
 	font-weight: bold;
 }
+
+/*.left{
+	text-align: left;
+}*/
+
 h1{
 	color: darken(#999,25%);
 	font-family: "RobotoMedium";
@@ -75,6 +80,16 @@ h2{
 	margin-bottom: 40px;
 	color: darken($gray, 10%);
 }
+
+h3{
+	font-family: "RobotoMedium";
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 17px;
+	color: #595959;
+	border-bottom: 1px solid #eee;
+}
+
 .center{
 	text-align: center;
 }
@@ -698,7 +713,8 @@ a.logo{
 	position: relative;
 	margin-bottom: 35px;
 	overflow: hidden;
-	background-color: #000; /* layer fill content */
+	background-color: #FFF; /* layer fill content */
+
 
 
 	img {
@@ -706,6 +722,7 @@ a.logo{
 		-o-transition: all 1s ease-out;
 		-webkit-transition: all 1s ease-out;
 		transition: all 1s ease-out;
+		
  	}
  
 	img:hover{
@@ -1397,7 +1414,51 @@ a.logo{
 
 }
 
+/*-------------- Портфолио, новые классы (Аслан) от 15.09.16 --------------- */
 
+.ab-button {
+	background: #fda34d none repeat scroll 0 0;
+    border: 1px solid #ff8400;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: Open Sans Condensed,sans-serif;
+    font-size: 13px !important;
+    line-height: 34px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 169px;
+    height: 35px;
+    //margin: 0 auto;
+}
+
+
+.ab-button:hover {
+	background-color: #FF9100;
+}   
+
+.ab-platforma{
+	font-family: "RobotoMedium";
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: black;
+	display: block;
+	margin-top: 10px;
+}
+
+.ab-wrap-details{
+		width: 100%;
+		text-align: center !important;
+	}
+
+	.ab-col{
+		margin-bottom: 15px;
+		text-align: center;		
+	}
+
+/*---------------------------------------------------*/
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
   //padding: 0px;
@@ -1585,6 +1646,8 @@ a.logo{
 
 }
 
+	
+
 @media only screen and (max-width : 850px) {
 
 }
@@ -1634,14 +1697,62 @@ a.logo{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+	h1{
+		text-align: left !important;
+	}
+	h3{
+		font-family: "RobotoMedium";
+		font-size: 22px;
+		text-align: left;
+	}
+
+	.ab-wrap-details{
+		//outline: 1px solid red;
+		width: 100%;
+		display: table;
+		margin-bottom: 20px;
+	}
+
+	.ab-col{
+		//outline: 1px solid red;
+		width: 33,3%;
+		display: table-cell;
+		vertical-align: top;
+		
+		
+	}
+
+	.left {
+		text-align: left !important;
+		vertical-align: middle;
+	}
+
+	.ab-button{
+		margin-top: 10px;
+
+	}
+
     
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-   
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     

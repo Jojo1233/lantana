@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +54,9 @@ table {
 strong {
   font-weight: bold; }
 
+/*.left{
+	text-align: left;
+}*/
 h1 {
   color: #595959;
   font-family: "RobotoMedium";
@@ -66,6 +70,14 @@ h2 {
   text-align: center;
   margin-bottom: 40px;
   color: #282926; }
+
+h3 {
+  font-family: "RobotoMedium";
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 17px;
+  color: #595959;
+  border-bottom: 1px solid #eee; }
 
 .center {
   text-align: center; }
@@ -567,7 +579,7 @@ a.logo {
   position: relative;
   margin-bottom: 35px;
   overflow: hidden;
-  background-color: #000;
+  background-color: #FFF;
   /* layer fill content */ }
   .portfol-block img {
     -moz-transition: all 1s ease-out;
@@ -847,7 +859,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #8000ff; }
+    border-color: #7f00ff; }
   100% {
     border-color: red; } }
 @-webkit-keyframes pulse {
@@ -862,7 +874,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #8000ff; }
+    border-color: #7f00ff; }
   100% {
     border-color: red; } }
 @keyframes pulse {
@@ -1134,6 +1146,43 @@ a.logo {
     height: 18px;
     content: url("./img/close.png"); }
 
+/*-------------- ╨Я╨╛╤А╤В╤Д╨╛╨╗╨╕╨╛, ╨╜╨╛╨▓╤Л╨╡ ╨║╨╗╨░╤Б╤Б╤Л (╨Р╤Б╨╗╨░╨╜) ╨╛╤В 15.09.16 --------------- */
+.ab-button {
+  background: #fda34d none repeat scroll 0 0;
+  border: 1px solid #ff8400;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-family: Open Sans Condensed,sans-serif;
+  font-size: 13px !important;
+  line-height: 34px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 169px;
+  height: 35px; }
+
+.ab-button:hover {
+  background-color: #FF9100; }
+
+.ab-platforma {
+  font-family: "RobotoMedium";
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+  display: block;
+  margin-top: 10px; }
+
+.ab-wrap-details {
+  width: 100%;
+  text-align: center !important; }
+
+.ab-col {
+  margin-bottom: 15px;
+  text-align: center; }
+
+/*---------------------------------------------------*/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
@@ -1228,6 +1277,31 @@ a.logo {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  h1 {
+    text-align: left !important; }
+
+  h3 {
+    font-family: "RobotoMedium";
+    font-size: 22px;
+    text-align: left; }
+
+  .ab-wrap-details {
+    width: 100%;
+    display: table;
+    margin-bottom: 20px; }
+
+  .ab-col {
+    width: 33,3%;
+    display: table-cell;
+    vertical-align: top; }
+
+  .left {
+    text-align: left !important;
+    vertical-align: middle; }
+
+  .ab-button {
+    margin-top: 10px; } }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 
