@@ -16,9 +16,7 @@
 			<div class="col-md-6">
 				
 				<?php the_content(); ?> 
-
-					<h3>Детали проекта</h3>
-			
+				<h3>Детали проекта</h3>
 			
 				<div class="ab-wrap-details">	
 					<div class="ab-col left">
