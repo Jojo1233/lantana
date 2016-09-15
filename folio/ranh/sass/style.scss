@@ -1,0 +1,739 @@
+﻿$red: #ad2d2f;
+
+html, body, div, span, applet, object, iframe,
+h1,
+h1.white,
+h2,
+h4,
+h5,
+h3, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+body {
+   font-family: "MyriadPro-Regular";
+   font-size: 14px;
+}
+.container{
+	max-width: 960px;
+}
+.button-1{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	background: $red;
+	padding: 0px 30px;
+	text-align: center;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: 3;
+}
+.button-1:hover{
+	background: #ed1c24;
+}
+.header{
+	width: 100%;
+	padding-top: 15px;
+	.container{
+		position: relative;
+	}
+	.contacts{
+		font-size: 30px;
+		color: $red;
+	}
+	.text1{
+		font-family: "MyriadPro-LightSemiExt";
+		font-size: 26px;
+		color: $red;
+	}
+	ul{
+		li{
+			display: block;
+			position: relative;
+			color: $red;
+			font-family: 'Arial Narrow', arial;	
+			font-size: 18px;
+			margin-bottom: 25px;
+			margin-left: 20px;
+		}
+		:before{
+			position: absolute;
+			content: "";
+			width: 10px;
+			height: 10px;
+			background: $red;
+			border-radius: 10em;
+			margin-top: 6px;
+			margin-left: -20px;
+		}
+	}
+	.girl-box{
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+.futures{
+	width: 100%;
+	background: $red;
+	padding: 50px 0px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	.item{
+		margin-top: 30px;
+	}
+	.img-box{
+		height: 70px;
+	}
+	.title{
+		display: block;
+		text-align: center;
+		color: #fff;
+		font-family: "MyriadPro-LightSemiExt";
+		font-size: 44px;
+		text-transform: uppercase;
+		margin: 0 auto;
+	}
+}
+.slider-box{
+	width: 100%;
+	background: #333333;
+	position: relative;
+	min-height: 50px;
+}
+.slider{
+	width: 100%;
+	background: #333333;
+	padding: 0px;
+	min-height: 250px;
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	    padding: 0px;
+	    margin: 0px;
+	    //outline: 1px solid red;
+	}
+	.item{
+		color: #fff;
+		.img-box{
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				position: relative;
+				z-index: 10;
+			}
+			a:before{
+				display: none;
+				position: absolute;
+				content: "";
+				width: 92px;
+				height: 92px;
+				background: url(../img/play.png);
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%, 0);
+				z-index: 20;
+			}
+		}
+		
+		.img-box:hover a:before {
+
+		 	display: block;
+		}
+		img{
+			//width: 100%;
+		}
+		.title{
+			font-size: 24px;
+			line-height: 30px;
+			display: block;
+			margin-bottom: 15px;
+		}
+		p{
+			line-height: 24px;
+			font-size: 14px;
+		}
+		.right{
+			padding-left: 25px;
+			padding-top: 40px;
+		}
+	}
+	.arrs{
+        display: block;
+        width: 60px;
+        height: 60px;
+        background: $red;
+		text-align: center;
+		color: #fff;
+		line-height: 60px;
+    }
+
+    .next{
+        
+        position: absolute;
+        top: 35%;
+        right: 0px;
+    }
+    .prev{
+        
+        position: absolute;
+        top: 35%;
+        left: 0px;
+    }
+    
+
+}
+.why{
+	width: 100%;
+	color: #272727;
+	padding: 50px 0px;
+	.item{
+		width: 100%;
+		border-radius: 10px;
+		background: #f2f2f2;
+		padding: 37px 32px;
+		margin-top: 60px;
+	}
+	.title{
+		display: block;
+		text-align: center;
+		
+		font-family: "MyriadPro-LightSemiExt";
+		font-size: 65px;
+		margin: 0 auto;
+	}
+	.para{
+		display: table;
+	}
+	.digit{
+		display: table-cell;
+		vertical-align: top;
+		color: $red;
+		font-size: 72px;
+		font-family: "MyriadPro-LightSemiExt";
+		span{
+			display: block;
+			//margin-top: -20px;
+		}
+	}
+	.right{
+		display: table-cell;
+		vertical-align: top;
+		padding-left: 10px;
+		padding-top: 45px;
+		.ttl{
+			display: block;
+			font-size: 27px;
+			line-height: 30px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 18px;
+			line-height: 30px;
+		}
+		ul{
+			display: block;
+			li{
+				display: inline-block;
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.w-right{
+		text-align: center;
+		position: relative;
+
+		img{
+			display: block;
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, 0);
+
+		}
+	}
+	.wis-1{
+		margin-top: -60px;
+	}
+	.wis-3{
+		margin-top: -15px;
+	}
+	.wis-4{
+		margin-top: -35px;
+		margin-left: -30px;
+	}
+	.wis-5{
+		margin-top: -60px;
+	}
+
+}
+.footer-top{
+	width: 100%;
+	padding-top: 45px;
+	.map-box{
+		background: url(../img/map.png) no-repeat top center;
+		background-size: cover;
+		width: 429px;
+		height: 218px;
+		margin: 0 auto;
+		a{
+			display: inline-block;
+			color: $red;
+			font-family: 'Arial Narrow', arial;
+			font-size: 16px;
+		}
+		.map-box-inner{
+			//width: 290px;
+			//padding-bottom:  20px;
+			padding-top: 60px;
+			//margin: 0 auto;
+		}
+		p{
+			position: relative;
+			font-family: 'Arial Narrow', arial;
+			font-size: 16px;
+			line-height: 23px;
+			//margin-left: 75px;
+			//outline: 1px solid red;
+			background: url(../img/balun.png) top left no-repeat;
+			padding-left: 60px;
+			width: 250px;
+			margin: 0 auto;
+
+		}
+		p1:before{
+			position: absolute;
+			content: "";
+			width: 43px;
+			height: 71px;
+			background: url(../img/balun.png);
+			margin-left: -60px;
+		}
+	}
+	.right{
+		font-size: 14px;
+		.title{
+			display: block;
+			font-size: 30px;
+			line-height: 36px;
+			color: #272727;
+			margin-bottom: 30px;
+
+		}
+		p{
+			span{
+				display: block;
+				font-size: 16px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.gray-line{
+		width: 100%;
+		height: 1px;
+		border-bottom: 1px solid #dadada;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.line{
+		width: 1px;
+		height: 200px;
+		text-align: right;
+		float: right;
+		margin-right: 25px;
+		border-right: 1px solid #dadada;
+	}
+}
+.footer-bottom{
+	width: 100%;
+	//padding-top: 45px;
+	padding-bottom: 40px;
+	color: #4a4a4a;
+	font-size: 12px;
+	font-family: 'Arial Narrow', arial;
+	.tel{
+		font-size: 24px;
+		font-family: "MyriadPro-Regular";
+		display: block;
+		margin-bottom: 15px;
+	}
+	a{
+		display: block;
+		margin-bottom: 15px;
+		color: $red;
+		text-decoration: underline;
+
+	}
+	.soc{
+		margin-bottom: 15px;
+		a{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			color: #fff;
+			text-decoration: none;
+			margin-right: 7px;
+			border-radius: 10em;
+			background: $red;
+			line-height: 30px;
+			text-align: center;
+		}
+		a:last-child{
+			margin-right: 0px;
+		}
+		a:hover{
+			background: #ed1c24;
+		}
+	}
+}	
+.programs{
+	padding: 60px 0px;
+	padding-bottom: 80px;
+	background: $red;
+	color: #fff;
+	.title{
+		display: block;
+		font-size: 65px;
+		line-height: 76px;
+		font-family: "MyriadPro-LightSemiExt";
+		margin-bottom: 20px;
+	}
+	.sub{
+		display: block;
+		font-family: "MyriadPro-LightSemiExt";
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+	ul.main-list{
+		> li{
+			display: block;
+			width: 100%;
+			position: relative;
+			background: #fff;
+			font-size: 14px;
+			font-family: 'Arial Narrow', arial;
+			border-bottom: 1px solid #e1e1e1;
+			padding: 0px;
+			margin: 0px;
+			color: #272727;
+			.top-info{
+				padding: 20px 15px 20px 40px;
+			}
+			.ttl{
+				display: inline-block;
+				font-size: 22px;
+			}
+			.number{
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				line-height: 40px;
+				border-radius: 10em;
+				border: 1px solid #dbdbdb;
+				font-family: "MyriadPro-LightSemiExt";
+				font-size: 20px;
+				margin-left: 24px;
+			}
+			.arrow{
+				display: inline-block;
+				text-decoration: none;
+				cursor: pointer;
+				margin-top: 15px;
+				font-size: 18px;
+				color: $red;
+				font-family: 'Arial Narrow', arial;
+				text-align: right;
+			}
+			.row{
+				position: relative;
+			}
+			ul.inner-list{
+				display: block;
+				background:  #f2f2f2;
+				padding: 0px;
+				margin: 0px;
+				.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+				    padding: 0px;
+				    margin: 0px;
+				}
+				.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+				    padding: 0px;
+				    margin: 0px;
+				}
+				li{
+					display: block;
+					width: 100%;
+					border-bottom: 1px solid #e1e1e1;
+					.row{
+						padding: 10px 15px 10px 40px;
+					}
+					span{
+						font-family: 'Arial Narrow', arial;
+					}
+					span.direction{
+						display: block;
+						font-size: 18px;
+						margin-bottom: 3px;
+					}
+					.button-1{
+						width: 148px;
+						padding: 0px 10px;
+						display: none;
+						margin-top: 2px;
+						white-space: nowrap;
+						margin: 0 auto;
+					}
+				}
+				:hover .button-1{
+					display: block;
+				}
+			}
+		}
+		li:first-child{
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+		}
+		li:last-child{
+			border-bottom-left-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+		.down{
+			display: block;
+			width: 100%;
+			background: #f2f2f2;
+			position: relative;
+		}
+		.down:before{
+			position: absolute;
+			content: "";
+			width: 10px;
+			background: #333333;
+			height: 100%;
+			top: 0px;
+			left: 0px;
+		}
+	}
+}
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000;  display:none; }
+
+.order{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    width: 309px;
+    min-height: 315px;
+    z-index:9998; 
+    background-color: #fff; 
+    border-radius: 6px;
+    font-size: 16px;
+    .form-order{
+        padding: 17px;
+        span.ttl{
+            display: block;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        span.sub{
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        label{
+        	display: block;
+        	margin-bottom: 5px;
+        }
+        input[type="text"]{
+            display: block;
+            width: 100%;
+            height: 37px;
+            line-height: 37px;
+            margin-bottom: 20px;
+            border: none;
+            border: 1px solid $red;
+            padding: 0px 10px;
+            outline: none;
+            
+        }
+        input[type="submit"]{
+            display: block;
+            text-align: center;
+            
+            border: none;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        
+        label{
+            display: inline-block;
+            position: relative;
+
+        }
+        
+    }
+    .close{
+        position:absolute;
+        display: block;
+        width: 17px;
+        height: 17px;
+        top : 25px;
+        right: 20px;
+        background: url(../img/close.png);
+       
+    }
+    /* Cначала обозначаем стили для IE8 и более старых версий
+	т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+	.checkbox {
+	  vertical-align: top;
+	  display: inline-block;
+	  margin-top: 25px;
+	  width: 21px;
+	  height: 20px;
+	  outline: 1px solid red;
+
+	}
+	.ch{
+		font-size: 14px;
+		display: inline-block;
+		margin-top: -10px;
+		//margin-left: -25px;
+		
+	}
+	/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+	селекторы с плюсом. Показываем, что label кликабелен. */
+	.checkbox + label {
+	  cursor: pointer;
+	}
+
+	/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+	Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+	в них все нижеследующие стили не сработают. */
+
+	/* Прячем оригинальный чекбокс. */
+	.checkbox:not(checked) {
+	  position: absolute;
+	  opacity: 0;
+	}
+	.checkbox:not(checked) + label {
+	  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+	  padding: 0 0 10px 30px; /* оставляем слева от label место под псевдочекбокс */
+	}
+	/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+	.checkbox:not(checked) + label:before {
+	  content: '';
+	  position: absolute;
+	  top: -4px;
+	  left: 0;
+	  width: 18px;
+	  height: 18px;
+	  
+	  background: url(../img/ch.png);
+	  
+	}
+	
+	/* Меняем фон чекбокса, когда он включен. */
+	.checkbox:checked + label:before {
+		width: 21px;
+		height: 20px;
+	  background: url(../img/ch_hover.png);
+	}
+	/* Сдвигаем переключатель чекбокса, когда он включен. */
+	.checkbox:checked + label:after {
+	  left: 26px;
+	}
+	/* Показываем получение фокуса. */
+	.checkbox:focus + label:before {
+	  
+	}
+}  
+.video-window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    width: 560px;
+    height: 315px;
+    display:none;
+    z-index:9999; 
+    border-top: 4px solid #6cc5e7;
+    background: #fff;
+    .close{
+        position:absolute;
+        display: block;
+        width: 18px;
+        height: 18px;
+        top: -4px;
+        right: -17px;
+    }
+    .close:before{ 
+        position:absolute; 
+        width: 18px; 
+        height: 18px;
+        content: url('../img/close2.png'); 
+    }
+}  
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+   //outline: 1px solid red;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+

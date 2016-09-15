@@ -1,0 +1,80 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header-fade {
+    display: none; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .service-block {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .main-menu {
+    margin-top: 25px;
+    text-align: center; }
+    .main-menu li {
+      display: block !important;
+      padding: 10px 0px;
+      margin-bottom: 10px;
+      margin-left: 0px !important; }
+      .main-menu li a {
+        font-size: 25px; }
+      .main-menu li a:hover:before, .main-menu li .active:before {
+        width: 0 !important;
+        height: 0 !important; }
+    .main-menu li:hover {
+      background: #FC4000; }
+
+  .header-middle {
+    font-size: 25px !important; }
+
+  .header-bottom .button-1 {
+    width: 90% !important;
+    margin-bottom: 20px; }
+
+  .portfol-block {
+    margin: 0 auto;
+    margin-bottom: 30px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header_left {
+    text-align: center; }
+
+  .service-block {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  h2 {
+    font-size: 30px !important; }
+
+  .home-page-portfolio, .header, .service, .advantage, .testimonials, .contacts-block {
+    padding: 20px 0px !important; }
+
+  .window, .ocenka {
+    width: 92% !important; } }
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .burger-box {
+    margin-top: -10px; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .header {
+    min-height: 800px; }
+
+  .header-bottom .left {
+    text-align: right; }
+  .header-bottom .right {
+    text-align: left; }
+
+  .testimonials .next {
+    right: -5% !important; }
+  .testimonials .prev {
+    left: -5% !important; } }
+/* Large Devices, Wide Screens */
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,248 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.advantages{
+		background: #0B0716 !important;
+	}
+	.page5{
+		min-height: 450px;
+		background-size: none;
+	}
+	#map{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.page10{
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+ 	.tabs label, .tabs label span {
+ 		display: block !important;
+ 		width: 100% !important;
+ 		
+ 	}
+ 	.tabs input{
+
+ 	}
+ 	.header-fixed{
+		margin-bottom: 450px;
+	}
+	.window{ 
+		width: 95% !important;
+	}
+	.logo-box{
+		img{
+			max-width: 70px;
+			height: auto;
+		}
+		
+	}
+	.header-fade{
+		display: none;
+	}
+	.page3 .title{
+		margin-top: 150px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.page10_1 {
+		padding-top: 40px !important;
+	}
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.page5 {
+		padding-top: 220px !important;
+	}
+	.page2{
+		.right-text{
+			margin-top: 80px;
+		}
+	}
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 35px !important;
+	}
+	.header-botton {
+		padding-top: 15px;
+		margin: 0;
+	}
+
+	.main-menu {
+		padding-top: 30px;
+		padding-left: 30px;
+		ul {
+			display: block !important;
+			text-align: left;
+		}
+		li {
+			display: inline-block !important;
+		}
+	}
+
+	.contacts {
+		padding-top: 25px;
+		text-align: right;
+
+	}
+
+	.header-middle {
+		padding-top: 200px !important;
+		.mesto {
+			font-family: "MuseoSansCyrl-300" !important;
+			font-size: 45px !important;
+		}
+		.vsb {
+			font-family: "MuseoSansCyrl-900";
+			font-size: 50px !important;
+		}
+	}
+
+	.header-bottom {
+		margin: 100px 0 !important;
+
+		.ter {
+			font-family: "MuseoSansCyrl-300";
+			font-size: 30px;
+		}
+		.adr {
+			font-family: "MuseoSansCyrl-500";
+			font-size: 20px;
+		}
+
+	}
+	.advantages{
+		padding-top: 80px !important;
+	}
+	.page2 {
+		.next{
+	        position: absolute;
+	        top: 35%;
+	        right: -5% !important;
+	    }
+	    .prev{
+	        position: absolute;
+	        top: 35%;
+	        left: -5% !important;
+	    }
+	}
+	.page4 {
+		.next{
+	        position: absolute;
+	        top: 35%;
+	        right: -10% !important;
+	    }
+	    .prev{
+	        position: absolute;
+	        top: 35%;
+	        left: -10% !important;
+	    }
+	}
+	.page6 {
+		background: url(../img/page6.jpg) top center;
+		background-repeat: no-repeat;
+		min-height: 589px;
+	}
+
+	.page7 {
+		background: url(../img/page7.jpg) top center;
+		background-repeat: no-repeat;
+		min-height: 513px;
+	}
+
+	.page8 {
+		background: url(../img/page8.jpg) top center;
+		background-repeat: no-repeat;
+		min-height: 370px;
+	}
+	.page10{
+		.left{
+			text-align: right;
+		}
+		.right{
+			text-align: left;
+		}
+	}
+	.page10_1{
+
+		font-size: 30px;
+		padding-top: 60px !important;
+	}
+	.page12{
+		.map-right{
+			margin-top: 50px;
+		}
+	}
+	.footer{
+		.footer-left{
+			text-align: left !important;
+		}
+		.footer-right{
+			text-align: right !important;
+		}
+	}
+
+	#vk_groups{
+		margin: none !important;
+		margin: 0px !important;
+		margin-left: auto !important;
+		
+	}
+	.header-fixed{
+		height: 95px !important;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+ 
+}

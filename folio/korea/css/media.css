@@ -1,0 +1,198 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.form2{
+		padding: 25px !important;
+	}
+	.logobox, .rabotaem, .regim, .contacts{
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logobox img{
+		display: inline-block;
+	}
+	.logobox{
+		text-align: center;
+
+	}
+	.header-top, .header-top .contacts{
+		text-align: center !important;
+	}
+	.next2{
+        
+        right: 0px !important;
+    }
+    .prev2{
+        
+        left: 0% !important;
+    }
+    .header-bottom_top{
+       
+        font-size: 25px !important;
+     	line-height: 30px !important;
+        margin-top: 20px !important;
+    }
+    .header-bottom_top strong{
+        font-size: 30px !important;
+    }
+    input{
+    	display: block !important;
+    	margin: 0 auto !important;
+    	margin-bottom: 25px !important;
+
+    }
+    .preim-box_item{
+    	display: block !important;
+    	margin-bottom: 15px;
+    	text-align: center !important;
+    }
+    .header-top{
+    	text-align: center !important;
+    }
+	
+	.preim-box .col-md-12{
+		padding-top: 10px;
+	}
+	.page4{
+		padding-bottom: 30px !important;
+		padding-top: 20px !important;
+	}
+	.page4 .title{
+		font-size: 20px;
+	}
+	.partners{
+		text-align: center !important;
+	}
+	.partners img{
+		display: block !important;
+		margin: 0 auto !important;
+		margin-bottom: 25px !important;
+
+	}
+	.clinics .next{
+		right: 0% !important;
+	}
+	.clinics .prev{
+		left: 0% !important;
+	}
+	.stat-block .top{
+		font-size: 30px !important;
+	}
+	.any-question .title{
+		font-size: 20px !important;
+
+	}
+	h2, .title{
+		font-size: 25px !important;
+	}
+	.header-bottom{
+		text-align: center !important;
+		margin: 0 auto !important;
+		 
+	}
+	.header-bottom_bottom{
+		text-shadow: 1px 1px 1px #ccc;
+	}
+	.zayavka{
+		margin-top: 30px;
+	}
+	.zayavka span{
+		display: block !important;
+		margin-top: -20px !important;
+		margin-bottom: 20px;
+		//font-size: 25px !important;
+	}
+	.preim-box .title{
+		font-size: 18px !important;
+		margin-top: -10px;
+	}
+	.ocenka, .video-window, .thanks { 
+		width: 250px !important;
+	}
+	.window-map{
+		width: 80% !important;
+		height: 50% !important;
+	}
+	#map{
+		width: 100%;
+		height: 100%;
+	}
+	.ocenka .button-1{
+		font-size: 16px;
+		width: 100% !important; 
+	}
+	.owl-dot{
+		margin-right: 5px !important;
+	}
+	.form2 span{
+		display: block !important;
+		font-size: 18px !important;
+		text-align: center !important;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.travm{
+		display: inline !important
+
+
+	}
+	.nap-box span{
+		font-size: 16px !important;
+	}
+	.nap-box img{
+		max-width: 50% !important;
+		height: auto !important;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.header-bottom{
+		margin-top: 250px;
+	}
+	.travm{
+		margin-left: -40px !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+
+}

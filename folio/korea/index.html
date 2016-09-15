@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Korea-Medica.Ru</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+	<link rel="icon" href="favicon.ico">
+
+
+	<meta content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" name="SKYPE_TOOLBAR"/>
+	<meta content="telephone=no" name="format-detection"/>
+	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script type="text/javascript">
+	  ymaps.ready(init);
+	    var myMap,
+	        myPlacemark;
+
+	    function init(){     
+	        myMap = new ymaps.Map("map", {
+	            center: [55.7600,37.6125],
+	            zoom: 16
+	        });
+
+	       myMap.behaviors.disable('scrollZoom'); 
+
+	        var myPlacemark = new ymaps.Placemark([55.7600,37.6125], {}, {
+		        iconLayout: 'default#image',
+		        iconImageHref: '/img/balun.png',
+		        iconImageSize: [58, 77],
+		        iconImageOffset: [-3, -42]
+		    });
+
+
+	        myMap.geoObjects.add(myPlacemark);
+	    }
+	</script>
+
+</head>
+<body>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+
+
+	<section class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="row">
+					<div class="col-md-3 col-sm-12 col-xs-12 logobox">
+						<a href="/"><img src="img/logo.png" alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-12 col-xs-12 rabotaem">
+						<span>Мы работаем на 
+	территории всей России</span>
+						<a href="#window-map" name="modal-thanks">Посмотреть на карте</a>
+					</div>
+					<div class="col-md-2 col-sm-12 col-xs-12">
+						<div class="regim">
+							<span><strong>9:00 - 19:00</strong> пн. - пт.</span>
+							<a href="#zvonok" name="modal-thanks">Заказать обратный звонок</a>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-12 col-xs-12 ">
+						<div class="contacts">
+							<span>Москва: <strong>8 (495) 000-00-00</strong></span>
+							<span>Бесплатный звонок по России:<strong>8 (800) 000-00-00</strong></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="header-bottom">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 col-xs-12">
+
+						<p class="header-bottom_top">Официальное представительство <br>
+						<strong>медицинского туризма</strong> <br>
+						Южной Кореи </p>	
+						<p class="header-bottom_bottom">Мы поможем организовать лечение <br class="hidden-md hidden-xs">
+в лучших клиниках Кореи, под наблюдением лучших врачей</p>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="zayavka">
+							<form action="#" class="top-form"> 
+								<span>Оставить заявку <br>
+на бесплатную консультацию</span>
+								<input type="text" placeholder="Имя" name="uname" required>
+								<input type="text" placeholder="Номер телефона" name="tel" class="phone" required>
+								<input type="submit" class="button-1" id="top-form_submit" value="Оставить заявку">
+							</form>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="page2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<span class="title">Популярные направления в Южной Кореи у иностранных пациентов</span>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-2 col-md-push-2 col-sm-6 col-xs-6" >
+					<div class="nap-box">
+						<img src="img/nap1.png" alt="">
+						<span>Онкология</span>
+					</div>
+				</div>
+				<div class="col-md-2 col-md-push-3 col-sm-6 col-xs-6">
+					<div class="nap-box">
+						<img src="img/nap2.png" alt="">
+						<span class="travm">Травмотология - ортопедия</span>
+					</div>
+				</div>
+				<div class="clearfix hidden-lg hidden-md"></div>
+
+				<div class="col-md-2 col-md-push-4 col-sm-6 col-xs-6">
+					<div class="nap-box">
+						<img src="img/nap3.png" alt="">
+						<span class="travm">Пластическая хирургия</span>
+					</div>
+				</div>
+
+				<div class="clearfix hidden-sm hidden-xs"></div>
+
+				<div class="col-md-2 col-md-push-2 col-sm-6 col-xs-6">
+					<div class="nap-box">
+						<img src="img/nap4.png" alt="">
+						<span>Диагностика</span>
+					</div>
+				</div>
+
+				<div class="clearfix hidden-lg hidden-md"></div>
+
+				<div class="col-md-2 col-md-push-3 col-sm-6 col-xs-6">
+					<div class="nap-box">
+						<img src="img/nap5.png" alt="">
+						<span>Репродуктология</span>
+					</div>
+				</div>
+				<div class="col-md-2 col-md-push-4 col-sm-6 col-xs-6">
+					<div class="nap-box">
+						<img src="img/nap6.png" alt="">
+						<span>Стоматология</span>
+					</div>
+				</div>
+
+				<div class="clearfix"></div>
+				
+
+				<div class="col-md-12 col-xs-12">
+					<div class="preim-box">
+					<span class="title">Преимущества лечения в Корее</span>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="preim-box_item">
+								<div class="img-box">
+									<img src="img/p1.png" alt="">
+								</div>
+								<span>Самое современное высокотехнологичное <br>оборудование</span>
+							</div>
+							<div class="preim-box_item">
+								<div class="img-box">
+									<img src="img/p2.png" alt="">
+								</div>
+								<span>Врачи высшего уровня квалификации</span>								
+							</div>
+							<div class="preim-box_item">
+								<div class="img-box">
+									<img src="img/p3.png" alt="">
+								</div>
+								<span>Качество лечения не уступающее Европе</span>
+								
+							</div>
+							<div class="preim-box_item">
+								<div class="img-box">
+									<img src="img/p4.png" alt="">
+								</div>
+								<span>Стоимость лечения ниже чем в Германии и Израиле в 2-3 раза</span>
+								
+							</div>
+							<div class="preim-box_item">
+								<div class="img-box">
+									<img src="img/p5.png" alt="">
+								</div>
+								<span>Добрый и отзывчивый медицинский персонал</span>
+							
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>		
+
+				<div class="col-md-12 col-xs-12 hidden-xs hidden-sm">
+					<div class="compare-box center">
+							<span class="title">Сравнение стоимости получения медицинской помощи в Корее, Германии и Израиле</span>
+						<span class="sub-title">Цены указаны в долларах США</span>
+					</div>
+					
+					<table>
+						<tr>
+							<td colspan="3">Лечение онкологических заболеваний в Корее</td>
+							<td colspan="2">Стоимость аналогичных манипуляций в клиниках других стран</td>
+							
+						</tr>
+						<tr>
+							<td style="font-size: 16px;">Операция / процедура</td>
+							<td>Средняя продолжительность госпитализации (если необходима)</td>
+							<td class="bg">Южная Корея (госпитализация в 1-местной палате включена)</td>
+							<td>Германия</td>
+							<td>Израиль</td>
+						</tr>
+						<tr>
+							<td>Мастэктомия + реконструкция молочной железы (при раке молочной железы)</td>
+							<td>10-14 дней (матэктомия); 3 недели (мастэктомия с реконструкцией)</td>
+							<td class="bg">$ 13.000 - $15.000 (мастектомия);
+$ 23.000 - $ 26.000 (мастэктомия с реконструкцией)</td>
+							<td>$ 18.600 - $33.500</td>
+							<td>$ 18.000 - $33.000</td>
+						</tr>
+						<tr>
+							<td>Мастэктомия + реконструкция молочной железы (при раке молочной железы)</td>
+							<td>10-14 дней (матэктомия); 3 недели (мастэктомия с реконструкцией)</td>
+							<td class="bg">$ 13.000 - $15.000 (мастектомия);
+$ 23.000 - $ 26.000 (мастэктомия с реконструкцией)</td>
+							<td>$ 18.600 - $33.500</td>
+							<td>$ 18.000 - $33.000</td>
+						</tr>
+						<tr>
+							<td>Мастэктомия + реконструкция молочной железы (при раке молочной железы)</td>
+							<td>10-14 дней (матэктомия); 3 недели (мастэктомия с реконструкцией)</td>
+							<td class="bg">$ 13.000 - $15.000 (мастектомия);
+$ 23.000 - $ 26.000 (мастэктомия с реконструкцией)</td>
+							<td>$ 18.600 - $33.500</td>
+							<td>$ 18.000 - $33.000</td>
+						</tr>
+					</table>
+				
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="clearfix"></div>
+	<section class="page3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<h2>Мы работаем с лучшими <br>
+и проверенными клиниками Южной Кореи</h2>
+				</div>
+				<div class="col-md-12 col-xs-12 col-xs-12">
+					<div class="owl-carousel clinics">
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-1" name="modal-thanks">
+										<img src="img/s1.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Госпиталь Святой Марии</span>
+								<span>Основан в 1980 году</span>
+							</div>
+							<a href="#video-window-1" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+
+
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-2" name="modal-thanks">
+										<img src="img/s2.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Сеульская больница Асан</span>
+								<span>Ежегодно более  57,000 операций</span>
+							</div>
+							<a href="#video-window-2" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-3" name="modal-thanks">
+										<img src="img/s3.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Многопрофильный госпиталь «Сон»</span>
+								<span>Основан  в 1966 году</span>
+							</div>
+							<a href="#video-window-3" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-4" name="modal-thanks">
+										<img src="img/s4.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Госпиталь Каннам Северанс </span>
+								<span>Основан  в 1886 году</span>
+							</div>
+							<a href="#video-window-4" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-5" name="modal-thanks">
+										<img src="img/s1.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Госпиталь Святой Марии</span>
+								<span>Основан в 1980 году</span>
+							</div>
+							<a href="#video-window-5" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-6" name="modal-thanks">
+										<img src="img/s2.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Сеульская больница Асан</span>
+								<span>Ежегодно более  57,000 операций</span>
+							</div>
+							<a href="#video-window-6" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-7" name="modal-thanks">
+										<img src="img/s3.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Многопрофильный госпиталь «Сон»</span>
+								<span>Основан  в 1966 году</span>
+							</div>
+							<a href="#video-window-7" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+						<div class="item center">
+							<div class="item-top">
+								<div class="img-box">
+									<a href="#video-window-8" name="modal-thanks">
+										<img src="img/s4.png" alt="">
+										<div class="play"></div>
+									</a>
+								</div>
+								<span class="hh1">Госпиталь Каннам Северанс </span>
+								<span>Основан  в 1886 году</span>
+							</div>
+							<a href="#video-window-8" name="modal-thanks" class="more">Подробнее о клинике »</a>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+							<form action="#" class="form2">
+								<span>Оставьте номер телефона, мы перезвоним в течении 5 минут
+		и ответим на все ваши вопросы</span>
+										<input type="text" placeholder="Имя" name="uname" required>
+										<input type="text" placeholder="Номер телефона" name="tel" class="phone" required>
+										<input type="submit" class="button-1" id="form2_submit" value="Оставить заявку">
+							</form>
+							<div class="girl hidden-xs hidden-sm">
+								<img src="img/girl.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="steps">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<img src="img/step5.png" alt="" class="st">
+					<span class="title">шагов работы с нами</span>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-4 sh-box">
+					<div class="img-box">
+						<img src="img/h1.png" alt="">
+					</div>
+					<div class="sh-bottom">
+						<span class="left">1</span>
+						<p class="right">Вы предоставляете информацию по вашему заболеванию</p>
+					</div>	
+				</div>
+				<div class="col-md-4 sh-box">
+					<div class="img-box">
+						<img src="img/h2.png" alt="">
+					</div>
+					<div class="sh-bottom">
+						<span class="left">2</span>
+						<p class="right">Мы помогаем подобрать клинику и специалиста</p>
+					</div>	
+				</div>
+				<div class="col-md-4 sh-box">
+					<div class="img-box">
+						<img src="img/h3.png" alt="">
+					</div>
+					<div class="sh-bottom">
+						<span class="left">3</span>
+						<p class="right">Мы помогаем с подбором билетов и места проживания</p>
+					</div>	
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div class="col-md-4 col-md-offset-2 sh-box">
+					<div class="img-box">
+						<img src="img/h4.png" alt="">
+					</div>
+					<div class="sh-bottom">
+						<span class="left">4</span>
+						<p class="right">По прилету Вас встречает водитель с переводчиком и доставляет к месту </p>
+					</div>	
+				</div>
+				<div class="col-md-4  sh-box">
+					<div class="img-box">
+						<img src="img/h5.png" alt="">
+					</div>
+					<div class="sh-bottom">
+						<span class="left">5</span>
+						<p class="right">Вы получаете медицинскую помощь у лучших корейских специалистов</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="review">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<span class="title">Благодарности от наших клиентов</span>
+				</div>	
+				<div class="col-md-12">
+					<div class="review-carousel">
+						<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Оксана</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan1.jpg" rel="group"><img src="img/scan1.jpg" alt=""></a>
+						</div>		
+						<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Елена</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan2.jpg" rel="group"><img src="img/scan2.jpg" alt=""></a>
+						</div>		
+						<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Ольга</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan3.jpg" rel="group"><img src="img/scan3.jpg" alt=""></a>
+						</div>		
+<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Оксана</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan1.jpg" rel="group"><img src="img/scan1.jpg" alt=""></a>
+						</div>		
+						<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Елена</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan2.jpg" rel="group"><img src="img/scan2.jpg" alt=""></a>
+						</div>		
+						<div class="item">
+							<div class="item-top">
+								<div class="left">
+									<img src="img/foto1.jpg" alt="">
+								</div>
+								<div class="right">
+									<span class="name">Ольга</span>
+									Вылечилась от болезни неизлечимойВылечилась от болезни неизлечимой
+								</div>
+							</div>
+							<a href="img/scan3.jpg" rel="group"><img src="img/scan3.jpg" alt=""></a>
+						</div>		
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="results">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<span class="title">Результаты нашей работы</span>
+				</div>	
+				<div class="col-md-10 col-md-offset-1">
+					<div class="result-carousel">
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/foto2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearfix"></div>
+	<section class="page4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<span class="title">Статистика сотрудничества с клиниками Южной Кореи</span>
+				</div>	
+				<div class="clearfix"></div>
+				
+				<div class="col-md-3">
+					<div class="stat-block">
+						<span class="top">487</span>
+						<span class="bottom">Спасено жизней</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="stat-block">
+						<span class="top">1 253</span>
+						<span class="bottom">Вылеченно человек</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="stat-block">
+						<span class="top">45</span>
+						<span class="bottom">Выполнено пластических операций</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="stat-block">
+						<span class="top">55 874</span>
+						<span class="bottom">Проведено обследований</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="any-question">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 center">
+					<span class="title">Если у Вас еще остались какие-либо вопросы, мы с радостью на них ответим!</span>
+					<form action="#" class="form3">
+						<input type="text" placeholder="Имя" name="uname" required>
+						<input type="text" placeholder="Номер телефона" name="tel" class="phone" required>
+						<input type="submit" class="button-1" id="form3_submit" value="Оставить заявку">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partners">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 center">
+					<h2>Наши партнеры</h2>
+					<div class="partners-box">
+						<img src="img/plogo1.png" alt="">
+						<img src="img/plogo2.png" alt="">
+						<img src="img/plogo3.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>					
+	</section>
+
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-12 col-xs-12 logobox">
+					<a href="/"><img src="img/logo.png" alt=""></a>
+				</div>
+				<div class="col-md-2 col-sm-12 col-xs-12 rabotaem">
+					<span>Мы работаем на 
+территории всей России</span>
+					<a href="#window-map" name="modal-thanks">Посмотреть на карте</a>
+				</div>
+				<div class="col-md-2 col-sm-12 col-xs-12">
+					<div class="regim">
+						<span><strong>9:00 - 19:00</strong> пн. - пт.</span>
+						<a href="#zvonok" name="modal-thanks">Заказать обратный звонок</a>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-12 col-xs-12 ">
+					<div class="contacts">
+						<span>Москва: <strong>8 (495) 000-00-00</strong></span>
+						<span>Бесплатный звонок по России:<strong>8 (800) 000-00-00</strong></span>
+					</div>
+				</div>
+			</div>
+		</div>					
+	</section>
+
+
+	<div id="mask"></div>
+
+	<div id="thanks" class="thanks window2"> 
+		<a href="#" class="close"/></a>
+		<p class="title" id="thanks-title">Спасибо за Вашу заявку!</p> 
+		<p class="cont" id="thanks-cont">Наши специалисты с Вами свяжутся <br>
+	в ближайшее время. </p>
+	</div>
+
+	<div id="zvonok" class="ocenka"> 
+		<a href="#" class="close"/></a>
+		<form action="#" class="zvonok_form">
+			<p>
+				Заказать обратный звонок
+			</p>
+			<input type="text" placeholder="Имя" name="uname" required>
+			<input type="text" placeholder="Номер телефона" name="tel" class="phone" required>
+			<input type="submit" value="Заказать звонок" id="zvonok_form_submit" class="button-1">
+		</form>
+	</div>
+
+
+	
+
+	<div id="window-map" class="window-map"> 
+		<a href="#" class="close"/></a>
+		<div id="map"></div>
+	</div>
+
+	<!-- Видео -->
+	<div id="video-window-1" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-2" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-3" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-4" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-5" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-6" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div id="video-window-7" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	<div id="video-window-8" class="video-window"> 
+		<a href="#" class="close"/></a>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/uBYiqyvuEOE" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+
+	<a  href="#thanks" name="modal-thanks"></a>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter36925260 = new Ya.Metrika({
+	                    id:36925260,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/36925260" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+</body>
+</html>
+

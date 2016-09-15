@@ -1,0 +1,149 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .girl-box {
+    text-align: right;
+    bottom: -55px !important; }
+    .girl-box img {
+      display: inline-block !important;
+      max-width: 50% !important;
+      height: auto;
+      text-align: right;
+      margin-top: 50px !important; }
+  .header .button-1 {
+    position: absolute;
+    height: 32px !important;
+    line-height: 32px !important;
+    margin-top: 100px;
+    padding: 0px 15px !important; }
+  .futures {
+    margin-top: 50px;
+    font-size: 16px !important; }
+    .futures .title {
+      font-size: 20px !important; }
+  .w-right img {
+    display: block !important;
+    position: relative !important; }
+  .wis-1, .wis-3, .wis-4, .wis-5 {
+    display: block !important;
+    margin-top: 20px !important; }
+  .wis-1 {
+    margin-top: -15px !important; }
+  .programs .button-box {
+    width: 100% !important;
+    position: relative;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center !important; }
+    .programs .button-box .button-1 {
+      display: inline-block !important;
+      text-align: center !important; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .girl-box {
+    text-align: right; }
+    .girl-box img {
+      display: inline-block !important;
+      max-width: 50% !important;
+      height: auto;
+      text-align: right; }
+  .programs .title {
+    font-size: 30px;
+    line-height: 35px !important; }
+  .slider {
+    padding-bottom: 20px !important; }
+    .slider .arrs {
+      top: 55px !important; }
+  .map-box {
+    padding: 0px !important;
+    width: 250px !important;
+    height: 200px !important;
+    background-size: 100% !important;
+    background-size: cover !important; }
+    .map-box p {
+      margin: 0px !important;
+      margin-left: 10px !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header .logo {
+    display: block;
+    width: 70%;
+    height: auto; }
+  .header .contacts {
+    font-size: 25px !important; }
+  .header .text1 {
+    font-size: 22px !important; }
+  .girl-box {
+    text-align: right; }
+    .girl-box img {
+      display: inline-block !important;
+      max-width: 30% !important;
+      height: auto;
+      text-align: right; }
+  .button-1 {
+    margin-top: 80px; }
+  .why .title {
+    font-size: 30px !important; }
+  .why .w-right img {
+    display: inline-block !important;
+    position: relative !important;
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: -30%;
+    text-align: center; }
+  .why .para {
+    display: block !important;
+    text-align: center;
+    width: 100%; }
+    .why .para .digit {
+      display: inline-block !important; }
+    .why .para .right {
+      display: block !important;
+      padding: 0px !important; } }
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .header .text1 {
+    font-size: 82.22px;
+    margin-top: 50px;
+    margin-bottom: 20px; }
+  .header .col-button {
+    text-align: right;
+    margin-top: 30px; }
+  .header .contacts {
+    margin-top: 30px; }
+  .header .button-1 {
+    display: inline-block;
+    width: 190px;
+    margin-left: 120px !important; }
+  .header .logo {
+    margin-left: -100px; }
+  .contacts {
+    text-align: right;
+    padding-top: 3px; }
+    .contacts span {
+      display: inline-block;
+      margin-left: 130px;
+      white-space: nowrap; }
+  .slider, .slider-box {
+    max-height: 295px; }
+    .slider img, .slider-box img {
+      max-height: 295px; }
+  .wis-2 {
+    margin-top: 100px !important; }
+  .wis-3 {
+    margin-top: 10px !important; }
+  .wis-5 {
+    margin-top: -20px !important; } }
+
+/* Large Devices, Wide Screens */

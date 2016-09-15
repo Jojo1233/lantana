@@ -1,0 +1,347 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.calculator{
+		background: #6dcff6 !important;
+	}
+	.plus-minus{
+		padding-left: 0px !important;
+	}
+	.calc-box{
+		margin-top: 10px !important;
+	}
+	.cta .c1{
+		margin-top: 0px !important;
+	}
+	.cta .c3{
+		margin-top: 0px !important;
+		text-align: center !important;
+	}
+	.cta .c1{
+		font-size: 40px !important;
+		text-align: center;
+		margin-top: 10px !important;
+	}
+	.cta .c2{
+		
+		text-align: center !important;
+		font-size: 20px !important;
+	}
+	.cta .c3{
+		margin-top: 10px !important;
+	}
+	.sc3, .sc4{
+		text-align: left !important;
+
+	}
+	.pdf-doc{
+		float: right;
+		margin-right: 40px !important;
+	}
+	.sc4 .more{
+		margin-top: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header{
+		min-height: 379px;
+	}
+	.header-inner-page, .header-faq{
+		min-height: 125px !important;
+	}
+	.header-faq, .header-testimonails, .header-samples, .header-contacts{
+		background-image: none !important;
+	}
+	.header-faq:before, .header-testimonails:before, .header-samples:before, .header-contacts:before{
+		background: #fff !important;
+		
+	}
+	
+
+	.button-1{
+		height: 40px;
+		line-height: 40px;
+		padding: 0px 40px;
+	}
+	.header-bottom{
+		padding-top: 55px;
+	}
+	.header-bottom p{
+		padding: 35px 0px;
+	}
+	h1{
+		font-size: 100%;
+	}
+	h1.main-page, h1.white{
+		font-size: 27px;
+	}
+	
+	h2{
+		font-size: 27px !important;
+	}
+	span.h2{
+		font-size: 23px;
+	}
+	h3{
+		font-size: 24px;
+	}
+	.phone, .logo-block, .menu-box, .toggle-menu{
+		background: #6dcff6;
+		height: 50px;
+	}
+	
+	.logo-box{
+		width: 100%;
+		height: 100%;
+		margin-left: 15px;
+	}
+	.logo-box a{
+		font-size: 30px;
+		padding-top: 0px;
+		text-align: left;
+		
+	}
+	.logo-box a, .phone, .menu-box{
+		line-height: 50px;
+	}
+	.phone{
+		padding-right: 15px;
+	}
+	.menu-ico{
+		display: block;
+		margin: 0 auto;
+		margin-top: 8px;
+
+	}
+	.phone-ico{
+		display: block !important;
+		margin: 0 auto;
+		margin-top: 8px;
+	}
+	.main-menu{
+		
+		background: #6dcff6;
+	}
+	.main-menu li{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.main-menu li a{
+		display: inline-block;
+		padding: 0px 5px;
+		font-size: 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+	}
+	.main-menu li a:hover{
+		//outline: 2px solid #fff;
+		text-decoration: none;
+	}
+	
+	.menu-box{
+		display: none;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-menu li{
+		display: block;
+		float: none;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		background: #4ba7cb;
+		color: #fff;
+		margin-bottom: 1px solid #414141 !important;
+	}
+	.footer-menu li:after{
+		content: "" !important;
+	}
+	
+	.footer-menu-box, .footer-logo-box{
+		text-align: center;
+	}
+	.footer-logo{
+		display: block;
+		margin: 0 auto;
+	}
+	.footer-logo:after{
+		position: absolute;
+		content: url(../img/cp2.png) !important;
+		margin-left: 3px;
+		margin-top: 2px;
+
+	}
+	.footer .description{
+		line-height: 25.77px;
+		padding: 0px 20px;
+	}
+	.footer .rights{
+		text-align: center;
+		color: #69c5ea;
+		padding-top: 25px;
+		font-size: 16px;
+	}
+	.footer span.tel, .footer span.footer-logo{
+		font-size: 20px;
+
+	}
+	.footer span.footer-logo{
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.footer span.tel{
+		padding-bottom: 12px;
+	}
+	.footer-menu-toggle{
+		display: block !important;
+	}
+	.feature-block{
+		width: 170px;
+		margin-bottom: 20px;
+	}
+	.feature-block .title{
+		font-size: 18px;
+	}
+	.academic-lavel{
+		
+		width: 303px;
+		text-align: center;
+		margin: 0 auto;
+		z-index: 9999;
+	}
+	.deadline{
+		width: 303px;
+		text-align: center;
+		margin: 0 auto;
+		
+	}
+	.plus-minus-box{
+		width: 303px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.calc-button-box{
+		width: 303px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: -20px;
+	}
+	.calculator{
+		min-height: 150px !important;
+		padding-bottom: 30px;
+	}
+	
+	.simple_title{
+		font-size: 20px !important;
+
+	}
+	.testimonials-block_top{
+		font-size: 20px !important;
+		line-height: 30px! important;
+	}
+	h1.white{
+		color: #393939 !important;
+		outline: 3px solid #393939;
+		font-size: 20px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	h1{
+		margin-top: 30px !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.menu-box{
+		text-align: left;
+		margin-top: 10px;
+	}
+	.phone{
+		text-align: right;
+	}
+	.phone{
+		padding-top: 22px;	
+	}
+	.footer .description{
+		margin-top: -70px;
+	}
+	h1{
+		margin-top: 10px !important;
+	}
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.menu-box{
+		text-align: left;
+	}
+	.footer .description{
+		//outline: 10px solid red;
+		margin-top: 0px;
+	}
+	.sc2{
+		margin-top: -50px;
+	}
+	.more{
+		margin-top: -35px;
+	}
+	.sc1{
+		text-align: left !important;
+	}
+	h1{
+		margin-top: 15px !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.menu-box{
+		text-align: right;
+		margin-top: -20px;
+	}
+	.phone{
+		text-align: right;
+	}
+	h1{
+		margin-top: 30px !important;
+	}
+	
+}
