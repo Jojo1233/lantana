@@ -19,7 +19,7 @@
 				<h3>Детали проекта</h3>
 			
 				<div class="ab-wrap-details">	
-					<div class="ab-col left">
+					<div class="ab-col ab-left">
 						<a class="ab-button orange" target="_blank" href="<?php the_field('ссылка_на_верстку'); ?>">Смотреть верстку</a>
 					</div>
 					<div class="ab-col">

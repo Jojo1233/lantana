@@ -36,7 +36,37 @@
                     </div>
                     <div class="col-md-1 hidden-xs">
 
-                        <div class="lang-box">
+      <div class="ab-language">
+        <div id="cur-lang">
+          <div id="current">
+            <div class="lang-wrap">
+              <div class="img-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/rus.png" alt="">
+              </div>
+              <div class="txt-box">
+                <span>ru</span>
+              </div>
+            </div>
+          </div>
+          <ul class="lang-switcher">
+          
+            <li>
+              <div class="lang-wrap">
+                <div class="img-box">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt="">
+                </div>
+                <div class="txt-box">
+                  <span>en</span>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>  
+
+                        <!--<div class="lang-box">
+
 <ul>
     <li class="en">
         <a href="/en"><img src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt=""></a>
@@ -45,7 +75,7 @@
         <a href="/ru"><img src="<?php echo get_template_directory_uri(); ?>/img/rus.png" alt=""></a>
     </li>
 </ul>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="anz-menu">
                         <input type="checkbox" id="check_1" class="anz-mobile"/>
