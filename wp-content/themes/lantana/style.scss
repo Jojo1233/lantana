@@ -4,6 +4,7 @@
    License: none (public domain)
 */
 $accent: #FF9100;
+//$accent: #16A05C;
 $gray: #42433F;
 $hover-percent: 20%;
 $page-padding: 50px 0px;
@@ -71,6 +72,9 @@ strong{
 
 .ab-h1-blog {
 	margin-bottom: -15px;
+		a {
+			color:#595959;
+		}
 }
 
 .ab-author{
@@ -100,6 +104,27 @@ strong{
     //margin: 0 auto;
 }
 
+.ab-button-blog-1 {
+	background: lighten($accent,10%);
+    border: 1px solid #ff8400;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: Open Sans Condensed,sans-serif;
+    font-size: 13px !important;
+    line-height: 34px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    //width: 169px;
+    //height: 35px;
+    //margin: 0 auto;
+}
+
+.ab-button-blog-1:hover{
+	background: $accent;
+}
 
 .ab-button-blog:hover {
 	background-color: #FF9100;
@@ -123,7 +148,7 @@ strong{
         cursor: pointer;
         //background: #000;
     }
-    #current{
+    #current-lang{
         padding-left: 10px;
         .txt-box{
             width: 70%;

@@ -38,7 +38,7 @@
 
       <div class="ab-language">
         <div id="cur-lang">
-          <div id="current">
+          <div id="current-lang">
             <div class="lang-wrap">
               <div class="img-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/rus.png" alt="">

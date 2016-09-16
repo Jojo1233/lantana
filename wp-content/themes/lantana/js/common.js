@@ -18,12 +18,12 @@ $(document).ready(function() {
         $(".en").addClass('active');
     }
 
-$("#current").click(function () {
+    $("#current-lang").click(function () {
         $('ul.lang-switcher').css('display', 'block');
     });   
     $(".lang-switcher li").click(function () {
         //alert(t);
-        $("#current").html($(this).html());
+        $("#current-lang").html($(this).html());
         $('ul.lang-switcher').css('display', 'none');
     });
 

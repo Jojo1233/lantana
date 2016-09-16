@@ -23,8 +23,8 @@ $footer_text1 = get_field('футер_текст_1');
 			<div class="col-md-3">
 				<div class="soc-block">
                     <a href="https://www.facebook.com/profile.php?id=100004172596377" target="_blank" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                    <a href="https://vk.com/id266598462" target="_blank" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                     <span class="skype"><i class="fa fa-skype" aria-hidden="true"></i></span>
+                    <a href="https://vk.com/slantana" target="_blank" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href="skype:SkypeUser"><span class="skype"><i class="fa fa-skype" aria-hidden="true"></i></span></a> 
                 </div>    
 			</div>
 			
