@@ -76,20 +76,47 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
             
 	    	<div class="clearfix"></div>
 		    <?php  while ($wp_query->have_posts()) : $wp_query->the_post(); ?>  
-		    <div class="col-md-3 col-sm-6 col-xs-12">
+		    <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="portfol-block">
-                    <?php $image = get_field('миниатюра'); ?>
-                    <img src="<?php echo $image['url'] ?>" alt="">
-                    <div class="portfol-block_inner">
-                        <a href="<?php the_permalink(); ?>">
-                            <span class="title"><?php the_title(); ?></span>
-                       </a>
-                        <?php if (get_field('вид_работы')=='Верстка') { ?>
-                        <a href="<?php echo "/".get_field('ссылка_на_верстку') ?>" class="button-2" target="_blank"><?php echo $button_code; ?></a>
-                        <?php } ?>
-                        <?php if (get_field('вид_работы')=='Сайт') { ?>
-                        <a href="<?php echo get_field('ссылка_на_сайт') ?>" class="button-2" target="_blank"><?php echo $button_tosite; ?></a>
-                        <?php } ?>
+                    <div class="figure">
+                        <div class="figure-img">
+                            <?php $image = get_field('миниатюра'); ?>
+                            <img src="<?php echo $image['url'] ?>" alt="" class="img-responsive">
+                        </div>
+                     
+                        <div class="overlay">
+                            <div class="overlay-inner">
+                                <a href="<?php the_permalink(); ?>">
+                                    <span class="title"><?php the_title(); ?></span>
+                                </a>
+                                <?php if (get_field('вид_работы')=='Верстка') { ?>
+                                <a href="<?php echo "/".get_field('ссылка_на_верстку') ?>" class="button-2" target="_blank"><?php echo $button_code; ?></a>
+                                <?php } ?>
+                                <?php if (get_field('вид_работы')=='Сайт') { ?>
+                                <a href="<?php echo get_field('ссылка_на_сайт') ?>" class="button-2" target="_blank"><?php echo $button_tosite; ?></a>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="figure-caption">
+                        <div class="caption-left">
+                            <span class="title">Веб-сайт</span>
+                            <span class="sub-title">Вид работы: <?php echo get_field('тип_проекта') ?></span>
+
+                        </div>
+                        <div class="caption-right">
+                            <p>
+                                <?php if (get_field('описание')=="") { ?>
+                                
+                                    Lorem ipsum dolor sit amet.zxf consectetui addtticing elit,sed do eiusmod tdempor ini didunt utthoi laboure et.Lorem ipsum ne.
+     
+                                <?php } else { ?>
+                                <?php echo get_field('описание'); } ?>
+
+                            </p>
+                        </div>
                     </div>
                 </div>
 	  		</div>

@@ -85,7 +85,7 @@ strong {
   margin-top: 20px; }
 
 .ab-button-blog-1 {
-  background: #ffa733;
+  background: #eb578e;
   border: 1px solid #ff8400;
   border-radius: 3px;
   color: #fff;
@@ -99,7 +99,7 @@ strong {
   margin-top: 20px; }
 
 .ab-button-blog-1:hover {
-  background: #FF9100; }
+  background: #e52a6f; }
 
 .ab-button-blog:hover {
   background-color: #FF9100; }
@@ -182,7 +182,7 @@ h2 {
   font-size: 35px;
   text-align: center;
   margin-bottom: 40px;
-  color: #282926; }
+  color: #2f0226; }
 
 h3 {
   font-family: "RobotoMedium";
@@ -234,8 +234,8 @@ textarea {
   display: inline-block;
   padding: 8px 15px;
   min-width: 145px;
-  background: #cc7400;
-  border: 1px solid #FF9100;
+  background: #c41857;
+  border: 1px solid #e52a6f;
   font-family: "RobotoLight";
   font-size: 14px;
   color: #fff;
@@ -295,9 +295,9 @@ textarea {
 
 .button-2 {
   display: inline-block;
-  padding: 5px 15px;
-  background: #cc7400;
-  border: 1px solid #FF9100;
+  padding: 10px 15px;
+  background: #e31c66;
+  border: 1px solid #e52a6f;
   font-family: "RobotoLight";
   font-size: 14px;
   color: #fff;
@@ -307,7 +307,7 @@ textarea {
   text-transform: uppercase; }
 
 .button-2:hover {
-  background: #995700; }
+  background: #971243; }
 
 .button-3 {
   display: block;
@@ -352,7 +352,7 @@ textarea {
 .button-4 {
   display: inline-block;
   padding: 15px 40px;
-  background: #FF9100;
+  background: #e52a6f;
   color: #fff;
   font-family: 'Open Sans', arial;
   font-size: 20px;
@@ -361,7 +361,7 @@ textarea {
   text-align: center; }
 
 .button-4:hover {
-  background: #995700;
+  background: #971243;
   color: #fff; }
 
 .button-5 {
@@ -369,7 +369,7 @@ textarea {
   padding: 0px 40px;
   height: 40px;
   line-height: 40px;
-  background: #FF9100;
+  background: #e52a6f;
   color: #fff;
   font-family: 'Open Sans', arial;
   font-size: 16px;
@@ -386,7 +386,7 @@ textarea {
   /* prevents bg color from leaking outside the border */ }
 
 .button-5:hover {
-  background: #995700;
+  background: #971243;
   color: #fff; }
 
 .folio-more:hover {
@@ -459,7 +459,7 @@ video {
   display: block; }
 
 .header-inner {
-  background: #42433F;
+  background: #5f054e;
   top: 0px;
   left: 0%;
   padding-top: 25px;
@@ -477,7 +477,7 @@ video {
   position: fixed;
   width: 100%;
   z-index: 500;
-  background: #42433F;
+  background: #5f054e;
   top: 0px;
   left: 0%;
   padding-top: 15px;
@@ -486,7 +486,7 @@ video {
 .header-vn {
   width: 100%;
   z-index: 500;
-  background: #42433F;
+  background: #5f054e;
   padding: 18px 0px; }
 
 .burger-box {
@@ -508,7 +508,7 @@ video {
       text-transform: uppercase;
       letter-spacing: 0.25; }
     .main-menu li a:hover {
-      color: #FF9100;
+      color: #e52a6f;
       animation: menuhover-hover 350ms ease-in-out; }
 @keyframes menuhover-hover {
   0% {
@@ -516,7 +516,7 @@ video {
   50% {
     color: #fff; }
   100% {
-    color: #FF9100; } }
+    color: #e52a6f; } }
     .main-menu li a:hover:after {
       position: absolute;
       content: "]";
@@ -524,7 +524,7 @@ video {
       top: -1px;
       height: 3px;
       animation: menuhover-after 350ms ease-in-out;
-      color: #FF9100;
+      color: #e52a6f;
       font-weight: bold; }
     .main-menu li a:hover:before {
       position: absolute;
@@ -533,7 +533,7 @@ video {
       top: -1px;
       left: -7px;
       animation: menuhover-before 350ms ease-in-out;
-      color: #FF9100;
+      color: #e52a6f;
       font-weight: bold; }
 @keyframes menuhover-after {
   0% {
@@ -554,7 +554,7 @@ video {
     opacity: 1;
     left: 0%; } }
   .main-menu .current-menu-item a {
-    color: #FF9100;
+    color: #e52a6f;
     position: relative;
     font-weight: bold; }
   .main-menu .current-menu-item a:before {
@@ -562,7 +562,7 @@ video {
     content: "";
     width: 100%;
     height: 3px;
-    background: #FF9100;
+    background: #e52a6f;
     bottom: -8px; }
 
 a.logo {
@@ -572,7 +572,7 @@ a.logo {
   font-size: 28px;
   text-transform: uppercase; }
   a.logo span {
-    color: #FF9100; }
+    color: #e52a6f; }
 
 .header-middle {
   margin-top: 13%;
@@ -681,81 +681,133 @@ a.logo {
   text-align: center; }
 
 .portfol-block {
-  max-width: 269px;
-  max-height: 201px;
+  width: 100%;
+  max-width: 375px;
   position: relative;
-  margin-bottom: 35px;
-  overflow: hidden;
-  background-color: #FFF;
-  /* layer fill content */ }
-  .portfol-block img {
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out; }
-  .portfol-block img:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2); }
+  margin-bottom: 50px; }
+  .portfol-block .figure {
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 245px;
+    max-width: 375px;
+    overflow: hidden;
+    position: relative; }
+    .portfol-block .figure .figure-img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .portfol-block .figure .figure-img img {
+        width: 100%;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        transition: all 1s ease-out; }
+      .portfol-block .figure .figure-img img:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2); }
+  .portfol-block .overlay {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    background: rgba(103, 86, 130, 0.7);
+    top: 10%;
+    left: 5%;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.5s;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+    margin: 0 auto;
+    transition: all 550ms ease-in-out; }
+    .portfol-block .overlay .overlay-inner {
+      opacity: 0;
+      transform: scale(0); }
+@keyframes overlay1 {
+  0% {
+    opacity: 0;
+    transform: scale(0); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+@keyframes overlay2 {
+  0% {
+    opacity: 0; }
+  110% {
+    opacity: 1; } }
+    .portfol-block .overlay a {
+      display: block;
+      color: #fff; }
+    .portfol-block .overlay span.title {
+      display: inline-block;
+      margin-top: 30px;
+      font-family: "RobotoMedium";
+      text-align: center; }
+    .portfol-block .overlay .title:hover {
+      text-decoration: underline; }
+    .portfol-block .overlay .desc {
+      margin-top: 15px;
+      position: relative;
+      text-align: left; }
+    .portfol-block .overlay .desc:hover {
+      text-decoration: underline; }
+    .portfol-block .overlay .desc:before {
+      position: absolute;
+      content: "";
+      width: 35px;
+      height: 3px;
+      background: #fff;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom: -12px; }
+    .portfol-block .overlay .button-2 {
+      display: inline-block;
+      margin-top: 30px; }
+    .portfol-block .overlay .button-2:hover {
+      text-decoration: none; }
+  .portfol-block .figure-caption {
+    overflow: hidden;
+    position: relative; }
+    .portfol-block .figure-caption .caption-left {
+      height: 100%;
+      left: 0%;
+      color: rgba(0, 0, 0, 0.7);
+      position: relative;
+      transition: all 1s ease 0s;
+      width: 100%; }
+      .portfol-block .figure-caption .caption-left .title {
+        display: block;
+        font-size: 30px;
+        margin-top: 10px; }
+    .portfol-block .figure-caption .caption-right {
+      height: 100%;
+      left: -100%;
+      margin-top: -55px;
+      position: relative;
+      transition: all 1s ease 0s;
+      width: 100%;
+      min-height: 70px;
+      overflow: hidden;
+      color: rgba(0, 0, 0, 0.7); }
 
-.portfol-block:hover .portfol-block_inner {
-  display: block;
-  transition: 0.5s; }
+.portfol-block:hover .overlay {
+  transform: scale(1); }
+  .portfol-block:hover .overlay .overlay-inner {
+    opacity: 1;
+    transform: scale(1); }
 
+.portfol-block:hover .caption-left {
+  left: 110%; }
+.portfol-block:hover .caption-right {
+  left: 0px; }
 .portfol-block:hover img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2); }
-
-.portfol-block_inner {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  top: 0px;
-  left: 0px;
-  font-size: 14px;
-  color: #fff;
-  transition: 0.5s;
-  padding: 15px;
-  text-align: center; }
-  .portfol-block_inner a {
-    color: #fff; }
-  .portfol-block_inner span.title {
-    display: inline-block;
-    margin-top: 30px;
-    font-family: "RobotoMedium";
-    text-align: center; }
-  .portfol-block_inner .title:hover {
-    text-decoration: underline; }
-  .portfol-block_inner .desc {
-    margin-top: 15px;
-    position: relative;
-    text-align: left; }
-  .portfol-block_inner .desc:hover {
-    text-decoration: underline; }
-  .portfol-block_inner .desc:before {
-    position: absolute;
-    content: "";
-    width: 35px;
-    height: 3px;
-    background: #fff;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: -12px; }
-  .portfol-block_inner .button-2 {
-    display: block;
-    margin-top: 30px;
-    width: 170px;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translate(-50%, 0); }
-  .portfol-block_inner .button-2:hover {
-    text-decoration: none; }
 
 .portfol-block:nth-child(4n) {
   margin-right: 0px !important; }
@@ -793,7 +845,7 @@ a.logo {
     .service .service-block .icon-block {
       display: inline-block;
       font-size: 35px;
-      color: #FF9100;
+      color: #e52a6f;
       margin-top: 10px; }
     .service .service-block .icon-block .fa {
       -webkit-transition-duration: 0.8s;
@@ -805,7 +857,7 @@ a.logo {
       -o-transition-property: -o-transform;
       transition-property: transform;
       overflow: hidden;
-      color: dareken(#FF9100, 5%); }
+      color: dareken(#e52a6f, 5%); }
     .service .service-block .icon-block:hover .fa {
       -webkit-transform: rotate(360deg);
       -moz-transform: rotate(360deg);
@@ -820,7 +872,7 @@ a.logo {
       content: "";
       width: 50px;
       height: 2px;
-      background: #42433F;
+      background: #5f054e;
       top: -10px;
       left: 50%;
       transform: translate(-50%, 0); }
@@ -891,7 +943,7 @@ a.logo {
   width: 100%;
   padding: 25px 0px;
   color: #fff;
-  background: #282926; }
+  background: #2f0226; }
   .footer .copyright {
     display: inline-block; }
 
@@ -966,7 +1018,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #7f00ff; }
+    border-color: #8000ff; }
   100% {
     border-color: red; } }
 @-webkit-keyframes pulse {
@@ -981,7 +1033,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #7f00ff; }
+    border-color: #8000ff; }
   100% {
     border-color: red; } }
 @keyframes pulse {
@@ -1064,14 +1116,14 @@ a.logo {
     width: 30px;
     height: 30px;
     border-radius: 10em;
-    background: #cc7400;
+    background: #c41857;
     font-size: 18px; }
     .testimonials .arrs i {
       display: block;
       margin: 0 auto;
       margin-top: 8px; }
   .testimonials .arrs:hover {
-    background: #ffa733; }
+    background: #eb578e; }
   .testimonials .next {
     position: absolute;
     top: 30%;
@@ -1096,9 +1148,9 @@ a.logo {
     width: 17px;
     height: 17px;
     border-radius: 10em;
-    background: #cc7400; }
+    background: #c41857; }
   .testimonials .owl-dots .active {
-    background: #ffa733; }
+    background: #eb578e; }
 
 .order-service input[type="text"], .order-service textarea, .order-service select {
   display: block;
@@ -1204,7 +1256,7 @@ a.logo {
     .ocenka .ocenka_form input[type="submit"]:hover, .ocenka .zvonok_form input[type="submit"]:hover, .ocenka .tarif_form input[type="submit"]:hover, .ocenka .tarif-optima_form input[type="submit"]:hover, .ocenka .tarif-max_form input[type="submit"]:hover, .ocenka .tarif-standart_form input[type="submit"]:hover {
       width: 100%;
       margin-top: 10px;
-      background: #FF9100; }
+      background: #e52a6f; }
   .ocenka .close {
     position: absolute;
     display: block;
@@ -1339,7 +1391,7 @@ a.logo {
     display: block; }
 
   .anz-menu-ch {
-    color: #FF9100;
+    color: #e52a6f;
     cursor: pointer;
     position: absolute;
     right: 20px;
@@ -1369,7 +1421,7 @@ a.logo {
     display: block; }
     .main-menu li a {
       display: block;
-      color: #FF9100; }
+      color: #e52a6f; }
     .main-menu li a:hover {
       animation: none !important;
       color: #fff; }
