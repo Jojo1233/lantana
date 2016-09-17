@@ -197,6 +197,30 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
 	</div>
 </section> 
 
+<!-- Блок Технологии (Аслан) 17.09.16  -->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Технологии</h2>
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="ab-tehnology-wrap">
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/teh.svg" alt="">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section> 
+
+
+
+<!--//////////////////////////// -->
+
 <section class="testimonials">
     <div class="container">
         <div class="row">
