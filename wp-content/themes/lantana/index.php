@@ -55,13 +55,7 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
             </div>  
         </div>
 
-        <div class="video-block hidden-sm hidden-xs">
-            <video autoplay loop muted class="bgvideo" id="bgvideo">
-                <source src="video/video_bg4.mp4" type="video/mp4" ></source>
-            </video>
-            <div class="overlay"></div>
-        </div>
-
+       
     </section>
     
 <div class="clearfix"></div>

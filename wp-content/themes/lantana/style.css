@@ -54,7 +54,7 @@ table {
 strong {
   font-weight: bold; }
 
-/*-----------╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╨С╨╗╨╛╨│╨░----------------------------------*/
+/*----------- ╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╨С╨╗╨╛╨│╨░ (╨Р╤Б╨╗╨░╨╜) 16.09.2016 ----------------------------------*/
 .col-md-offset-2 {
   margin-bottom: 16px; }
 
@@ -439,11 +439,21 @@ textarea {
   transition: 0.5s; }
 
 .header {
+  background: url(./img/ab-fon.jpg) top center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0px;
   color: #fff;
   position: relative; }
+
+.header:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5); }
 
 video {
   display: block; }
@@ -463,31 +473,6 @@ video {
   position: relative;
   z-index: 100; }
 
-.video-block {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  overflow: hidden; }
-
-.video-block .bgvideo {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 2;
-  overflow: hidden; }
-
-.video-block .overlay {
-  min-width: 100%;
-  min-height: 800px;
-  height: 100%;
-  position: absolute;
-  z-index: 4;
-  top: 0;
-  background: url(./img/greed_plus.png), rgba(66, 67, 63, 0.5); }
-
 .header-fixed {
   position: fixed;
   width: 100%;
@@ -495,7 +480,8 @@ video {
   background: #42433F;
   top: 0px;
   left: 0%;
-  padding-top: 18px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 .header-vn {
   width: 100%;
