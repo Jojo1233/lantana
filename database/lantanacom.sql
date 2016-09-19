@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Сен 19 2016 г., 16:41
+-- Время создания: Сен 19 2016 г., 17:00
 -- Версия сервера: 5.5.25
 -- Версия PHP: 5.3.13
 
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1400 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1401 ;
 
 --
 -- Дамп данных таблицы `wp_options`
@@ -226,7 +226,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (96, 'widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes'),
 (97, 'widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
 (98, 'sidebars_widgets', 'a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:13:"array_version";i:3;}', 'yes'),
-(99, 'cron', 'a:4:{i:1474288815;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474331256;a:3:{s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474374475;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
+(99, 'cron', 'a:4:{i:1474331256;a:3:{s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474374475;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474375215;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
 (126, 'WPLANG', 'ru_RU', 'yes'),
 (127, 'db_upgraded', '', 'yes'),
 (130, '_transient_random_seed', '5678df9ccf957e26d47ca395ae08ace0', 'yes'),
@@ -312,7 +312,7 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=925 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=961 ;
 
 --
 -- Дамп данных таблицы `wp_postmeta`
@@ -339,7 +339,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (58, 11, '_wp_page_template', 'default'),
 (69, 9, '_wp_page_template', 'template-services.php'),
 (70, 20, '_edit_last', '1'),
-(71, 20, '_edit_lock', '1474287727:1'),
+(71, 20, '_edit_lock', '1474289782:1'),
 (72, 1, '_wp_old_slug', '%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80'),
 (73, 5, '_wp_old_slug', '%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b'),
 (74, 7, '_wp_old_slug', '%d0%bf%d0%be%d1%80%d1%82%d1%84%d0%be%d0%bb%d0%b8%d0%be'),
@@ -737,7 +737,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (504, 124, '_вид_работы', 'field_5715bee84ff4b'),
 (505, 128, '_edit_last', '1'),
 (506, 128, '_wp_page_template', 'default'),
-(507, 128, '_edit_lock', '1470147883:1'),
+(507, 128, '_edit_lock', '1474289997:1'),
 (508, 130, '_edit_last', '1'),
 (509, 130, 'field_579f23d2919f8', 'a:13:{s:3:"key";s:19:"field_579f23d2919f8";s:5:"label";s:13:"Main Top Text";s:4:"name";s:13:"main_top_text";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:10:"formatting";s:4:"html";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
 (510, 130, 'field_579f2496919f9', 'a:8:{s:3:"key";s:19:"field_579f2496919f9";s:5:"label";s:14:"Главная";s:4:"name";s:0:"";s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
@@ -822,7 +822,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (592, 128, '_кнопка_узнать_стоимость', 'field_579f4b12dc447'),
 (593, 128, 'кнопка_заказать_сейчас', '[:ru]Заказать сейчас[:en]Order now[:]'),
 (594, 128, '_кнопка_заказать_сейчас', 'field_579f4b25dc448'),
-(595, 128, 'кнопка_отправить', '[:ru]Отпрвить[:en]Send[:]'),
+(595, 128, 'кнопка_отправить', '[:ru]Отправить[:en]Send[:]'),
 (596, 128, '_кнопка_отправить', 'field_579f4b3adc449'),
 (597, 128, 'кнопка_посмотреть_верстку', '[:ru]Посмотреть верстку[:en]See code[:]'),
 (598, 128, '_кнопка_посмотреть_верстку', 'field_579f4b57dc44a'),
@@ -869,7 +869,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (640, 136, '_кнопка_посмотреть_верстку', 'field_579f4b57dc44a'),
 (641, 136, 'кнопка_перейти_на_сайт', '[:ru]Переййти на сайт[:en]Launch Website[:]'),
 (642, 136, '_кнопка_перейти_на_сайт', 'field_579f53e6d71d9'),
-(643, 128, 'кнопка_перейти_на_сайт', '[:ru]Переййти на сайт[:en]Launch Website[:]'),
+(643, 128, 'кнопка_перейти_на_сайт', '[:ru]Перейти на сайт[:en]Launch Website[:]'),
 (644, 128, '_кнопка_перейти_на_сайт', 'field_579f53e6d71d9'),
 (645, 137, 'main_top_text', '[:ru]<div class="mesto">Место, где можно доверить разработку сайта</div>\r\n<div class="vsb">С нами комфортно</div>[:en]<div class="mesto">Web design and development on Wordpress</div>\r\n<div class="vsb">It is easy with us</div>[:]'),
 (646, 137, '_main_top_text', 'field_579f23d2919f8'),
@@ -1124,7 +1124,43 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (921, 23, 'платформа', ''),
 (922, 23, '_платформа', 'field_57da944eb48fd'),
 (923, 23, 'тип_проекта', '[:ru]Верстка[:]'),
-(924, 23, '_тип_проекта', 'field_57da945cb48fe');
+(924, 23, '_тип_проекта', 'field_57da945cb48fe'),
+(925, 160, 'main_top_text', '[:ru]<div class="mesto">Место, где можно доверить разработку сайта</div>\r\n<div class="vsb">С нами комфортно</div>[:en]<div class="mesto">Web design and development on Wordpress</div>\r\n<div class="vsb">It is easy with us</div>[:]'),
+(926, 160, '_main_top_text', 'field_579f23d2919f8'),
+(927, 160, 'заголовок_портфолио', '[:ru]Портфолио[:en]Portfolio[:]'),
+(928, 160, '_заголовок_портфолио', 'field_579f252512b38'),
+(929, 160, 'заголовок_услуги', '[:ru]Услуги[:en]Service[:]'),
+(930, 160, '_заголовок_услуги', 'field_579f254112b39'),
+(931, 160, 'заголовок_отзывы', '[:ru]Отзывы[:en]Testimonials[:]'),
+(932, 160, '_заголовок_отзывы', 'field_579f254d12b3a'),
+(933, 160, 'заголовок_контакты', '[:ru]Контакты[:en]Contacts[:]'),
+(934, 160, '_заголовок_контакты', 'field_579f255512b3b'),
+(935, 160, 'кнопка_посмотреть_портфолио', '[:ru]Посмотреть портфолио[:en]Portfolio[:]'),
+(936, 160, '_кнопка_посмотреть_портфолио', 'field_579f4af2dc446'),
+(937, 160, 'кнопка_узнать_стоимость', '[:ru]Узнать стоимость[:en]Get price[:]'),
+(938, 160, '_кнопка_узнать_стоимость', 'field_579f4b12dc447'),
+(939, 160, 'кнопка_заказать_сейчас', '[:ru]Заказать сейчас[:en]Order now[:]'),
+(940, 160, '_кнопка_заказать_сейчас', 'field_579f4b25dc448'),
+(941, 160, 'кнопка_отправить', '[:ru]Отправить[:en]Send[:]'),
+(942, 160, '_кнопка_отправить', 'field_579f4b3adc449'),
+(943, 160, 'кнопка_посмотреть_верстку', '[:ru]Посмотреть верстку[:en]See code[:]'),
+(944, 160, '_кнопка_посмотреть_верстку', 'field_579f4b57dc44a'),
+(945, 160, 'кнопка_перейти_на_сайт', '[:ru]Перейти на сайт[:en]Launch Website[:]'),
+(946, 160, '_кнопка_перейти_на_сайт', 'field_579f53e6d71d9'),
+(947, 160, 'заказать_звонок_заголовок', '[:ru]ОСТАВЬТЕ ВАШЕ ИМЯ И НОМЕР ТЕЛЕФОНА  И МЫ С ВАМИ СВЯЖЕМСЯ В  БЛИЖАШЕЕ ВРЕМЯ[:en]LEAVE YOUR NAME AND PHONE NUMBER And we will contact you in Soon[:]'),
+(948, 160, '_заказать_звонок_заголовок', 'field_57a0aa1f7c6b2'),
+(949, 160, 'заказать_звонок_ваше_имя', '[:ru]Ваше имя[:en]You name[:]'),
+(950, 160, '_заказать_звонок_ваше_имя', 'field_57a0aa2d7c6b3'),
+(951, 160, 'заказать_звонок_ваш_телефон', '[:ru]E-mail или телефон[:en]You phone or email[:]'),
+(952, 160, '_заказать_звонок_ваш_телефон', 'field_57a0aa437c6b4'),
+(953, 160, 'заказать_звонок_кнопка_отправить', '[:ru]Заказать[:en]Order[:]'),
+(954, 160, '_заказать_звонок_кнопка_отправить', 'field_57a0aa4c7c6b5'),
+(955, 160, 'попап_спасибо_текст1', '[:ru]Спасибо за Вашу заявку![:en]Thenk you![:]'),
+(956, 160, '_попап_спасибо_текст1', 'field_57a0aa6c7c6b6'),
+(957, 160, 'попап_спасибо_текст2', '[:ru]Мы свяжемся с Вами <br> в ближайшее время.[:en] We will contact you <br> in the near future.[:]'),
+(958, 160, '_попап_спасибо_текст2', 'field_57a0aa7c7c6b7'),
+(959, 160, 'футер_текст_1', '[:ru]Lantana-studio.ru - Студия Константина Семёнова 2016г.[:en]Lantana-studio.com (c) 2016г.[:]'),
+(960, 160, '_футер_текст_1', 'field_57a0ad1d4b724');
 
 -- --------------------------------------------------------
 
@@ -1161,7 +1197,7 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`),
   KEY `post_name` (`post_name`(191))
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=160 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=161 ;
 
 --
 -- Дамп данных таблицы `wp_posts`
@@ -1264,7 +1300,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (124, 1, '2016-04-19 14:17:52', '2016-04-19 10:17:52', '<a href="http://lantana-studio-ru.loc/wp-content/uploads/2016/04/lending.jpg" rel="attachment wp-att-125"><img class="alignnone size-full wp-image-125" src="http://lantana-studio-ru.loc/wp-content/uploads/2016/04/lending.jpg" alt="lending" width="1280" height="8050" /></a>', 'Лендинг пейдж РАНХ', '', 'publish', 'closed', 'closed', '', '%d0%bb%d0%b5%d0%bd%d0%b4%d0%b8%d0%bd%d0%b3-%d0%bf%d0%b5%d0%b9%d0%b4%d0%b6-%d1%80%d0%b0%d0%bd%d1%85', '', '', '2016-09-19 16:16:02', '2016-09-19 12:16:02', '', 0, 'http://lantana-studio-com.loc/?post_type=portfolio&#038;p=124', 0, 'portfolio', '', 0),
 (125, 1, '2016-04-19 14:15:13', '2016-04-19 10:15:13', '', 'lending', '', 'inherit', 'open', 'closed', '', 'lending', '', '', '2016-04-19 14:15:13', '2016-04-19 10:15:13', '', 124, 'http://lantana-studio-com.loc/wp-content/uploads/2016/04/lending.jpg', 0, 'attachment', 'image/jpeg', 0),
 (126, 1, '2016-04-19 14:17:19', '2016-04-19 10:17:19', '', 'thumb', '', 'inherit', 'open', 'closed', '', 'thumb-14', '', '', '2016-04-19 14:17:19', '2016-04-19 10:17:19', '', 124, 'http://lantana-studio-com.loc/wp-content/uploads/2016/04/thumb-3.jpg', 0, 'attachment', 'image/jpeg', 0),
-(128, 1, '2016-08-01 14:25:58', '2016-08-01 10:25:58', '', '[:en]Настройки[:]', '', 'publish', 'closed', 'closed', '', '%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8', '', '', '2016-08-02 18:26:58', '2016-08-02 14:26:58', '', 0, 'http://lantana-studio-com.loc/?page_id=128', 0, 'page', '', 0),
+(128, 1, '2016-08-01 14:25:58', '2016-08-01 10:25:58', '', '[:en]Настройки[:]', '', 'publish', 'closed', 'closed', '', '%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8', '', '', '2016-09-19 16:59:54', '2016-09-19 12:59:54', '', 0, 'http://lantana-studio-com.loc/?page_id=128', 0, 'page', '', 0),
 (129, 1, '2016-08-01 14:25:58', '2016-08-01 10:25:58', '', '[:en]Настройки[:]', '', 'inherit', 'closed', 'closed', '', '128-revision-v1', '', '', '2016-08-01 14:25:58', '2016-08-01 10:25:58', '', 128, 'http://lantana-studio-com.loc/128-revision-v1/', 0, 'revision', '', 0),
 (130, 1, '2016-08-01 14:30:14', '2016-08-01 10:30:14', '', '[:en]Настройки [:]', '', 'publish', 'closed', 'closed', '', 'acf_%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8', '', '', '2016-08-02 18:25:34', '2016-08-02 14:25:34', '', 0, 'http://lantana-studio-com.loc/?post_type=acf&#038;p=130', 0, 'acf', '', 0),
 (131, 1, '2016-08-01 14:40:55', '2016-08-01 10:40:55', '', '[:en]Настройки[:]', '', 'inherit', 'closed', 'closed', '', '128-revision-v1', '', '', '2016-08-01 14:40:55', '2016-08-01 10:40:55', '', 128, 'http://lantana-studio-com.loc/128-revision-v1/', 0, 'revision', '', 0),
@@ -1294,7 +1330,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (156, 1, '2016-09-16 15:56:15', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-09-16 15:56:15', '0000-00-00 00:00:00', '', 0, 'http://lantana-studio-com.loc/?p=156', 0, 'post', '', 0),
 (157, 1, '2016-09-16 15:58:07', '2016-09-16 11:58:07', '[:ru]<p>Wow, where does the time go? It has already been two months since our previous webinar. As you may recall, our CEO, Brad Williams, shared his experience working with WordPress in the enterprise space. The hour-long webinar was filled with great information from Brad and wrapped up with a number of excellent questions from the live audience. It felt just like being at a WordPress conference, except the entire audience was in their PJs (or so we assume! I know I was.).<br>\r\n\r\n				We had such a great time doing the first webinar, we wanted to turn right around and do it all over again. So mark your calendar: On October 6th, 2016, we’re hosting our next webinar: Your WordPress Site Into a Mobile App, hosted by me, John Hawkins.<br>\r\n\r\n				A couple of months back, after being head down in AppPresser, I decided to learn firsthand what it takes to turn a WordPress site into a mobile app. I wanted to learn the entire process, from start to finish (using both AppPresser and otherwise), and so I did!<br>\r\n\r\n				If you’ve been wondering how to do it, don’t miss this opportunity to pick my brain on the process. I’ll be sharing what worked, what didn’t, the shortcuts I discovered, and the pitfalls I came across.<br>\r\n\r\n				Here are the details:</p>[:]', '[:ru]Данный раздел в разработке[:]', '[:ru]Wow, where does the time go? It has already been two months since our previous webinar. As you may recall, our CEO, Brad Williams, shared his experience working with WordPress in the enterprise space. The hour-long webinar was filled with great information from Brad and wrapped up with a number of excellent questions from the live audience. It felt just like being at a WordPress conference, except the entire audience was in their PJs (or so we assume! I know I was.).[:]', 'publish', 'open', 'open', '', '%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-%d1%80%d0%b0%d0%b7%d0%b4%d0%b5%d0%bb-%d0%b2-%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b5', '', '', '2016-09-16 16:20:37', '2016-09-16 12:20:37', '', 0, 'http://lantana-studio-com.loc/?p=157', 0, 'post', '', 0),
 (158, 1, '2016-09-16 15:58:07', '2016-09-16 11:58:07', '[:ru]<p>Wow, where does the time go? It has already been two months since our previous webinar. As you may recall, our CEO, Brad Williams, shared his experience working with WordPress in the enterprise space. The hour-long webinar was filled with great information from Brad and wrapped up with a number of excellent questions from the live audience. It felt just like being at a WordPress conference, except the entire audience was in their PJs (or so we assume! I know I was.).<br>\r\n\r\n				We had such a great time doing the first webinar, we wanted to turn right around and do it all over again. So mark your calendar: On October 6th, 2016, we’re hosting our next webinar: Your WordPress Site Into a Mobile App, hosted by me, John Hawkins.<br>\r\n\r\n				A couple of months back, after being head down in AppPresser, I decided to learn firsthand what it takes to turn a WordPress site into a mobile app. I wanted to learn the entire process, from start to finish (using both AppPresser and otherwise), and so I did!<br>\r\n\r\n				If you’ve been wondering how to do it, don’t miss this opportunity to pick my brain on the process. I’ll be sharing what worked, what didn’t, the shortcuts I discovered, and the pitfalls I came across.<br>\r\n\r\n				Here are the details:</p>[:]', '[:ru]Данный раздел в разработке[:]', '[:ru]Wow, where does the time go? It has already been two months since our previous webinar. As you may recall, our CEO, Brad Williams, shared his experience working with WordPress in the enterprise space. The hour-long webinar was filled with great information from Brad and wrapped up with a number of excellent questions from the live audience. It felt just like being at a WordPress conference, except the entire audience was in their PJs (or so we assume! I know I was.).[:]', 'inherit', 'closed', 'closed', '', '157-revision-v1', '', '', '2016-09-16 15:58:07', '2016-09-16 11:58:07', '', 157, 'http://lantana-studio-com.loc/157-revision-v1/', 0, 'revision', '', 0),
-(159, 1, '2016-09-16 15:58:46', '2016-09-16 11:58:46', '', 'Programer', '', 'inherit', 'open', 'closed', '', 'programer', '', '', '2016-09-16 15:58:46', '2016-09-16 11:58:46', '', 157, 'http://lantana-studio-com.loc/wp-content/uploads/2016/09/Programer.jpg', 0, 'attachment', 'image/jpeg', 0);
+(159, 1, '2016-09-16 15:58:46', '2016-09-16 11:58:46', '', 'Programer', '', 'inherit', 'open', 'closed', '', 'programer', '', '', '2016-09-16 15:58:46', '2016-09-16 11:58:46', '', 157, 'http://lantana-studio-com.loc/wp-content/uploads/2016/09/Programer.jpg', 0, 'attachment', 'image/jpeg', 0),
+(160, 1, '2016-09-19 16:59:54', '2016-09-19 12:59:54', '', '[:en]Настройки[:]', '', 'inherit', 'closed', 'closed', '', '128-revision-v1', '', '', '2016-09-19 16:59:54', '2016-09-19 12:59:54', '', 128, 'http://lantana-studio-com.loc/128-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
