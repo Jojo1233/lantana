@@ -199,15 +199,38 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
 
 <!-- Блок Технологии (Аслан) 17.09.16  -->
 
-<section>
+<section class="ab-h2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h2>Технологии</h2>
                 <div class="row">
-                    <div class="col-md-12 col-sm-6 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="ab-tehnology-wrap">
-                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/teh.svg" alt="">
+                            <div class="ab-tehnology-table ab-html5">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/html5.png" alt="">
+                            </div>
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/css3.png" alt="">
+                            </div>
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/java.png" alt="">
+                            </div>
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/jquery.png" alt="">
+                            </div>
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/boot.png" alt="">
+                            </div>
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/mysql.png" alt="">
+                            </div>
+                            <!--<div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ajs.png" alt="">
+                            </div>-->
+                            <div class="ab-tehnology-table">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/git.png" alt="">
+                            </div>
                         </div>    
                     </div>
                 </div>
@@ -217,9 +240,56 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
     </div>
 </section> 
 
+<!--<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                 <div class="ab-tehnology-wrap2">    
+                    <div class="ab-tehnology-table2">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/mysql.png" alt="">
+                    </div>
+                    <div class="ab-tehnology-table2">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ajs.png" alt="">
+                    </div>
+                    <div class="ab-tehnology-table2">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/git.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>-->
+
+<!-- //////////////////////////// -->
+
+<!-- Блок платформы -->
+<section>
+    <div class="container">  
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="ab-tehnology-wrap2 ab-platforma">
+                    <div class="ab-tehnology-table2 table3">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/wordpress-img.png" alt="">
+                    </div>
+                    <div class="ab-tehnology-table2 opencart-img">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/opencart-img.png" alt="">
+                    </div>
+                    <div class="ab-tehnology-table2 table3">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/yii2-img.png" alt="">
+                    </div>
+                    <div class="ab-tehnology-table">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ajs.png" alt="">
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</section> 
+<!-- //////////////////////////// -->
 
 
-<!--//////////////////////////// -->
 
 <section class="testimonials">
     <div class="container">
