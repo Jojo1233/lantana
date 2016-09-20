@@ -61,7 +61,7 @@
                         $args = array(
                           'theme_location'  => '',
                           'menu'            => 'Главное меню', 
-                          'container'       => flase, 
+                          'container'       => false, 
                           'container_class' => '', 
                           'container_id'    => '',
                           'menu_class'      => 'menu', 
@@ -89,7 +89,7 @@
                                     $args = array(
                                       'theme_location'  => '',
                                       'menu'            => 'Главное меню', 
-                                      'container'       => flase, 
+                                      'container'       => false, 
                                       'container_class' => '', 
                                       'container_id'    => '',
                                       'menu_class'      => 'menu', 
@@ -112,3 +112,4 @@
                 </div>
             </div>
         </div>  
+        
