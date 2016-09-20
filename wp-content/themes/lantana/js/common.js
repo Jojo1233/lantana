@@ -175,6 +175,28 @@ $(document).ready(function() {
         }
         return false;
     });
+     $(".brief").submit(function() { 
+        var tel = $(this).find('input[name="tel"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnakns(this);
+                }
+            });
+        }
+        return false;
+    });
     $(".form-contact").submit(function() { 
         var tel = $(this).find('input[name="tel"]');
         var empty = false;

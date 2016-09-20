@@ -1240,6 +1240,7 @@ a.logo{
   	background: darken($gray, 10%);
   	.copyright{
 		display: inline-block;
+		padding-top: 10px;
   	}
 }
 .soc{
@@ -1413,7 +1414,9 @@ a.logo{
 	width: 100%;
 	padding: 50px 0px;
   	position: relative;
-  	background: transparent;
+  	background: url(./img/avd2.jpg);
+  	background-size: cover;
+  	//background: transparent;
   	text-align: center;
   	color: #fff;
   	text-shadow: #fff 0px 0px 0, 
@@ -1746,6 +1749,66 @@ input, textarea{
 .ab-right{
 		color: white;
 	}
+
+/*---------------------------------------------------*/
+
+
+/********* Страница с Брифом (Аслан) от 20.09.16 *********/
+
+
+#brief .left {
+    color: #000;
+    font-size: 18px;
+    padding-right: 7%;
+    width: 31%;
+}
+
+#brief td {
+    padding-bottom: 23px;
+    vertical-align: top;
+}
+
+#brief td .input-text {
+    border: 1px solid #a7a7a7;
+    height: 28px;
+    line-height: 26px;
+    width: 62%;
+}
+
+#brief td textarea {
+    border: 1px solid #a7a7a7;
+    height: 136px;
+    width: 100%;
+}
+
+
+#brief .left .comment {
+    color: #868686;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#brief td .checkbox {
+    padding-bottom: 8px;
+    color: grey;
+}
+
+#brief td .input-text.short {
+    width: 40px;
+}
+
+#brief .brief_age td {
+    line-height: 28px;
+}
+
+#brief .brief_age {
+    width: 50%;
+}
+
+#brief .button-1:hover{
+	background: #9D1857;
+}
 
 /*---------------------------------------------------*/
 

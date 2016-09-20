@@ -1,5 +1,5 @@
 <?php
-$sendto   = "atugushev75@yandex.ru";
+$sendto   = "kvsemenoff@mail.ru";
 $uname = $_POST['uname'];
 $tel = $_POST['tel'];
 $text = $_POST['text'];
