@@ -48,6 +48,21 @@ $footer_text1 = get_field('футер_текст_1');
 		</form>
 	</div>
 
+	<div id="service" class="window"> 
+		<form action="" class="common-form form2">
+			<span class="close"></span>
+			<span class="form-title">ОСТАВЬТЕ ВАШЕ ИМЯ И НОМЕР <br>
+				ТЕЛЕФОНА И МЫ С ВАМИ <br>
+				СВЯЖЕМСЯ В БЛИЖАШЕЕ <br>
+				ВРЕМЯ</span>
+			<input type="text" name="uname" placeholder="Введите Ваш имя">
+			<input type="text" name="tel" placeholder="Введите Ваш телефон" class="phone">
+			<input type="hidden" name="form" value="Форма - заказать звонок">
+			<input type="submit" id="form2_submit" class="button-1" value="Заказать">
+		</form>
+	</div>
+
+
 	<div id="thanks" class="window"> 
 		<form action="" class="common-form">
 			<span class="close"></span>
