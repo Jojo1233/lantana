@@ -1,27 +1,25 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<?php wp_reset_query(); ?>
-<?php $wp_query = new WP_Query('page_id=128'); ?>
-<?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-<?php 
-$TopMainText = get_field('main_top_text'); 
-$Head_portfoio = get_field('заголовок_портфолио'); 
-$Head_service = get_field('заголовок_услуги'); 
-$Head_review = get_field('заголовок_отзывы'); 
-$Head_contacts = get_field('заголовок_контакты'); 
+    <?php wp_reset_query(); ?>
+    <?php $wp_query = new WP_Query('page_id=128'); ?>
+    <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+    <?php 
+    $TopMainText = get_field('main_top_text'); 
+    $Head_portfoio = get_field('заголовок_портфолио'); 
+    $Head_service = get_field('заголовок_услуги'); 
+    $Head_review = get_field('заголовок_отзывы'); 
+    $Head_contacts = get_field('заголовок_контакты'); 
 
-$button_portfolio = get_field('кнопка_посмотреть_портфолио'); 
-$button_pricing = get_field('кнопка_узнать_стоимость'); 
-$button_order = get_field('кнопка_заказать_сейчас'); 
-$button_send = get_field('кнопка_отправить'); 
-$button_code = get_field('кнопка_посмотреть_верстку'); 
-$button_tosite = get_field('кнопка_перейти_на_сайт'); 
+    $button_portfolio = get_field('кнопка_посмотреть_портфолио'); 
+    $button_pricing = get_field('кнопка_узнать_стоимость'); 
+    $button_order = get_field('кнопка_заказать_сейчас'); 
+    $button_send = get_field('кнопка_отправить'); 
+    $button_code = get_field('кнопка_посмотреть_верстку'); 
+    $button_tosite = get_field('кнопка_перейти_на_сайт'); 
 
-
-?>
-
-<?php endwhile;?>
-<?php wp_reset_query(); ?>
+    ?>
+    <?php endwhile;?>
+    <?php wp_reset_query(); ?>
 
 
     <a name="main"></a>
@@ -54,11 +52,9 @@ $button_tosite = get_field('кнопка_перейти_на_сайт');
                 </div>
             </div>  
         </div>
-
-       
     </section>
     
-<div class="clearfix"></div>
+    <div class="clearfix"></div>
 
 <a name="portfolio"></a>
 <section class="home-page-portfolio">	

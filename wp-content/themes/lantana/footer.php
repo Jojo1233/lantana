@@ -32,27 +32,33 @@ $footer_text1 = get_field('футер_текст_1');
 	</div>
 </section>
 
-<div id="mask"></div>
+	<div id="mask"></div>
 
-<div id="zvonok" class="ocenka"> 
-	<a href="#" class="close"/></a>
-	<form action="#" class="zvonok_form">
-		<div class="topline"></div>
-		<p>
-			<?php echo $popup_zv; ?>
-		</p>
-		<input type="text" placeholder="<?php echo $popup_zv_name; ?>" name="uname">
-		<input type="text" placeholder="<?php echo $popup_zv_tel; ?>" name="tel">
-		<input type="submit" value="<?php echo $popup_zv_submit; ?>" id="zvonok_form_submit" class="button-1">
-	</form>
-</div>
+	<div id="zvonok" class="window"> 
+		<form action="" class="common-form form1">
+			<span class="close"></span>
+			<span class="form-title">ОСТАВЬТЕ ВАШЕ ИМЯ И НОМЕР <br>
+				ТЕЛЕФОНА И МЫ С ВАМИ <br>
+				СВЯЖЕМСЯ В БЛИЖАШЕЕ <br>
+				ВРЕМЯ</span>
+			<input type="text" name="uname" placeholder="Введите Ваш имя">
+			<input type="text" name="tel" placeholder="Введите Ваш телефон" class="phone">
+			<input type="hidden" name="form" value="Форма - заказать звонок">
+			<input type="submit" id="form1_submit" class="button-1" value="Заказать звонок">
+		</form>
+	</div>
 
-<a  href="#thank-spage3_form" name="modal-thanks"></a>
-<div id="thank-spage3_form" class="thanks window2"> 
-	<a href="#" class="close"/></a>
-	<p class="title" id="thanks-title"><?php echo $popup_tanks; ?></p> 
-	<p class="cont" id="thanks-cont"><?php echo $popup_yhanks_text2; ?></p>
-</div>
+	<div id="thanks" class="window"> 
+		<form action="" class="common-form">
+			<span class="close"></span>
+			<span class="form-title">СПАСИБО ЗА ВАШУ <br> ЗАЯВКУ!</span>
+			<span class="form-subtitle">Наши специалисты с Вами свяжутся <br> в ближайшее время.</span>
+		</form>
+	</div>
+
+	<a href="#thanks" name="modal"></a>
+
+
 
 
 <?php wp_footer(); ?>

@@ -352,6 +352,30 @@ textarea{
 
 	}
 }
+
+.button-1{
+	display: inline-block;
+	padding: 8px 15px;
+	min-width: 145px;
+	background: darken($accent, 10%);
+	border: 1px solid $accent;
+	font-family: "RobotoLight";
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.button-1:hover{
+	background: none;
+
+	position: relative;
+
+	overflow: hidden;
+}
 .lang-box{
 	margin-left: auto;
 	width: 23px;
@@ -414,28 +438,25 @@ textarea{
 }
 
 .button-3{
-	display: block;
-	width: 280px;
-	height: 40px;
-	background: #FFC153;
-	border: none;
+	display: inline-block;
+	padding: 2px 20px;
+	//min-width: 145px;
+	background: darken($accent, 10%);
+	border: 1px solid $accent;
 	font-family: "RobotoLight";
 	font-size: 14px;
-	color: #000;
-	padding: 0px 20px;
+	color: #fff;
 	cursor: pointer;
 	transition: 0.5s;
-	line-height: 40px;
-	border-radius: 6px;
+	
 	text-align: center;
-	letter-spacing: .1em;
 	text-transform: uppercase;
+
 }
 .button-3:hover{
-	background: darken(#FFC153, 20%);
-	color: #fff;
-	
+	background: none;
 
+	
 }
 .folio-more{
 	display: block;
@@ -454,45 +475,6 @@ textarea{
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 15px;
-}
-.button-4{
-	display: inline-block;
-	padding: 15px 40px;
-	background: $accent;
-	color: #fff;
-	font-family: 'Open Sans', arial;
-	font-size: 20px;
-	cursor: pointer;
-	transition: 0.5s;
-	text-align: center;
-}
-.button-4:hover{
-	background: darken($accent, $hover-percent);
-	color: #fff;
-}
-.button-5{
-	display: inline-block;
-	padding: 0px 40px;
-	height: 40px;
-	line-height: 40px;
-	background: $accent;
-	color: #fff;
-	font-family: 'Open Sans', arial;
-	font-size: 16px;
-	cursor: pointer;
-	transition: 0.5s;
-	text-align: center;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px; /* border radius */
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box; /* prevents bg color from leaking outside the border */
-	
-}
-.button-5:hover{
-	background: darken($accent, $hover-percent);
-	color: #fff;
 }
 
 .folio-more:hover{
@@ -552,7 +534,7 @@ textarea{
 	background: url(./img/ab-fon.jpg) top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: $page-padding;
+	//padding: $page-padding;
 	color: #fff;
 	position: relative;
 }
@@ -575,8 +557,8 @@ video{
 	top: 0px;
 	left: 0%;
 	//padding: 25px 0px;
-	padding-top: 25px;
-	padding-bottom: 20px;
+	//padding-top: 25px;
+	//padding-bottom: 20px;
 	color: #000;
 }
 .header .container {
@@ -596,8 +578,9 @@ video{
 	background: $gray;
 	top: 0px;
 	left: 0%;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	//padding-top: 15px;
+	//padding-bottom: 15px;
+
 	
 	
 }
@@ -608,6 +591,10 @@ video{
 	background: $gray;
 	
 	padding: 18px 0px;
+}
+.header-top-up{
+	background: rgba(#000, 0.2);
+	padding: 5px 0px;
 }
 .burger-box{
 	text-align: right;
@@ -1549,138 +1536,100 @@ a.logo{
 	margin-top: 10px;
 
 }
- #mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000;  display:none; }
-.window { 
-    position:absolute;
-    left:0;  
-    top:0;
-    width: 937px;
-    min-height: 700px;
-    display:none;
-    z-index:9999; 
-} 
-.window2{ 
-    position:absolute;
-    left:0;  
-    top:0;
-    width: 357px;
-    min-height: 150px;
-    display:none;
-    z-index:9999; 
-}  
+ .error-input{
+    border: 1px solid red !important;
+}
+input, textarea{
+    outline: none !important;
+}
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000;  display:none; }
 
-.ocenka{ 
+.window{ 
     display: none;
     position:absolute;
     left:0;  
     top:0;
-    width: 356px;
+    width: 97%;
     min-height: 315px;
     display:none;
-    z-index:9999; 
-    .ocenka_form, .zvonok_form, .tarif_form, .tarif-optima_form, .tarif-max_form, .tarif-standart_form {
-        position: relative;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;
-        -moz-background-clip: padding;
-        -webkit-background-clip: padding-box;
-        background-clip: padding-box; 
-        background-color: #fbfbfb; 
-        padding: 0px 35px;
-        padding-bottom: 25px;
-       
-        p{
-            padding-top: 32px;
-            text-align: center;
-            padding-bottom: 38px;
-            font-family: "RobotoBold";
-            color: #545454;
-            font-size: 14px;
-        }
-        input[type="text"]{
-            width: 100%;
-            margin: 0 auto;
-            margin-bottom: 13px;
-            font-family: "RobotoRegular";
-            border: 1px solid #ccc;
-        }
-        input[type="submit"]{
-            width: 100%;
-            margin-top: 10px;
-            text-transform: uppercase;
-        }
-        input[type="submit"]:hover{
-            width: 100%;
-            margin-top: 10px;
-            background: $accent;
+    z-index:9998; 
 
-        }
-    }
     .close{
         position:absolute;
         display: block;
         width: 18px;
         height: 18px;
-        top: -17px;
-        right: -15px;
-       
+        top: -22px;
+        right: 10px;
+        background: url('./img/krest.png') no-repeat top center;
+        cursor: pointer;
     }
-    .close:before{ 
-        position:absolute; 
-        width: 18px; 
-        height: 18px;
-        content: url('./img/close.png'); 
+    .thanks{
+        position: relative;
+        background-color: #fff; 
+        padding: 100px 34px;
+        text-align: center;
+        border-radius: 3px;
+        .title{
+            display: block;
+            font-size: 40px;
+            
+        }
+        p{
+            font-size: 18px;
+            margin-top: 20px;
+        }
     }
 }  
-
-
-
-
-
-.thanks { 
-    display: none;
-    font-size: 18px;
-    color: #3F3F3F;
-    font-family: "RobotoRegular";
+.common-form{
+    display: block;
+    margin: 0 auto;
+    width: 97%;
+    padding: 38px;
+    background: #fff;
+    position: relative;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    border-radius: 3px; 
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    background-color: #fbfbfb;
+    border-radius: 3px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 80px 20px;
-    
-   
-    p.title{
-        font-family: "RobotoMedium";
-        font-size: 36px;
-        color: #414141;
-        margin: 0 auto;
+    .form-title{
+        display: inline-block;
+        color: #202020;
+        font-family: Arial;
+        line-height: 18px;
+        font-weight: bold;
+        margin-bottom: 25px;
     }
-    .cont{
-        font-family: "RobotoRegular";
-        margin-top: 15px;
-    }
-    .close{
-        position:absolute;
+    .form-subtitle{
         display: block;
-        width: 18px;
-        height: 18px;
-        top: -17px;
-        right: -7px;
-       
+        color: #929292;
+        font-size: 14px;
+        margin-top: 18px;
+        margin-bottom: 15px;
     }
-    .close:before{ 
-        position:absolute; 
-        width: 18px; 
-        height: 18px;
-        content: url('./img/close.png'); 
+    input{
+        display: block;
+        margin-bottom: 15px;
+        text-align: left;
     }
-
+    input[type="text"]{
+        width: 100%;
+        border: 1px solid #d5d5d5;
+        color: #3c3c3c;
+        font-family: Arial;
+        height: 40px;
+        padding: 0px 18px;
+        font-size: 14px;
+    }
+    input[type="submit"]{
+        width: 100%;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+    }
 }
+
 
 /*-------------- Портфолио, новые классы (Аслан) от 15.09.16 --------------- */
 
@@ -2112,8 +2061,15 @@ a.logo{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	.common-form{
+        width: 378px;
+        .close{
+            top: -18px !important;
+            right: -27px !important;
+        }
+    }
 }
+
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     
