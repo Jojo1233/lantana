@@ -1,35 +1,35 @@
 $(document).ready(function() {
-    var str = location.href;
+    // var str = location.href;
     
-    if(str.indexOf('/ru/') + 1) {
-        $(".lang-box li").removeClass('active');
-        $(".ru").addClass('active');
+    // if(str.indexOf('/ru/') + 1) {
+    //     $(".lang-box li").removeClass('active');
+    //     $(".ru").addClass('active');
         
-    }
-    var entrue = true; 
-    $('.lang-box ul li a').each(function(o){
-        var str = $(this).attr('href')+'/$';
-        if (location.href.search(str) >= 0){
-            $(this).parent('li').addClass('active');
-            entrue = false;
-        }
-    });
-    if (entrue) {
-        $(".en").addClass('active');
-    }
+    // }
+    // var entrue = true; 
+    // $('.lang-box ul li a').each(function(o){
+    //     var str = $(this).attr('href')+'/$';
+    //     if (location.href.search(str) >= 0){
+    //         $(this).parent('li').addClass('active');
+    //         entrue = false;
+    //     }
+    // });
+    // if (entrue) {
+    //     $(".en").addClass('active');
+    // }
 
-    $("#current-lang").click(function () {
-        $('ul.lang-switcher').css('display', 'block');
-    });   
-    $(".lang-switcher li").click(function () {
-        //alert(t);
-        $("#current-lang").html($(this).html());
-        $('ul.lang-switcher').css('display', 'none');
-    });
+    // $("#current-lang").click(function () {
+    //     $('ul.lang-switcher').css('display', 'block');
+    // });   
+    // $(".lang-switcher li").click(function () {
+    //     //alert(t);
+    //     $("#current-lang").html($(this).html());
+    //     $('ul.lang-switcher').css('display', 'none');
+    // });
 
-    $(".lang-switcher").mouseleave(function () {
-        $('ul.lang-switcher').css('display', 'none');
-    });
+    // $(".lang-switcher").mouseleave(function () {
+    //     $('ul.lang-switcher').css('display', 'none');
+    // });
 
     
 
@@ -90,7 +90,7 @@ $(document).ready(function() {
             }
         }
     });
-
+//$('.parallax-window').parallax({imageSrc: '/video/avd2.jpg'});
 
     $('a[name=modal]').click(function(e) {
         e.preventDefault();
@@ -153,33 +153,54 @@ $(document).ready(function() {
         }
         return false;
     });
-
-
-  $("#zvonok_form_submit").click(function () {
-
-    var empty = true;
-    $('.zvonok_form  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
+    $(".form2").submit(function() { 
+        var tel = $(this).find('input[name="tel"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnakns(this);
+                }
+            });
+        }
+        return false;
+    });
+    $(".form-contact").submit(function() { 
+        var tel = $(this).find('input[name="tel"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnakns(this);
+                }
+            });
+        }
+        return false;
     });
 
-    if (empty == false){
-      alert("Заполните, пожалуйста, Ваш телефон");
-    }else{
-      //alert('sssssss');
-      $.ajax({
-        type: 'POST',
-        url: '/sendmessage.php',
-        data: $('.zvonok_form').serialize(),
-        success: function(data) {
-        }
-      });
-      //$('body,html').animate({scrollTop:0},500); 
-      $('.ocenka').hide();
-      $('a[href=#thank-spage3_form]').trigger('click');
-    }
-    
-    return false;
-  });
+
+
+  
  
   $("#order-service_submit").click(function () {
 
@@ -206,31 +227,6 @@ $(document).ready(function() {
     return false;
   });
  
-$("#form-contact_submit").click(function () {
-
-    var empty = true;
-    $('.form-contact  input[name="tel"]').each(function(o){
-        if ($(this).val() == ""){empty = false;}
-    });
-
-    if (empty == false){
-      alert("Заполните, пожалуйста, Ваш телефон или Email");
-    }else{
-      //alert('sssssss');
-      $.ajax({
-        type: 'POST',
-        url: '/sendmessage.php',
-        data: $('.form-contact').serialize(),
-        success: function(data) {
-        }
-      });
-      //$('body,html').animate({scrollTop:0},500); 
-      $('a[href=#thank-spage3_form]').trigger('click');
-    }
-    
-    return false;
-  });
-
 
 
 
@@ -343,7 +339,7 @@ function navigation_scroll(){
     var offset = $('.header').height() || $(window).height() || 50;
     var scroll = $(document).scrollTop();
 
-    if (scroll < 50) {
+    if (scroll < 100) {
         $('.header-top')
             .toggleClass('header-no-fixed', false)
              .toggleClass('header-fixed', false);

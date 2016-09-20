@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="ab-phone">
-                          тел. +7 (960) 450 230 55
+                          тел. +7 (960) 429 23 55
                         </div>  
                     </div>
                      <div class="col-md-7 col-sm-12 col-xs-12">

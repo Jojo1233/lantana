@@ -143,7 +143,8 @@
                     <div class="price">
                      <?php echo get_field('услуги_цена_'); ?>
                     </div>
-                     <a href="#zvonok" name="modal-thanks" class="button-5"><?php echo $button_order; ?></a>
+                    <br><br>
+                     <a href="#service" name="modal" class="button-2"><?php echo $button_order; ?></a>
                 </div>
             </div>
             <?php endwhile;?>
@@ -307,13 +308,13 @@
                     <input type="text" placeholder="Ваше имя" name="uname">
                     <input type="text" placeholder="Ваш телефон или email" name="tel">
                     <input type="text" placeholder="Сфера деятельности" name="activity">
-                    <select name="budget" id="">
+                    <select name="budget" id="budget">
                         <option value="1">1 - 5000 рублей</option>
-                        <option value="1">5001 - 10000 рублей</option>
-                        <option value="1">10 000 - 50 000 рублей</option>
-                        <option value="1">50 000 - 100 000 рублей</option>
-                        <option value="1">100 000 - 500 000 рублей</option>
-                        <option value="1">500 000 - 1 000 000 рублей</option>
+                        <option value="2">5001 - 10000 рублей</option>
+                        <option value="3">10 000 - 50 000 рублей</option>
+                        <option value="4">50 000 - 100 000 рублей</option>
+                        <option value="5">100 000 - 500 000 рублей</option>
+                        <option value="6">500 000 - 1 000 000 рублей</option>
                     </select>
                     <textarea name="text" placeholder="Дополнительная информация"></textarea>
 

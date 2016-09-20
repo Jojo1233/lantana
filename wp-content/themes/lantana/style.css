@@ -163,12 +163,6 @@ strong {
         text-transform: uppercase;
         top: -0px; }
 
-select {
-  float: left;
-  background: url(./img/rus.png) no-repeat;
-  border: none;
-  width: 70px; }
-
 /*--------------------------------------------------------------*/
 h1 {
   color: #595959;
@@ -460,7 +454,7 @@ video {
   background: #5f054e; }
 
 .header-top-up {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.6);
   padding: 12px 0px;
   text-align: center; }
   .header-top-up .ab-phone {
@@ -1001,7 +995,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #7f00ff; }
+    border-color: #8000ff; }
   100% {
     border-color: red; } }
 @-webkit-keyframes pulse {
@@ -1016,7 +1010,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #7f00ff; }
+    border-color: #8000ff; }
   100% {
     border-color: red; } }
 @keyframes pulse {
