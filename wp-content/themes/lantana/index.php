@@ -236,27 +236,6 @@
     </div>
 </section> 
 
-<!--<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                 <div class="ab-tehnology-wrap2">    
-                    <div class="ab-tehnology-table2">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/mysql.png" alt="">
-                    </div>
-                    <div class="ab-tehnology-table2">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ajs.png" alt="">
-                    </div>
-                    <div class="ab-tehnology-table2">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/git.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</section>-->
-
 <!-- //////////////////////////// -->
 
 <!-- Блок платформы -->
@@ -308,6 +287,9 @@
                     </div>    
                     <?php } ?>
                     <?php endwhile ?>
+                </div>
+                <div class="slide-button-wrap">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBoQfTr3HaujJ4AGHa6GDV5WiRVcQLeUvcU3u6GQb6orC4EA/viewform?c=0&w=1" class="button-3" target="_blank">Оставить отзыв</a>
                 </div>
             </div>
         </div>

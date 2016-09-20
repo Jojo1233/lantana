@@ -4,14 +4,16 @@
         <div class="header-top-up">
              <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                        тел. +7 (960) 450 230 55
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="ab-phone">
+                          тел. +7 (960) 450 230 55
+                        </div>  
                     </div>
-                     <div class="col-md-4 col-sm-6 col-xs-6">
+                     <div class="col-md-7 col-sm-12 col-xs-12">
                         <a href="#zvonok" name="modal" class="button-3">Заказать звонок</a>
                     </div>
-                    <div class="col-md-2 col-sm-6 col-xs-6">
-                        <div class="right">
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="ab-right">
                             RU-RU
                         </div>
                         

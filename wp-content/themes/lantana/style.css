@@ -462,7 +462,15 @@ video {
 
 .header-top-up {
   background: rgba(0, 0, 0, 0.2);
-  padding: 5px 0px; }
+  padding: 12px 0px;
+  text-align: center; }
+  .header-top-up .ab-phone {
+    padding-bottom: 10px; }
+  .header-top-up .button-3 {
+    margin-bottom: 10px; }
+
+.header-top-down {
+  padding: 8px 0px; }
 
 .burger-box {
   text-align: right;
@@ -993,7 +1001,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #8000ff; }
+    border-color: #7f00ff; }
   100% {
     border-color: red; } }
 @-webkit-keyframes pulse {
@@ -1008,7 +1016,7 @@ a.logo {
   50% {
     border-color: cyan; }
   75% {
-    border-color: #8000ff; }
+    border-color: #7f00ff; }
   100% {
     border-color: red; } }
 @keyframes pulse {
@@ -1078,11 +1086,36 @@ a.logo {
 
 .testimonials {
   width: 100%;
-  padding: 50px 0px; }
+  padding: 50px 0px;
+  	/*.owl-dots{
+  		text-align: center;
+  		position: absolute;
+  		left: 50%;
+  		transform: translate(-50%, 0);
+  		bottom: -5%;
+  
+  	}
+  	.owl-dot{
+  		display: inline-block;
+  		margin-right: 5px;
+  		width: 17px;
+  		height: 17px;
+  		border-radius: 10em;
+  		background: darken($accent, 10%);
+  	}
+  	.owl-dots .active{
+  		background: lighten($accent, 10%);
+  	}*/ }
   .testimonials .name {
     display: block;
     font-weight: bold;
     margin-bottom: 15px; }
+  .testimonials .button-3 {
+    padding: 10px 20px; }
+  .testimonials .button-3:hover {
+    background: #9D1857; }
+  .testimonials .slide-button-wrap {
+    text-align: center; }
   .testimonials .arrs {
     display: block;
     text-align: center;
@@ -1111,21 +1144,6 @@ a.logo {
     left: 0%; }
     .testimonials .prev i {
       margin-left: -3px; }
-  .testimonials .owl-dots {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: -5%; }
-  .testimonials .owl-dot {
-    display: inline-block;
-    margin-right: 5px;
-    width: 17px;
-    height: 17px;
-    border-radius: 10em;
-    background: #c41857; }
-  .testimonials .owl-dots .active {
-    background: #eb578e; }
 
 .order-service input[type="text"], .order-service textarea, .order-service select {
   display: block;
@@ -1252,6 +1270,8 @@ input, textarea {
     text-align: center;
     border: none;
     cursor: pointer; }
+  .common-form .button-1:hover {
+    background: #8B1857; }
 
 /*-------------- ╨Я╨╛╤А╤В╤Д╨╛╨╗╨╕╨╛, ╨╜╨╛╨▓╤Л╨╡ ╨║╨╗╨░╤Б╤Б╤Л (╨Р╤Б╨╗╨░╨╜) ╨╛╤В 15.09.16 --------------- */
 .ab-button {
@@ -1481,6 +1501,17 @@ input, textarea {
     margin-top: 10px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+  .header-top-up {
+    padding: 3px 0; }
+    .header-top-up .button-3 {
+      margin-top: 10px; }
+    .header-top-up .ab-phone {
+      text-align: left;
+      margin-top: 13px; }
+    .header-top-up .ab-right {
+      text-align: right;
+      margin-top: 13px; }
+
   .common-form {
     width: 378px; }
     .common-form .close {
