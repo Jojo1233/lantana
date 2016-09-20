@@ -457,15 +457,15 @@ video {
 .header-vn {
   width: 100%;
   z-index: 500;
-  background: #5f054e;
-  padding: 18px 0px; }
+  background: #5f054e; }
 
 .header-top-up {
   background: rgba(0, 0, 0, 0.2);
   padding: 12px 0px;
   text-align: center; }
   .header-top-up .ab-phone {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    color: white; }
   .header-top-up .button-3 {
     margin-bottom: 10px; }
 
@@ -1344,6 +1344,9 @@ input, textarea {
 .ab-h2 h2 {
   padding-top: 40px; }
 
+.ab-right {
+  color: white; }
+
 /*---------------------------------------------------*/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -1507,10 +1510,12 @@ input, textarea {
       margin-top: 10px; }
     .header-top-up .ab-phone {
       text-align: left;
-      margin-top: 13px; }
+      margin-top: 13px;
+      color: white; }
     .header-top-up .ab-right {
       text-align: right;
-      margin-top: 13px; }
+      margin-top: 13px;
+      color: white; }
 
   .common-form {
     width: 378px; }
