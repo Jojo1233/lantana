@@ -609,21 +609,49 @@ video{
 .main-menu {
 	text-align: right;
 	font-family: 'Open Sans', arial;
+	.sub-menu{
+		text-align: center;
+		width: 200px;
+		display: none;
+		position: absolute;
+		top: 18px;
+		right: -60px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		padding-left: 0 !important;
+		background: #5F054E;
+		//z-index: -100;
+		li {
+			display: block;
+			//padding: 0px !important;
+			margin-left: 0px;
+		}
+
+	}
+	
 	li {
 		display: inline-block;
 		margin-left: 35px;
+		position: relative;
+		//outline: 1px solid red;
 		a {
+			//outline: 1px solid red;
 			color: #fff;
 			text-decoration: none;
 			position: relative;
 			text-transform: uppercase;
 			letter-spacing: 0.25;
 			
+			
 		}
 		a:hover{
 			color: $accent;
 			animation: menuhover-hover 350ms ease-in-out;
+			
+
 		}
+
+		
 		@keyframes menuhover-hover {
 		  	0% {
 		    	color: #fff;
@@ -666,7 +694,9 @@ video{
 			font-weight: bold;
 		}
 	}
-
+	li:hover > .sub-menu{
+			display: block;
+		}
 	@keyframes menuhover-after {
 	  	0% {
 	    	opacity: 0;

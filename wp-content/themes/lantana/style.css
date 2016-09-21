@@ -475,9 +475,24 @@ video {
 .main-menu {
   text-align: right;
   font-family: 'Open Sans', arial; }
+  .main-menu .sub-menu {
+    text-align: center;
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: -60px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 0 !important;
+    background: #5F054E; }
+    .main-menu .sub-menu li {
+      display: block;
+      margin-left: 0px; }
   .main-menu li {
     display: inline-block;
-    margin-left: 35px; }
+    margin-left: 35px;
+    position: relative; }
     .main-menu li a {
       color: #fff;
       text-decoration: none;
@@ -512,6 +527,8 @@ video {
       animation: menuhover-before 350ms ease-in-out;
       color: #e52a6f;
       font-weight: bold; }
+  .main-menu li:hover > .sub-menu {
+    display: block; }
 @keyframes menuhover-after {
   0% {
     opacity: 0;
