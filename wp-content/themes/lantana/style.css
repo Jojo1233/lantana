@@ -54,6 +54,12 @@ table {
 strong {
   font-weight: bold; }
 
+em {
+  color: #5f054e;
+  font-family: arial;
+  font-size: 15px;
+  font-style: italic; }
+
 /*----------- ╨б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╨С╨╗╨╛╨│╨░ (╨Р╤Б╨╗╨░╨╜) 16.09.2016 ----------------------------------*/
 .col-md-offset-2 {
   margin-bottom: 16px; }
@@ -583,11 +589,8 @@ a.logo {
 
 .main-content {
   padding: 25px 0px; }
-  .main-content img {
-    width: 100%;
-    height: auto; }
   .main-content p {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     line-height: 1.525em;
     padding-top: 15px; }
 
@@ -1538,6 +1541,14 @@ input, textarea {
   /*---------------------------------------------------*/
   h1 {
     text-align: left !important; }
+
+  h2 {
+    color: #2f0226;
+    font-family: "RobotoMedium";
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left; }
 
   h3 {
     font-family: "RobotoMedium";
