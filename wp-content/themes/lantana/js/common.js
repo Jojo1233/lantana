@@ -361,7 +361,7 @@ function navigation_scroll(){
     var offset = $('.header').height() || $(window).height() || 50;
     var scroll = $(document).scrollTop();
 
-    if (scroll < 100) {
+    if (scroll < 150) {
         $('.header-top')
             .toggleClass('header-no-fixed', false)
              .toggleClass('header-fixed', false);

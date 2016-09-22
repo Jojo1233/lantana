@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Сен 22 2016 г., 16:38
+-- Время создания: Сен 22 2016 г., 17:00
 -- Версия сервера: 5.5.25
 -- Версия PHP: 5.3.13
 
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1550 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1551 ;
 
 --
 -- Дамп данных таблицы `wp_options`
@@ -226,7 +226,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (96, 'widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes'),
 (97, 'widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
 (98, 'sidebars_widgets', 'a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:13:"array_version";i:3;}', 'yes'),
-(99, 'cron', 'a:4:{i:1474548015;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474590456;a:3:{s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474633675;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
+(99, 'cron', 'a:4:{i:1474590456;a:3:{s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474633675;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474634415;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
 (126, 'WPLANG', 'ru_RU', 'yes'),
 (127, 'db_upgraded', '', 'yes'),
 (130, '_transient_random_seed', '5678df9ccf957e26d47ca395ae08ace0', 'yes'),
@@ -1058,7 +1058,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (849, 154, '_edit_last', '1'),
 (852, 154, '_edit_lock', '1474024365:1'),
 (853, 157, '_edit_last', '1'),
-(856, 157, '_edit_lock', '1474547838:1'),
+(856, 157, '_edit_lock', '1474549158:1'),
 (857, 159, '_wp_attached_file', '2016/09/Programer.jpg'),
 (858, 159, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:700;s:6:"height";i:400;s:4:"file";s:21:"2016/09/Programer.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:21:"Programer-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:21:"Programer-300x171.jpg";s:5:"width";i:300;s:6:"height";i:171;s:9:"mime-type";s:10:"image/jpeg";}s:11:"squareThumb";a:4:{s:4:"file";s:21:"Programer-292x278.jpg";s:5:"width";i:292;s:6:"height";i:278;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
 (859, 157, '_thumbnail_id', '159'),
@@ -1339,7 +1339,6 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (141, 1, '2016-08-02 17:54:00', '2016-08-02 13:54:00', '', '[:ru]Услуги [:]', '', 'publish', 'closed', 'closed', '', 'acf_%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8', '', '', '2016-08-02 17:54:00', '2016-08-02 13:54:00', '', 0, 'http://lantana-studio-com.loc/?post_type=acf&#038;p=141', 0, 'acf', '', 0),
 (143, 1, '2016-08-02 18:16:57', '2016-08-02 14:16:57', '', '[:en]Настройки[:]', '', 'inherit', 'closed', 'closed', '', '128-revision-v1', '', '', '2016-08-02 18:16:57', '2016-08-02 14:16:57', '', 128, 'http://lantana-studio-com.loc/128-revision-v1/', 0, 'revision', '', 0),
 (144, 1, '2016-08-02 18:26:58', '2016-08-02 14:26:58', '', '[:en]Настройки[:]', '', 'inherit', 'closed', 'closed', '', '128-revision-v1', '', '', '2016-08-02 18:26:58', '2016-08-02 14:26:58', '', 128, 'http://lantana-studio-com.loc/128-revision-v1/', 0, 'revision', '', 0),
-(145, 1, '2016-09-15 11:46:47', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-09-15 11:46:47', '0000-00-00 00:00:00', '', 0, 'http://lantana-studio-com.loc/?p=145', 0, 'post', '', 0),
 (146, 1, '2016-09-15 11:52:58', '2016-09-15 07:52:58', '[:ru]Фиксированная верстка главной страницы сайта по продаже игровых предметов Counter Strike GO.  В верхней части сайта, средствами jQuery реализован самописный скрипт для переключения языка. Ниже расположен слайдер с иконками доступных к покупке предметов, который растягивается на всю ширину монитора, прокрут осуществляется  простым перетаскиванием любого элемента слайда в нужную сторону. При наведении курсора на каждый блок внутри слайда выводится аватарка авторизованного пользователя и его никнейм.  При скроллинге страницы слайдер компактно складывается, скрывая миниатюры предметов.\r\nДалее расположены четыре блока с оружием и экипировкой, согласно пожеланию заказчика реализованы элементы анимации через CSS. При наведении курсора, предметы плавно приподнимаются из своего положения.\r\nСледующий блок – кейсы с набором предметов CS GO. В данном блоке так же реализована интересная анимация при наведении, сундуки приподнимаются из своего положения, по контуру бэкграунда с ценником срабатывает эффект вращающихся полос.\r\nФутер выполнен в стандартной форме со ссылками на соц сети и отдельные разделы сайта.[:]', '[:ru]Верстка сайта по продаже предметов CS GO[:]', '', 'publish', 'closed', 'closed', '', '%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9-%d0%b2%d0%b5%d1%80%d1%81%d1%82%d0%ba%d0%b0-%d1%81%d0%b0%d0%b9%d1%82%d0%b0-%d0%bf%d0%be-%d0%bf%d1%80%d0%be%d0%b4%d0%b0%d0%b6%d0%b5-%d0%bf%d1%80%d0%b5%d0%b4', '', '', '2016-09-19 15:18:15', '2016-09-19 11:18:15', '', 0, 'http://lantana-studio-com.loc/?post_type=portfolio&#038;p=146', 0, 'portfolio', '', 0),
 (147, 1, '2016-09-15 16:28:37', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2016-09-15 16:28:37', '0000-00-00 00:00:00', '', 0, 'http://lantana-studio-com.loc/?post_type=acf&p=147', 0, 'acf', '', 0),
 (148, 1, '2016-09-15 16:40:37', '2016-09-15 12:40:37', '', 'monitor', '', 'inherit', 'open', 'closed', '', 'monitor', '', '', '2016-09-15 16:40:37', '2016-09-15 12:40:37', '', 146, 'http://lantana-studio-com.loc/wp-content/uploads/2016/09/monitor.png', 0, 'attachment', 'image/png', 0),
