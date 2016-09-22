@@ -79,6 +79,8 @@ strong{
 	font-weight: bold;
 }
 
+
+
 em {
 	color: #5f054e;
     font-family: arial;
@@ -86,9 +88,7 @@ em {
     font-style: italic;
 }
 
-img {
 
-}
 
 /*----------- Стили для Блога (Аслан) 16.09.2016 ----------------------------------*/
 
@@ -239,6 +239,20 @@ img {
 
 /*--------------------------------------------------------------*/
 
+pre {
+	background: #f8f7f2;
+    border: 1px solid #E6E3DA;
+    border-radius: 5px;
+    font: 14px "Courier New",Courier,monospace;
+    padding: 15px;
+    color:#069;
+    border-right: 30px solid #E6E3DA;
+}
+
+.tag-txt{
+	color: #b61039;
+}
+
 h1{
 	color: darken(#999,25%);
 	font-family: "RobotoMedium";
@@ -248,7 +262,7 @@ h1{
 }
 h2{
 	font-family: "RobotoMedium";
-	font-size: 35px;
+	font-size: 25px;
 	text-align: center;
 	margin-bottom: 40px;
 	color: darken($gray, 10%);

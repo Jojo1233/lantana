@@ -32,7 +32,7 @@ $(document).ready(function() {
     // });
 
     
-
+$("iframe").remove();
     $('.header a[href^="#"]').click(function(){ 
       var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
       if($element.length == 1) { 
