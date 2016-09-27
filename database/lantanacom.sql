@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Сен 27 2016 г., 17:03
+-- Время создания: Сен 27 2016 г., 17:07
 -- Версия сервера: 5.5.25
 -- Версия PHP: 5.3.13
 
@@ -538,7 +538,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (298, 87, '_wp_attached_file', '2015/10/cgm-11.jpg'),
 (299, 87, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:960;s:6:"height";i:1701;s:4:"file";s:18:"2015/10/cgm-11.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"cgm-11-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:18:"cgm-11-169x300.jpg";s:5:"width";i:169;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:19:"cgm-11-578x1024.jpg";s:5:"width";i:578;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:11:"squareThumb";a:4:{s:4:"file";s:18:"cgm-11-292x278.jpg";s:5:"width";i:292;s:6:"height";i:278;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}'),
 (300, 88, '_edit_last', '1'),
-(301, 88, '_edit_lock', '1474981373:1'),
+(301, 88, '_edit_lock', '1474981613:1'),
 (302, 89, '_wp_attached_file', '2015/12/thumb.jpg'),
 (303, 89, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:360;s:6:"height";i:273;s:4:"file";s:17:"2015/12/thumb.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"thumb-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"thumb-300x228.jpg";s:5:"width";i:300;s:6:"height";i:228;s:9:"mime-type";s:10:"image/jpeg";}s:11:"squareThumb";a:4:{s:4:"file";s:17:"thumb-292x273.jpg";s:5:"width";i:292;s:6:"height";i:273;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}'),
 (304, 90, '_wp_attached_file', '2015/12/index_med_center.jpg'),
@@ -560,7 +560,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (320, 93, '_wp_attached_file', '2015/10/thumb6.jpg'),
 (321, 93, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:360;s:6:"height";i:273;s:4:"file";s:18:"2015/10/thumb6.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"thumb6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:18:"thumb6-300x228.jpg";s:5:"width";i:300;s:6:"height";i:228;s:9:"mime-type";s:10:"image/jpeg";}s:11:"squareThumb";a:4:{s:4:"file";s:18:"thumb6-292x273.jpg";s:5:"width";i:292;s:6:"height";i:273;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}'),
 (322, 94, '_edit_last', '1'),
-(323, 94, '_edit_lock', '1474981312:1'),
+(323, 94, '_edit_lock', '1474981432:1'),
 (324, 95, '_wp_attached_file', '2015/12/thumb1.jpg'),
 (325, 95, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:360;s:6:"height";i:272;s:4:"file";s:18:"2015/12/thumb1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"thumb1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:18:"thumb1-300x227.jpg";s:5:"width";i:300;s:6:"height";i:227;s:9:"mime-type";s:10:"image/jpeg";}s:11:"squareThumb";a:4:{s:4:"file";s:18:"thumb1-292x272.jpg";s:5:"width";i:292;s:6:"height";i:272;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}'),
 (326, 96, '_wp_attached_file', '2015/12/blog_index.jpg'),
