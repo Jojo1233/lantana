@@ -19,7 +19,7 @@ Template Name: Портфолио
 		  		<div class="portfol-block">
 		  			<a href="<?php the_permalink(); ?>">
 			  			<?php $image = get_field('миниатюра'); ?>
-						<img src="<?php echo $image['url'] ?>" alt="">
+						<img class="" src="<?php echo $image['url'] ?>" alt="">
 						<div class="portfol-block_inner">
 							<span class="title">Корпоративный сайт</span>
 							

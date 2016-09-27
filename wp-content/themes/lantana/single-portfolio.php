@@ -35,7 +35,7 @@
 			<div class="col-md-6">
 				<div class="ab-img-monitor">
 					<?php $image = get_field('скриншот'); ?>
-				<img src="<?php echo $image['url']; ?>" alt="">
+				<img class="img-responsive" src="<?php echo $image['url']; ?>" alt="">
 				</div>
 			<?php endwhile; ?>
 		    <?php wp_reset_query(); ?>

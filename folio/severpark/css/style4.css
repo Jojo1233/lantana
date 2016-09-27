@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+/* ╨У╨╗╨░╨▓╨╜╨╛╨╡ ╨╝╨╡╨╜╤О */
+.ab-wrap-header {
+  width: 100%;
+  background: url(../img/headphone.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 10px; }
+  .ab-wrap-header .ab-main-menu li {
+    padding: 10px 0;
+    display: block; }
+  .ab-wrap-header .ab-wrap-menu {
+    height: 62px; }
+  .ab-wrap-header .ab-main-menu li {
+    display: block;
+    vertical-align: middle;
+    text-shadow: 1px 1px 2px black;
+    height: 100%;
+    min-height: 100%;
+    border-right: 1px solid white; }
+    .ab-wrap-header .ab-main-menu li a {
+      display: inline-block;
+      padding: 0px 5px; }
+  .ab-wrap-header .ab-main-menu a {
+    font-size: 16px;
+    color: #F3F8FF;
+    font-family: "RobotoBold";
+    text-transform: uppercase; }
+  .ab-wrap-header .ab-main-menu li:hover {
+    background: #6DB756; }
+  .ab-wrap-header .ab-wrap-menu {
+    background-color: #009FE3;
+    margin-bottom: 20px;
+    text-align: center; }
+  .ab-wrap-header .ab-raion {
+    text-align: center; }
+  .ab-wrap-header .ab-phone-number {
+    text-align: center; }
+  .ab-wrap-header .first-number, .ab-wrap-header .second-number {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px white; }
+  .ab-wrap-header .first-number {
+    display: inline-block;
+    background: url(../img/ab-number.png) no-repeat left center;
+    font-family: "RobotoRegular";
+    color: #009FE3;
+    padding-left: 38px; }
+  .ab-wrap-header .second-number {
+    display: inline-block;
+    font-family: "RobotoBold";
+    color: #6DB756; }
+  .ab-wrap-header .ab-button {
+    text-align: center; }
+  .ab-wrap-header .ab-button {
+    margin-top: 20px; }
+  .ab-wrap-header .ab-button a {
+    width: 100%;
+    background: #AE2E2D;
+    color: #FFFFFF;
+    padding: 6px 26px;
+    font-family: "RobotoBold";
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px; }
+  .ab-wrap-header .ab-green-fon {
+    background: url(../img/green-fon.png) no-repeat center;
+    background: cover;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 33px 0;
+    text-align: center; }
+  .ab-wrap-header .ab-green-fon-txt-1 {
+    font-family: "RobotoBold";
+    font-size: 35px;
+    color: #FFFFFF; }
+  .ab-wrap-header .ab-green-fon-txt-2 {
+    font-family: "RobotoRegular";
+    font-size: 20px;
+    color: #FFFFFF; }
+  .ab-wrap-header .ab-green-fon-txt-3 {
+    font-family: "RobotoRegular";
+    font-size: 28px;
+    color: #F9DF00;
+    position: relative; }
+  .ab-wrap-header sup {
+    font-size: 11px;
+    position: absolute;
+    right: 4px;
+    top: 1px; }
+
+.header-fixed > .anz-menu > .anz-menu-ch {
+  margin-top: -5px; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .first-number, .second-number {
+    font-size: 25px;
+    text-shadow: none !important; }
+
+  .ab-wrap-header {
+    background: url(../img/headphone.jpg) no-repeat center; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .header-fixed + .container {
+    padding-top: 85px; }
+
+  .ab-wrap-header {
+    width: 100%;
+    height: 1049px;
+    background: url(../img/headphone.jpg) no-repeat center;
+    background-size: cover;
+    position: relative; }
+    .ab-wrap-header .ab-main-menu {
+      text-align: center;
+      display: table;
+      width: 100%; }
+      .ab-wrap-header .ab-main-menu li {
+        display: table-cell;
+        vertical-align: middle;
+        text-shadow: 1px 1px 2px black;
+        height: 100%;
+        min-height: 100%;
+        border-right: 1px solid white; }
+      .ab-wrap-header .ab-main-menu li:last-child {
+        border-right: none; }
+
+  .ab-raion {
+    margin-top: 30px !important; }
+
+  .ab-phone-number {
+    margin-right: 792px;
+    margin-top: 4px; }
+    .ab-phone-number .first-number {
+      font-size: 36px;
+      display: inline; }
+    .ab-phone-number .second-number {
+      font-size: 36px;
+      display: inline; }
+
+  .ab-button {
+    left: 406px;
+    position: absolute;
+    top: 200px; }
+
+  .ab-button a {
+    padding: 6px 64px !important; }
+
+  .ab-green-fon {
+    text-align: left !important;
+    position: absolute;
+    width: 655px;
+    height: 252px;
+    top: 609px;
+    left: 391px;
+    padding: 28px 58px 15px 209px !important; }
+
+  .ab-people {
+    width: 576px;
+    height: 652px;
+    background: url(../img/people.png) no-repeat center;
+    position: absolute;
+    top: 302px;
+    left: 10px;
+    z-index: 100; }
+
+  .ab-green-fon-txt-1 {
+    font-size: 48px !important; }
+
+  .ab-green-fon-txt-2 {
+    font-size: 36px !important;
+    display: inline-block;
+    margin-top: -11px; }
+
+  .ab-green-fon-txt-3 {
+    font-size: 53px !important; } }
+/* Large Devices, Wide Screens */
+/***************/
+
+/*# sourceMappingURL=style4.css.map */
