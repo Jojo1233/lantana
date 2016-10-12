@@ -1,0 +1,161 @@
+
+
+
+/*# sourceMappingURL=style5.css.map */
+
+.ab-simbol{
+  font-family: "Opensans-Regular" !important;
+}
+
+ h1 {
+  margin-top: 20px;margin-bottom: 20px;
+  color: orange; }
+
+
+.male  li a {
+  float: left;
+  font-size: 21px;
+  color:#050708;
+  margin-right: 20px;margin-bottom: 38px;
+  padding:1px 0px;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+   }
+
+.male li a:hover {
+  color: #44b4da;
+  border-bottom: 2px solid #44b4da; }
+
+.gamers span{
+  padding-right: 5px;
+}
+
+.gamers {	
+  font-size: 14px; 
+  font-family: "OpenSans-Semibold" ;
+  text-align: center;
+  padding: 1px 5px;
+  float: left;
+  width: 270px;
+  height: 40px;
+  line-height: 35px;
+  margin-right: 30px;
+  //margin-bottom: 10px;
+  border: 2px solid #cbd1d6; }
+.gamers a{
+    color:black;}
+.gamers a:hover{
+      color:orange;
+    }  
+.points {
+  color: orange;
+  display: block;
+  margin: 20px 0;
+  }    
+
+                  /* Начало таблицы statistic */
+.table_statistic {
+  width: 100%;
+tr {
+  font-family: "OpenSans-Semibold";
+  font-size: 14px;  
+  padding-bottom: 10px;
+  text-align: left;
+  overflow-x: hidden; 
+  }
+}
+
+.table_statistic tr td {
+  padding: 3px 20px; }
+
+.bg_color {
+  background-color: #eef3f5; }
+
+.bg_color1 {
+  background-color: #e4e9eb;
+  color: #97a3ad; }
+
+.clear {
+  clear: both; }
+
+.table_statistic {
+  margin:30px 0; }
+
+.table_statistic  tr td:nth-child(1){color:#97a3ad;font-family: "OpenSans Regular";font-size: 16px;}
+.table_statistic  tr td:nth-child(4){color:#97a3ad;}
+.table_statistic  tr td:nth-child(5){color:#97a3ad;}
+.table_statistic  tr td:nth-child(6){color:#97a3ad;}
+
+                /* Конец таблицы */
+
+
+
+
+                /*Таблица протокола*/
+.table_prot{
+  width: 100%;
+}
+.tabel_prototip{
+  width: 100%;
+  letter-spacing: 0.02em;
+}
+.table_prot table caption{
+    font-size: 26px;
+    color:#e09b1b;
+    font-family: "OpenSans-Semibold";
+    margin-top: 55px;
+}
+
+ .tabel_prototip tr{
+  font: 13px "OpenSans-Regular";
+  padding-bottom: 17px;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.tabel_prototip tr td {
+    padding:4px 4px;
+   }
+
+.caption{
+  font-size:26px;font-family: "Opensans-Semibold";color: #E09B1B;
+  margin:45px 0 7px 0px;
+}
+
+.caption2{
+   font-size:26px;font-family: "Opensans-Semibold";color: #E09B1B;
+   margin:20px 0 15px 0px;
+}
+
+.first{
+  background: #e4e9eb;
+  height:20px;
+  color:#97a3ad;
+}
+
+.end_table { padding:2px 0;
+   td{ 
+    background: #666666;
+    color:#e09b1b;
+  }
+}
+
+.bg_td{
+  background:rgba(221, 226, 232, 0.5);
+}
+
+.tabel_prototip tr td:nth-child(2){ vertical-align: middle;  font-weight: bolder; font: 14px "Opensans-Semibold";}
+.tabel_prototip tr td:nth-child(1){background:rgba(221, 226, 232, 0.45);} 
+.tabel_prototip tr:nth-child(2n){background:#e4e9eb;}
+.tabel_prototip .end_table td:nth-child(1){ background:#666666;  color:#E09B1B;font: 14px/0.5 normal ;
+padding: 11px 0; font-family: "Opensans-Regular"} 
+.tabel_prototip .end_table td:nth-child(1){} 
+.tabel_prototip td:first-child{ color: #97a3ad; padding: 0px 5px;}
+.tabel_prototip tr:first-child{font-weight: bold ;font: 14px "Opensans-Semibold";}
+.tabel_prototip tr:last-child{font-weight: bold ;font: 14px "Opensans-Semibold";}
+.tabel_prototip .bg_td2{background: #e4e9ed; font-weight: bold ;}
+.tabel_prototip .end_table td:nth-child(2n+5){background: #616161;}
+.tabel_prototip .end_table td:nth-child(2){background: #616161;}
+              //КОНЕЦ ТАБЛИЦЫ ПРОТОКОЛА
+/*# sourceMappingURL=style5.css.map */
