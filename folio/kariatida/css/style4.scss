@@ -1,0 +1,1782 @@
+
+.clear{
+    clear:both;
+}
+
+h2{
+    font-family: "Lato-Bold";
+    font-size: 21px;
+    text-transform: uppercase; 
+    
+}
+
+/*====== Блок преимущества ======*/                           
+
+.ab-advantage-wrapp{
+    width: 100%;
+    background: #FFF7E6;
+    padding: 40px 0;
+    
+    .ab-advantage-item{
+    margin: 20px 0;
+    border: 12px solid #FFFFFF;
+    text-align: center;
+
+        img{
+            display: block;
+            margin: 34px auto 28px; 
+        }  
+        
+        .ab-txt-1{
+        font-family: "Lato-Light";
+        font-size: 21px;
+        text-transform: uppercase;
+        color: #735A3A;
+        }
+        .ab-txt-2{
+        font-family: "Lato-Light";
+        font-size: 17px;
+        color: #735A3A;
+        padding-top: 7px;
+        padding-bottom: 34px;
+        display: inline-block;
+        }
+        .ab-txt-3{
+         padding-bottom: 50px;   
+        }
+    }
+}
+
+
+/*====== Блок партнеры ======*/
+
+.ab-zag{
+    text-align: center;
+}
+
+.ab-partner-wrapp{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 25px 0; 
+
+    .ab-col{
+         li{
+            width: 100%;
+            float: left;
+            .ab-img-box{
+                margin: 0 auto; 
+                text-align: center;
+                width: 146px;
+                height: 96px;
+                border: 3px solid #C2C2C2;
+                overflow: hidden;
+                margin-top: 20px;
+
+                .ab-img-box-2{
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 146px;
+                    height: 96px;
+                }
+            }
+        }
+    }
+}
+
+
+/*====== Футер топ ======*/
+
+.footer-top{
+    width: 100%;
+    background: #F9F6EF;
+    padding: 20px 0 40px;
+    text-align: center;
+        ul {
+            li{
+                font-family: "Lato-Medium";
+                font-size: 14px;
+                margin-bottom: 7px;
+                a{
+                    color: #000000;
+                }
+            }
+        }
+        .right-side-footer-wrap{
+            .ab-contakt{
+                //float: left;
+                h2{
+                    text-transform: uppercase;
+                }
+                .ab-phone{
+                    font-family: "Lato-Medium";
+                    font-size: 24px;
+                    color: #000000;
+                    display: inline-block;
+                    padding-top: 15px;
+                }
+                .ab-phone-txt{
+                    font-family: "Lato-Medium";
+                    font-size: 14px;
+                    color: #000000;
+                    display: inline-block;
+                    padding-top: 10px;
+                    padding-bottom: 27px;
+                }
+            }
+            .ab-social{
+                //float: right;
+
+                .ab-soc-txt{
+                    font-family: "Lato-Medium";
+                    font-size: 14px;
+                    color: #000000;
+                    display: inline-block;
+                    padding-bottom: 15px;
+                }
+                .ab-inst-img{
+                    padding-left: 10px;
+                }
+            }
+        }
+            
+    .ab-karta{
+        font-family: "Lato-Medium";
+        font-size: 14px;
+        display: inline-block;
+        padding: 14px 0 36px 5px;
+    }
+    .ab-poisk{
+        margin-top: 20px;
+    
+
+        label{
+            position: relative;
+            
+        }
+        
+        input[type="text"]{
+            width: 100%;
+            height: 44px;
+            padding-left: 15px;
+            color: #000000;
+            border: 2px solid #EBEBEB;
+            outline: none;
+        }    
+
+        input[type="submit"]{
+            width: 24px;
+            height: 25px;
+            position: absolute;
+            right: 14px;
+            top: -5px;
+            background: url(../img/lupa.png) no-repeat;
+            border: none; 
+        }
+    }
+    .ab-title{
+        font-family: "Lato-Bold";
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 20px 0 12px;
+        display: inline-block;
+    }
+}
+
+/*#map1{
+    width: 100%;
+    overflow: hidden;
+    //height: 133px;
+    border: 5px solid white;
+    margin-top: 114px;
+    //background: url(../img/ab-map.png) no-repeat;
+}*/
+
+
+/*====== Футер боттом ======*/
+
+
+.footer-bottom{
+    width: 100%;
+    background: #F5EFE2;
+    padding: 25px 0 20px;
+    text-align: center;
+        img{
+            padding-top: 10px;
+            margin: 0 auto;
+        }
+
+        .ab-footer-txt{
+            font-family: "Lato-Medium";
+            font-size: 14px;
+            color: #000000;
+            padding-top: 10px;
+            display: inline-block;
+    } 
+}
+
+
+/*====== Строительство коттеджей ======*/
+
+.ab-koteg-wrap{
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 80px;
+    
+    .ab-wrap-koteg-1{
+        text-align: center;
+
+        .ab-left-zagolovok{
+            font-family: "Lato-Light";
+            font-size: 30px;
+            //font-size: 43px;
+            color: #000000;
+        }
+        .ab-cherta{
+            background: url(../img/ab-cherta.png) no-repeat;
+            width: 20px;
+            height: 2px;
+            margin: 20px auto 10px;
+            //padding: 20px 0;
+        }
+        .ab-left-slogan{
+            font-family: "Lato-Medium";
+            font-size: 22px;
+            display: inline-block;
+            padding-bottom: 44px;
+        }
+        ul {
+            text-align: left;
+            li{
+                font-family: "Lato-Regular";
+                font-size: 13px;
+                background: url(../img/ab-ikonka.png) no-repeat center left;
+                height: 25px;
+                margin-top: 15px;
+                padding-left: 36px;
+                padding-top: 4px;
+            }
+        }
+    }
+    .ab-wrap-koteg-2{
+        text-align: center;
+
+        .ab-koteg-img{
+            width: 100%;
+            border: 2px solid #fff;
+            padding: 2px;
+            margin-bottom: 20px;
+            
+            img{
+                margin: 0 auto; 
+            }
+        }
+        .ab-right-info{
+            span{
+                font-family: "Lato-Light";
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+
+/*====== Контакты ======*/
+
+.ab-contacts{
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom:70px;
+    .ab-brad-cramps{
+        span{
+            font-family: "Lato-Light";
+            font-size: 14px;
+            color: #808080;
+        }
+    }
+    .ab-contact-title{
+        font-family: "Lato-Regular";
+        font-size: 35px;
+        color: #5D5147;
+        display: inline-block;
+        padding: 35px 0 44px;
+    }
+    .ab-contact-txt{
+        font-family: "Lato-Light";
+        font-size: 14px;
+        color: #808080;
+    }
+    .ab-contact-title-2{
+        font-family: "Lato-Semibold";
+        font-size: 21px;
+        color: #5D5147;
+        display: inline-block;
+        padding: 45px 0 21px;
+    }
+    h2{
+        border-bottom: 2px solid #D6D6D6;
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+        padding-top: 15px;
+    }
+    ul{
+        li{
+            position: relative;
+            font-family: "Lato-Light";
+            font-size: 15px;
+            color: #5D5147;
+            text-transform: uppercase;
+            background: url(../img/ab-con-icon.png) no-repeat center left;
+            height: 48px;
+            margin-top: 2px;
+            padding-left: 22px;
+            padding-top: 2px;
+            //outline: 1px solid red;
+            a{
+                color: #5d5147;
+                display: block;
+                padding: 13px 0 14px 10px;
+            }
+        }
+    }
+    li:hover{
+        position: relative;
+        background: linear-gradient(to right, #F5E8CC, #A68A60);
+        a{
+            color:#fff;
+        }
+    }
+    li:hover:after{
+        border-left: 1px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 50px solid #A68A60;
+        content: "";
+        height: 0;
+        position: absolute;
+        right: -7px;
+        top: 0;
+        width: 0;
+    }
+    li:hover:before{
+        background: url(../img/galka.png) no-repeat;
+        content: "";
+        height: 20px;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        width: 15px;
+    }
+    .ab-info-box{
+        border: 8px solid #FCEECF;
+        padding-bottom: 26px;
+        padding-left: 33px;
+        padding-top: 33px;
+        padding-right: 33px;
+        margin-top: 80px;
+        span{
+            font-family: "Lato-Light";
+            font-size: 16px;
+            color: #5D5147;
+        }
+    }
+    .button-2{
+        margin-top: 25px;
+        background: #BA8C56;
+        border:none !important;
+    }
+}
+
+.ab-map-contact{
+    width: 100%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 95px;  
+}
+
+.ab-banner{
+    display: none;
+    width: 100%;
+}
+
+/*====== Вакансии ======*/
+
+.ab-side-vak{
+    h2{
+        border-bottom: none;
+    }
+    .ab-info-box{
+        padding: 12px 10px 12px 30px; 
+    }
+}
+
+.ab-otchestvo{
+    font-family: "Lato-Medium" !important;
+}
+
+.ab-vak-title-1{
+    font-family: "Lato-Regular";
+    font-size: 35px;
+    color: #5D5147;
+    padding: 15px 0 0;
+}
+
+.ab-title-2-wrap{
+    border-top:2px solid #FCEECF;
+    padding-top: 13px;
+    margin-top: 35px;
+    span{
+        font-family: "Lato-Bold";
+        font-size: 25px;
+        color: #5D5147;
+    }
+}
+
+.ab-main-vak{
+    span{
+        font-family: "Lato-Light";
+        font-size: 17px;
+        color: #5D5147;
+        line-height: 24px;
+        .ab-vak-title-3{
+            font-family: "Lato-Semibold";
+            display: inline-block;
+            padding-top: 30px;
+        }
+    }
+}
+
+/* Поп ап */
+
+
+
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    width: 97%;
+    
+    display:none;
+    z-index:9998; 
+    background: #fff;
+
+    .close{
+        position:absolute;
+        display: block;
+        width: 22px;
+        height: 22px;
+        top: -20px;
+        right: -20px;
+        background: url('../img/close.png') no-repeat top center;
+        cursor: pointer;
+    }
+}
+
+.ab-window-modal{
+    width: 100%;
+    text-align: center;
+    .ab-modal-header{
+        padding: 20px 0;
+        span{
+            color: #010410;
+            font-family: "Lato-Bold";
+            font-size: 22px;
+        }
+    }
+    .ab-modal-img{
+        img{
+            margin: 0 auto;
+        }
+    }
+    .ab-modal-txt{
+           span{
+            color: #010410;
+            font-family: "Lato-Light";
+            font-size: 16px;
+        }
+    }
+    .ab-inputs-wrap{
+        text-align: center;
+        padding-top:10px;
+        .ab-inputs-span{
+            span{
+                color: #7A7A7A;
+                font-family: "Lato-Regular";
+                font-size: 16px;
+                padding-bottom:10px;
+                display: inline-block;
+            }
+        }
+    }
+    .ab-inputs{
+        .inputs-text{
+            border: 1px solid #c6c6c6;
+            height: 36px;
+            text-align: center;
+            width: 100%;
+            font-family: "Lato-Regular";
+            font-size: 16px;
+        }
+    }
+    hr{
+        width: 100%;
+        height: 2px;
+        background: #C6C6C6;
+    }
+    .ab-modal-2{
+        .ab-rezume{    
+            padding:20px;
+            span{
+                color: #7A7A7A;
+                font-family: "Lato-Regular";
+                font-size: 16px;
+            }
+        }
+        .ab-rezume-txt{
+            padding:20px;
+            span{
+                font-family: "Lato-Regular";
+                font-size: 16px;
+            }
+        }
+        .ab-rezume-file{
+            span{
+                font-family: "Lato-Regular";
+                font-size: 14px;
+                background: url(../img/krestik.png) no-repeat left center;
+                a {
+                    padding-left:18px;
+                }
+            }
+        }
+    }
+    .ab-hr-2{
+        display: none;
+        width: 100%;
+        height: 1px;
+        background:#C6C6C6;
+        margin: 0;
+    }
+    .ab-load-file{
+        padding:20px 0;
+        .ab-img-load{
+            background: url(../img/ab-load.png) no-repeat left center;
+            a{
+              font-family: "Lato-Regular";
+              font-size: 14px;
+              padding-left:25px;  
+            }
+        }
+        .ab-italic{
+            font-family: "Lato-Regular";
+            font-style: italic;
+            font-size: 14px;
+            color:#9C9C9C;
+            display: inline-block;
+            padding-left:33px;
+            padding-top:10px;
+        }
+    }
+    .ab-but-log{
+        padding: 20px 0;
+        .ab-otprvit{
+            padding: 14px 35px !important;
+        }
+    }    
+
+}
+
+.ab-window-modal-bottom-next{
+    .ab-modal-txt-next{
+        padding: 10px;
+        span{
+            font-family: "Lato-Light";
+            font-size: 16px;
+        }
+    }
+}
+
+/*====== Вакансии ======*/
+.ab-contacts{
+    .ab-tablitsa{
+        text-align: left;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        table{
+            //margin: 80px auto;
+            text-align: left;
+            border-collapse: separate;
+            //border: 1px solid #ddd;
+            border-spacing: 0;
+            background: #fdfdfd;
+            font-size: 14px;
+            width: 780px;
+            //width: 100%;
+
+      
+          td{
+            border-bottom: 1px solid #ddd;
+            padding: 5px;
+            height: 54px;
+            padding: 15px;
+            vertical-align: middle;
+            //display: block;
+          }
+          .bl{
+            background: #F5E8CC;
+            font-family: "Lato-Regular";
+            font-size: 16px;
+            color:#ABA28C;
+            td{
+                border-bottom:none;
+            }
+          }
+          .table-zag{
+            background:#FBF5E9;
+            font-family: "Lato-Semibold";
+            font-size: 16px;
+            color:#5D5147;
+          }
+          tr{
+            font-family: "Lato-Light";
+            font-size: 15px;
+            color:#010410;
+              }
+        }
+    }
+}
+/*==========  Pop up Log in  ==========*/
+
+.ab-incorrect-login{
+    padding: 20px 20px 20px 20px;
+    margin-top: 18px;
+    position: relative;
+    border-top:1px solid #C6C6C6;
+    span{
+        font-family: "Lato-Light";
+        font-size: 17px;
+        color:#790000;
+    }
+}
+
+.ab-remember{
+    margin: 18px auto 5px;
+    text-align: center; 
+    span{
+        font-family: "Lato-Regular";
+        font-size: 16px;
+        color:#7A7A7A;
+        padding-left:10px;
+    }
+}
+
+.ab-but-log{
+    width: 100%;
+        span{
+            a{
+            font-family: "Lato-Medium";
+            font-size: 15px;
+            color:#2B9FB8; 
+            display: inline-block;
+            padding-top: 10px;
+            }
+        }
+    }
+
+/* Скрываем реальный чекбокс */
+.checkbox {
+    display: none;
+}
+ 
+/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+    width: 12px;             /* Обязательно задаем ширину */
+    height: 12px;            /* Обязательно задаем высоту */
+    //border: 2px solid #ccc;
+    background:#BA8D56;
+    border-radius: 3px;
+}
+ 
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: url(../img/ab-g.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    border-radius: 2px;
+}
+
+/*====== Profile ======*/
+
+.profile-wrapp{
+    text-align: center;
+    padding-top:35px;
+    .ab-profile-head{
+        margin-bottom: 35px;
+        span{
+            font-family: "Lato-Regular";
+            font-size: 35px;
+            color:#5D5147; 
+        }
+    }
+    .ab-profile-greeting{
+        width: 100%;
+        padding: 24px 0;
+        background:#D8F9D0;
+        position:relative;
+            img{
+                position:absolute;
+                right: 13px;
+                top: 13px;
+                }
+        span{
+            font-family: "Lato-Regular";
+            font-size: 17px;
+            color:#007208;
+        }
+    }
+    .ab-profile-img{
+        padding-top:28px;
+    }
+    .ab-profile-info{
+        margin-bottom: 28px;
+        .ab-first-pro{
+            padding-top:30px;
+            padding-bottom:16px;
+            span{
+                font-family: "Lato-Regular";
+                font-size: 21px;
+                color:#000000;
+            }
+        }
+        .ab-prof-table-wrap{
+            padding-top:9px;
+            padding-bottom:9px;
+            border-top: 1px solid #E4E4E4;
+            .ab-prof-table{
+                span{
+                   font-family: "Lato-Light";
+                    font-size: 15px;
+                    color:#000000;    
+                }
+            }
+        }
+        .ab-prof-table-wrap:last-child{
+            border-bottom: 1px solid #E4E4E4;
+            .ab-prof-table:last-child{
+                span{
+                    color:#2B9FB8;
+                }
+            }
+        }
+    }
+    .ab-hr-prof{
+    width: 100%;
+    height: 2px;
+    background:#CFCFCF;
+    }
+    .ab-comment{
+    text-align: center;
+        span{
+        font-family: "Lato-Light";
+        font-size: 15px;
+        color:#5D5147;
+        font-style: italic;
+        }
+    }
+    .but-message{
+        text-align: center;
+        margin-top: 27px;
+    }
+    .ab-prof-table-img{
+        background: url(../img/p-tel.png) no-repeat left center;
+        span{
+            padding-left:25px;
+        }
+    }
+    .ab-prof-table-img-2{
+        background: url(../img/p-tel-2.png) no-repeat left 2px center;
+        span{
+            padding-left:25px;
+        }
+    }
+    .ab-prof-table-img-3{
+        background: url(../img/p-email.png) no-repeat left center;
+        span{
+            padding-left:25px;
+        }
+    }
+}
+
+
+/*====== Login avtorization ======*/
+
+.ab-login-wrapper{
+    text-align: center;
+    .ab-inputs-span-2{
+        padding-top:15px;
+        span{
+            font-family: "Lato-Regular";
+            font-size: 16px;
+            color:#7A7A7A;
+            display: inline-block;
+            padding-bottom:10px;
+        }
+    }
+    .ab-but-log-2{
+        span{
+            display: block;
+            padding-bottom: 10px;
+        }
+        .ab-input-label-2{
+            margin-bottom: 20px;
+        }
+    }
+    .ab-login-header{
+        border-top: 3px solid #FCEECF;
+        margin-top:36px;
+        span{
+            font-family: "Lato-Bold";
+            font-size: 21px;
+            color:#000000;
+            padding-top:16px;
+            display: inline-block;
+        }
+    }
+    .ab-incorrect-login-2{
+        width: 100%;
+        background:#FBDCE1;
+        margin-bottom: 30px;
+    }
+    .red-kresik-2{
+        float: left;
+        background: url(../img/ab-krestik.png) no-repeat;
+        width: 22px;
+        height: 22px;
+    }
+    .inputs-text{
+        border: 1px solid #c6c6c6;
+        font-family: "Lato-Regular";
+        font-size: 16px;
+        height: 36px;
+        padding-left: 14px;
+    }
+    .button-2{
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+}
+.ab-map-list{
+    margin-bottom: 146px;
+    li{
+        display: block;
+        margin-bottom: 14px;
+
+        a{
+            color: #2b9fb8;
+            font-style: 15px;
+            font-family: "Lato-Regular";
+        }
+        a:hover{
+            text-decoration: underline;
+
+        }
+
+    }
+    >li{
+
+        a{
+            font-size: 16px;
+            font-family: "Lato-Semibold";
+        }
+    }
+    .sub-list{
+        display: block;
+        margin-left: 15px;
+        li{
+            display: block;
+            margin-bottom: 14px;
+            a{
+                font-family: "Lato-Regular" !important;
+                font-size: 15px !important;
+            }
+        }
+    }
+    li:first-child{
+        a{
+            display: block;
+            margin-top: 14px;
+
+        }
+    }
+
+
+}
+
+.ab-site-map-page{
+    h1{
+        margin-top:24px;
+        margin-bottom:34px;
+    }
+}
+
+/*==========  Footer Profile  ==========*/
+
+.footer-profile{
+    background: #F9F6EF;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    .footer-profile-left{
+        padding: 22px 0;
+        ul{
+            li{
+                a{
+                font-family: "Lato-Bold";
+                font-size: 15px;
+                color:#000000;
+                padding-top:10px;
+                padding-bottom:2px;
+                border-bottom:1px solid #DDD9D0;
+                display: inline-block;
+                }
+            }
+        }
+    }
+    .footer-profile-right{
+        .ab-right-span{
+            span{
+                font-family: "Lato-Medium";
+                font-size: 14px;
+                color:#000000;
+                display: inline-block;
+                padding:10px 0;
+            }
+        }
+    }
+    .ab-soc-ico{
+        padding-bottom:20px;
+    }
+}
+
+/*==========  Poisk Page  ==========*/
+
+.ab-poisk-page{
+    text-align: center;
+    h1{
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    .ab-poisk{
+        margin-top: 20px;
+        font-family: "Lato-Regular";
+        font-size: 15px;
+        color:#000000;
+        label{
+            position: relative;
+        }
+        input[type="text"]{
+            width: 100%;
+            height: 44px;
+            padding-left: 15px;
+            color: #000000;
+            border: 2px solid #EBEBEB;
+            outline: none;
+        }    
+        input[type="submit"]{
+            width: 24px;
+            height: 25px;
+            position: absolute;
+            right: 14px;
+            top: -5px;
+            background: url(../img/lupa.png) no-repeat;
+            border: none; 
+        }
+    }
+    .ab-num-poisk{
+        border-bottom: 3px solid #FCEECF;
+        padding-bottom:16px;
+        margin-bottom: 17px;
+        span{
+            font-family: "Lato-Regular";
+            font-size: 15px;
+            color:#5D5147;
+            margin-top: 22px;
+            display: inline-block;
+        }
+    }
+    .ab-poisk-rezults{
+        .ab-rezults-title{
+             margin-top: 17px;
+            span{
+                font-family: "Lato-Semibold";
+                font-size: 21px;
+                color:#5D5147;
+                display: inline-block;
+                border-bottom:1px solid #E0E0E0;
+            }
+        }
+    }
+    .ab-rezults-txt{
+        border-bottom:1px solid #C6C6C6;
+        padding:28px 0;
+        span{
+            font-family: "Lato-Light";
+            font-size: 16px;
+            color:#5D5147;
+        }
+    }
+}
+
+.ab-pagination{
+    padding:35px 0 120px;
+}
+
+/*==========  404 Page  ==========*/
+
+.body{
+    background: url(../img/ab-404-bg.jpg) no-repeat;
+    background:cover;
+    min-height: 100%;
+    .ab-404-wrap{
+        text-align: center;
+        margin-top: 73px;
+        .ab-logo-404{
+            img{
+                margin: 0 auto 10px;
+            }
+        }
+        .ab-404-ramka{
+            text-align: center;
+            border: 8px solid #fff;
+            padding: 0 10px 10px;
+            margin-top: 130px;
+            .ab-number{
+                padding-top:40px;
+                span:first-child{
+                    font-family: "Lato-Bold";
+                    font-size: 74px;
+                    color:#F4DF95;
+                    display: block;
+                }
+                span:last-child{
+                    font-family: "Lato-Regular";
+                    font-size: 35px;
+                    color:#fff;
+                    display: block;
+                }
+            }
+            .ab-txt-404{
+                padding-top:50px;
+                padding-bottom:40px;
+                span{
+                    font-family: "Lato-Light";
+                    font-size: 20px;
+                    color:#fff;
+                }
+                a{
+                    color:#fff;
+                    border-bottom:1px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+/*==========  Teh Pereriv  ==========*/
+
+.body-teh{
+    background: url(../img/ab-teh.jpg) no-repeat;
+    background:cover;
+    min-height: 100%;
+    position:relative;
+    z-index: 10;
+    display: block;
+    .ab-teh-wrap{
+        text-align: center;
+        .ab-niz-teh{
+            text-align: center;
+            padding: 20px 0;
+            span{
+                font-family: "Lato-Medium";
+                font-size: 14px;
+                color:#ADB5C2;
+            }
+        }
+        .ab-logo-404{
+            img{
+                margin: 50px auto 70px;
+            }
+        }
+        .ab-teh-ramka{
+            border: 8px solid #fff;
+            padding: 0 10px;
+            padding-bottom:20px;
+            .ab-ramka-title{
+                span{
+                    display: inline-block;
+                }
+                span:first-child{
+                    font-family: "Lato-Regular";
+                    font-size: 35px;
+                    color:#F4DF95;
+                    padding-top:66px;
+                }
+                span:last-child{
+                    font-family: "Lato-Light";
+                    font-size: 20px;
+                    color:#fff;
+                    padding-top:36px;
+                    padding-bottom:34px;
+                }
+            }
+        }
+        .ab-tehmain-wrap{
+            .ab-box-1:first-child{
+                span{
+                    font-family: "Lato-Regular";
+                    font-size: 25px;
+                    color:#fff;
+                }
+            }
+            .ab-box-1{
+                padding-top:20px;
+                .ab-box-title{
+                    font-family: "Lato-Semibold";
+                    font-size: 16px;
+                    color:#fff;
+                    display: block;
+                    padding-bottom:10px;
+                }
+                span{
+                    font-family: "Lato-Light";
+                    font-size: 16px;
+                    color:#fff;
+                }
+                .ab-email-border{
+                    border-bottom:1px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+/*====== all profile ======*/
+
+
+.profile-wrapp-all{
+    border: 1px solid #BEBEBE;
+    padding-top:10px !important;
+    padding-left:29px!important;
+    padding-right:29px!important;
+    min-height:268px;
+    .ab-profile-img-2{
+        //padding-right:20px;
+    }
+}
+
+.ab-right-pr{
+    span{
+        display: inline-block;
+        //padding-right:20px;
+
+    }
+   .ab-r-f{
+        font-family: "Lato-Semibold";
+        font-size: 15px;
+        color:#000000;
+        //padding-top: 35px;
+    }
+    .ab-r-f-2{
+        font-family: "Lato-Light";
+        font-size: 15px;
+        color:#000000;
+        line-height: 24px;
+    }
+}
+
+.ab-all-profile-head{
+    padding-top:25px;
+    padding-bottom: 36px;
+    display: block;
+    span{
+        font-family: "Lato-Regular";
+        font-size: 35px;
+        color:#5D5147;
+    }
+}
+
+.ab-first-pro-2{
+    span:first-child{
+        font-family: "Lato-Light" !important;
+        font-size: 15px !important;
+        color:#000000;
+    }
+}
+
+.profile-wrapp-next{
+    border:1px solid #BEBEBE;
+    min-height: 300px;
+    padding: 37px 15px;
+    margin-top: 20px;
+    .ab-profile-info-next{
+        .ab-first-pro-next{
+            .ab-99{
+            font-family: "Lato-Light" !important;
+            font-size: 15px !important;
+            color:#000000;
+            }
+        }
+    }
+    .ab-profile-img-next{
+        padding-top: 0;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+   
+    .ab-col{
+        li{
+            width: 50% !important;
+            //outline: 1px solid red;
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+    
+
+    .body{
+    .ab-404-wrap{
+        text-align: center;
+        margin-top: 73px;
+        .ab-logo-404{
+            img{
+                margin: 0 auto 10px;
+            }
+        }
+        .ab-404-ramka{
+            padding: 0 10px 10px;
+            margin-top: 130px;
+            .ab-number{
+                padding-top:80px;
+            }
+            .ab-txt-404{
+                padding-top:50px;
+                padding-bottom:80px;
+            }
+        }
+    }
+}
+    
+    .ab-poisk-page{
+    text-align: left;
+    }
+
+    .ab-login-wrapper{
+        text-align: left;
+    .ab-login-header{
+        margin-top:36px;
+        span{
+            padding-top:16px;
+        }
+    }
+    .ab-incorrect-login-2{
+        padding-left: 20px;
+        .ab-log-txt{
+            span{
+            padding-left:10px;
+            }
+        }
+    }
+    .red-kresik-2{
+        float: left;
+    }
+    .ab-inputs-wrap-2{
+        display: table;
+        .ab-inputs-span-2{
+            display: table-cell;
+            width: 131px;
+        }
+    }
+    .ab-inputs{
+        display: table-cell;
+    }
+    .inputs-text{
+        padding-right: 184px;
+        padding-left: 14px;
+    }
+    .ab-remember {
+        padding-left: 131px;
+    }
+    .ab-but-log-2{
+        padding-top:40px;
+
+    }
+    .ab-input-label-2{
+        float: left;
+        margin-bottom: 190px !important;
+        margin-top: 36px;
+    }
+    .button-2{
+        padding-left:40px;
+        padding-right:40px;
+    }
+}
+
+/*============================*/
+    
+
+    .ab-remember{
+    margin: 18px auto 5px;
+    text-align: left;
+    padding-left: 138px; 
+    span{
+        font-family: "Lato-Regular";
+        font-size: 16px;
+        color:#7A7A7A;
+        padding-left:10px;
+    }
+}
+
+    .ab-incorrect-login{
+    background: #FBDCE1 url(../img/ab-krestik.png) no-repeat left 39px center;
+    padding: 20px 20px 20px 75px;
+    
+    .kresik-2{
+        position:absolute;
+        background: url(../img/ab-kresik-2.png) no-repeat;
+        width: 7px;
+        height: 7px;
+        right: 13px;
+        top: 13px;
+    }
+}
+
+.ab-window-modal-bottom-next{
+    .ab-modal-txt-next{
+        padding: 10px;
+        .ab-ptichka-img{
+            background: url(../img/ab-ptichka.png) no-repeat;
+             width: 33px;
+            height: 33px;
+            float: left;
+            margin-left: 17px;
+        }
+        span{
+            float: right;
+            padding-bottom: 50px;
+            padding-right: 90px;
+        }
+    }
+}
+
+
+    .ab-zag{
+    text-align: left;
+    }
+    .ab-col{
+        li{
+            width: 25% !important;
+            
+        }
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+
+      .ab-profile-info-2{
+        padding-right:60px !important;
+    }
+    .ab-right-pr{
+    span{
+        display: block;
+        padding-right:0 !important;
+        }
+        .ab-r-f{
+        padding-top: 35px;
+        
+        }
+    }
+
+/*==========  Teh Pereriv  ==========*/
+
+.body-teh{
+    background: url(../img/ab-teh.jpg) no-repeat;
+    background:cover;
+    min-height: 100%;
+    .ab-teh-wrap{
+        text-align: center;
+        .ab-logo-404{
+            img{
+                margin: 50px auto 70px;
+            }
+        }
+        .ab-teh-ramka{
+            padding: 0 50px;
+            padding-bottom:50px;
+            .ab-ramka-title{
+                span{
+                    display: block;
+                }
+                span:first-child{
+                    padding-top:66px;
+                }
+                span:last-child{
+                    padding-top:36px;
+                    padding-bottom:34px;
+                }
+            }
+        }
+        .ab-tehmain-wrap{
+            border-top:1px solid #fff;
+            padding-top:47px;
+            margin-top: 30px;
+            .ab-box-1{
+                text-align: left;
+                //padding: 0 10px;
+                float: left;
+                width: 317px;
+                .ab-box-title{
+                    display: block;
+                    padding-bottom:10px;
+                }
+            }
+            .ab-box-1:first-child{
+                width: 157px;
+                padding-left:0;
+            }
+            .ab-box-1:nth-child(2){
+               span{
+                    line-height: 1.5;
+                }
+            }
+            .ab-box-1:nth-child(3){
+               padding: 22px 10px;
+            }
+        }
+    }
+}
+
+
+ 
+/*===============*/
+    
+
+    .footer-profile{
+        text-align: left;
+        margin-top: 160px;
+        padding: 16px 0;
+    .footer-profile-left{
+        padding: 8px 0;
+        ul{
+            li{
+                display: inline-block;
+                padding-left: 56px;
+                a{
+                //padding-top:10px;
+                //padding-bottom:2px;
+                border-bottom:1px solid #DDD9D0;
+                }
+            }
+            li:first-child{
+                padding-left:0;
+            }
+        }
+    }
+    .footer-profile-right{
+        float: right;
+        .ab-right-span{
+            float: left;
+            span{
+                padding:17px 0;
+                padding-right:14px;
+            }
+        }
+    }
+    .ab-soc-ico{
+        float: left;
+        padding-bottom:0;
+        padding-top:8px;
+        a:first-child{
+            padding-right:14px;
+        }
+    }
+}
+
+    .profile-wrapp{
+        text-align: left;
+        .ab-profile-img{
+            float: left;
+        }
+        .ab-prof-table-wrap{
+            display: table;
+            .ab-prof-table{
+                width: 189px;
+                display: table-cell;
+            }
+        }
+        .ab-profile-info{
+            margin-left: 20px;
+            float: left;
+        }
+    
+       .ab-profile-head{
+            text-align: left;
+        }
+        .ab-profile-greeting{
+            text-align: left;
+            padding-left: 26px;
+        }
+        .ab-profile-img{
+            text-align: left;
+
+        }
+        .ab-comment{
+            text-align: left;
+        }
+        .but-message{
+            text-align: left;
+        }
+    }
+
+    .ab-window-modal{
+        .ab-window-modal-bottom{
+            padding: 20px 40px;
+        }
+        text-align: left !important;
+        .ab-modal-header{
+            padding: 24px 40px 5px;
+            float: left;
+        }
+        .ab-modal-img{
+            img{
+                margin: 0 auto;
+                float: right;
+                margin: 23px 30px 5px;
+            }
+        }
+
+        .ab-inputs-wrap{
+            display: table;
+            .ab-inputs-span{
+                display: table-cell;
+                text-align: left;
+                width: 39%;
+            }
+        }
+        .ab-inputs{
+            display: table-cell;
+            .inputs-text{
+                text-align: left;
+                width: 258%;
+                padding-left:14px;
+            }
+        }
+        .ab-modal-2{
+            .ab-rezume{
+                padding-left:0;
+                padding-top:50px;
+            }
+            .ab-rezume-txt{
+                padding-left:0;
+                float: left;
+            }
+            .ab-rezume-file{
+                float: right;
+                padding-top: 22px;
+            }
+        } 
+        .ab-hr-2{
+            display: block;
+        }
+        .ab-load-file{
+            .ab-br{
+                display: none;
+            }
+        }
+        .ab-but{
+            float: right;
+        }   
+
+    }    
+
+
+
+    .ab-side-vak{
+    margin-top: -70px;
+    }
+    .ab-banner{
+    display: block;
+    width: 100%;
+    }
+    .ab-koteg-wrap{
+        background: url(../img/ab-background.png) no-repeat left center;
+        .ab-wrap-koteg-1{
+            padding-left: 70px;
+            padding-top: 100px;
+            text-align: left;
+            
+            .ab-left-zagolovok{
+            font-size: 43px;
+            line-height: 41px;
+            }
+
+            .ab-cherta{
+                margin-left: 0;
+                margin-top: 40px;
+            }
+
+            ul {
+                li{
+                background: url(../img/ab-ikonka.png) no-repeat center left;
+                font-size: 17px !important;
+                height: 25px;
+                margin-top: 10px;
+                padding-left: 36px;
+                padding-top: 4px;
+                white-space: nowrap;
+                }
+            }
+        }
+        .ab-wrap-koteg-2{
+            padding-right: 70px;
+            padding-top: 100px;
+            text-align: left;
+            .ab-koteg-img{
+                margin-bottom: 40px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+            }
+            img{
+                margin-left: 0 !important; 
+            }
+        }
+    }    
+
+    .footer-bottom{
+        text-align: left;
+    }
+
+    .footer-top{
+        text-align: left;
+    }
+      .ab-contakt{
+        float: left;
+    }
+    .ab-social{
+        float: right;
+    }   
+    .window{ 
+        width: 760px !important;
+        margin: 0 auto !important;
+
+    }
+    .common{
+        width: 100%;
+    }
+}
+   
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .profile-wrapp-next{
+        min-height: 250px;
+        .ab-profile-info-next{
+            .ab-first-pro-next{
+                padding-top: 3px;
+            }
+        }
+    }
+
+    .ab-profile-info-2{
+        padding-right:88px !important;
+    }
+    .ab-right-pr{
+    span{
+        display: block;
+        padding-right:90px;
+        }
+        .ab-r-f{
+        padding-top: 35px;
+        
+        }
+    }
+
+
+
+
+
+
+
+    .ab-partner-wrapp {
+        padding: 128px 0 90px;
+
+        .ab-col{
+            li{
+                width: 146px !important;
+                float: left;
+                margin-right: calc((100% - (146px*7))/6);    
+            }
+            li:last-child{
+                margin-right: 0px;
+            }
+        }
+    }    
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+    //outline: 15px solid blue;
+    //outline: none !important;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+
+

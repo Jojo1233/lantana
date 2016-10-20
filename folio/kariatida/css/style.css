@@ -1,0 +1,135 @@
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+.button-1 {
+  position: relative;
+  padding: 14px 20px;
+  height: 50px;
+  display: inline-block;
+  background: #463A32;
+  color: #fff;
+  font-family: "Lato-Bold";
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  transition: 0.5s linear; }
+
+.button-1:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 51px solid #463A32;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0;
+  transition: 0.5s linear; }
+
+.button-1:hover {
+  background: #735f52; }
+
+.button-1:hover:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 51px solid #735f52;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0; }
+
+.button-2 {
+  position: relative;
+  padding: 14px 20px;
+  display: inline-block;
+  background: #BA8C56;
+  color: #fff;
+  font-family: "Lato-Medium";
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: 0.5s linear;
+  border: none; }
+
+.button-2:hover {
+  background: #735f52; }
+
+.button-2-margin {
+  margin-top: 70px;
+  margin-bottom: 20px; }
+
+.button-2:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 42px solid #BA8C56;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0;
+  transition: 0.5s linear; }
+
+.button-2:hover:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 42px solid #735f52;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0; }
+
+.ab-but-log label {
+  display: inline-block;
+  position: relative; }
+.ab-but-log label:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 42px solid #BA8C56;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0;
+  transition: 0.5s linear; }
+.ab-but-log label:hover {
+  background: #735f52; }
+.ab-but-log label:hover:after {
+  border-left: 1px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 42px solid #735f52;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 0; }
+
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+input, textarea {
+  outline: none !important; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .ab-but-log label {
+    display: inline-block;
+    position: relative;
+    float: right; } }
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/***************/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,219 @@
+
+
+
+@import "reset.css";
+@import "style2.css";
+@import "style3.css";
+@import "style4.css";
+@import "fonts.css";
+
+.button-1{
+    position: relative;
+    padding: 14px 20px; 
+    height: 50px;
+    display: inline-block;
+    background: #463A32;
+    color: #fff;
+    font-family: "Lato-Bold";
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    transition: 0.5s linear;
+    
+}
+
+.button-1:after{
+    border-left: 1px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 51px solid #463A32;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+    transition: 0.5s linear;
+}
+
+
+
+
+.button-1:hover {
+    background: lighten(#463A32, 15%);
+
+}
+
+.button-1:hover:after{
+    border-left: 1px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 51px solid lighten(#463A32, 15%);
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+}
+
+.button-2{
+    position: relative;
+    padding: 14px 20px; 
+    //height: 50px;
+    display: inline-block;
+    background: #BA8C56;
+    color: #fff;
+    font-family: "Lato-Medium";
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: 0.5s linear;
+    border: none;
+    
+}
+
+.button-2:hover {
+    background: lighten(#463A32, 15%);
+}
+.button-2-margin{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.button-2:after{
+    border-left: 1px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 42px solid #BA8C56;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+    transition: 0.5s linear;
+}
+
+.button-2:hover:after{
+    border-left: 1px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 42px solid lighten(#463A32, 15%);
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+}
+
+.ab-but-log{
+    label{
+        display: inline-block;
+        position:relative;
+        //float: right;
+    }
+    label:after{
+        border-left: 1px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 42px solid #BA8C56;
+        content: "";
+        height: 0;
+        position: absolute;
+        right: -7px;
+        top: 0;
+        width: 0;
+        transition: 0.5s linear;
+    }
+    label:hover {
+    background: lighten(#463A32, 15%);
+
+    }
+    label:hover:after{
+    border-left: 1px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 42px solid lighten(#463A32, 15%);
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+    }
+}
+
+h2{
+   
+}
+
+strong{
+	 
+}
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.footer{
+    
+}
+
+.error-input{
+  
+}
+input, textarea{
+    outline: none !important;
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.ab-but-log{
+    label{
+        display: inline-block;
+        position:relative;
+        float: right;
+    }
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+/***************/
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+    //outline: 15px solid blue;
+    //outline: none !important;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+
+
