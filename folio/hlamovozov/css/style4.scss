@@ -1,0 +1,730 @@
+@import "reset.css";
+@import "style.css";
+@import "style2.css";
+@import "style3.css";
+@import "style5.css";
+@import "fonts.css";
+
+
+/*================== Почему мы ===========================*/
+
+.padding-top-col{
+	padding-top:39px !important;
+}
+.ab-pochemy-mi{
+	text-align:center;
+	padding-top:15px;
+	.ab-pochemy-mi-img-box{
+		margin:0 auto;
+		border: 3px solid #fff;
+		background: url(../img/ab-p1.png) center;
+		width: 105px;
+		height: 105px;
+		box-shadow: 0 0 5px 2px rgba(122,122,122,0.5);
+		border-radius:60px;
+	}
+	.ab-pochemy-mi-img-box2{
+		background: url(../img/ab-p2.png) center;
+	}
+	.ab-pochemy-mi-img-box3{
+		background: url(../img/ab-p3.png) center;
+	}
+	.ab-pochemy-mi-img-box4{
+		background: url(../img/ab-p4.png) center;
+	}
+	.ab-pochemy-mi-img-box5{
+		background: url(../img/ab-p5.png) center;
+	}
+	.ab-pochemy-mi-img-box6{
+		background: url(../img/ab-p6.png) center;
+	}
+	.ab-pochemy-mi-txt{
+		padding-top: 15px;
+		span{
+			display: block;
+		}
+		span:first-child{
+			font-family: "RobotoBold";
+		}
+		span:last-child{
+			font-family: "RobotoRegular";
+		}
+	}
+	.ab-medal{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.ab-medal-bottom{
+		margin-bottom: 4px !important;
+	}
+	.ab-pochemy-mi-title{
+		text-align: center;
+		padding-bottom: 25px;
+		span{
+			font-family: "RobotoBold";
+			font-size: 28px;
+		}
+	}
+}
+
+/*================== Конец Почему мы ===================*/
+
+/*================== Звонок =====================*/
+
+.ab-zvonok{
+	background: url(../img/ab-bg-zvonok.jpg) center;
+	background-size:cover;
+	width:100%;
+	text-align:center;
+	.ab-zvonok-title{
+		font-family: "RobotoBold";
+		font-size: 20px;
+		color: #fff; 
+	}
+	.vhod-bottom{
+	    width: 100%;
+	    display: -webkit-flex; 
+	    display: flex; 
+	    justify-content: space-between;
+	    align-items: center;
+	    //margin-bottom: 55px;
+	    //padding-top:58px;
+	    margin-bottom: 20px;
+	    padding-top:20px;
+	}
+
+	.search-box{
+	    width: 250px;
+	    margin: 0 auto;
+	    .ab-first-input{
+	    	position:relative;
+	    }
+	    .ab-first-input:after{
+			position:absolute;
+			content:" ";
+			background: url(../img/ab-chel.png) no-repeat left;
+			width: 20px;
+			height: 20px;
+			top: 29px;
+			right: 94px;
+	    }
+	    .ab-second-input{
+	    	position:relative;
+	    }
+	    .ab-second-input:after{
+			position:absolute;
+			content:" ";
+			background: url(../img/ab-tel.png) no-repeat left;
+			width: 19px;
+			height: 20px;
+			top: 29px;
+			right: 94px;
+	    }
+	}
+	.ab-form{
+	    display: block;
+	    position: relative;
+	    border-radius: 5px;
+	    width: 250px;
+	    height: 48px;
+	    border: 1px solid #cbd1d6;
+	    box-sizing: border-box;
+		 
+		input[type="text"]{
+		    width: 250px;
+		    height: 49px;
+		    line-height: 51px;
+		    padding: 0px 40px;
+		    border: none;
+		    box-sizing: border-box;
+		    z-index: 10;
+		    top: 0;
+		    left: 0;
+		    font-size: 18px;
+		    color: #97a3ad;
+		    outline: none !important;
+		    letter-spacing: .02em;
+		    font-family: "RobotoRegular";
+		    max-height: 100%;
+		    overflow: hidden;
+		    border-radius:4px;
+		}
+    }
+    .ab-zvonok-button{
+    	padding-top:20px;
+    	padding-bottom:20px;
+    	text-align: center;
+		.ab-button{
+			display: inline-block;
+			background:#FFC600;
+			padding:12px 38px;
+			font-family: "RobotoBold";
+			font-size: 18px;
+			color: #131313;
+			border-radius:5px;
+		}
+    }
+    .ab-zvonok-tel{
+		font-family: "RobotoRegular";
+		font-size: 28px;
+		color: #fff;
+		padding:30px 0;
+    }
+    .ab-zvonok-tel-3{
+		font-family: "RobotoRegular";
+		font-size: 28px;
+		color: #fff;
+    }
+     .ab-zvonok-tel-2{
+		font-size: 22px;
+		font-family: "RobotoRegular";
+		color: #fff;
+		//padding-right:152px;
+		//padding-bottom:10px;
+    }
+}
+
+.ab-zvonok2{
+	background: url(../img/ab-bg2.jpg) no-repeat center;
+	background-size:cover;
+}
+
+/*================== Конец Звонок =====================*/
+
+
+
+/*================== Отзывы =====================*/
+
+.ab-otziv{
+	background:url(../img/ab-bg-3.jpg) no-repeat center;
+	background-size:cover;
+	padding:93px 0 98px;
+	.ab-otziv-title{
+		text-align: center;
+		span{
+			font-family: "RobotoBold";
+			font-size: 28px;
+		}
+	}
+	.ab-otziv-face-wrap{
+		width: 200px;
+		margin: 0 auto;
+		padding-top:60px;
+		.ab-face-img-wrap{
+			padding-left:15px;
+			.ab-face-img{
+				width: 166px;
+				height: 162px;
+				border:0px solid #fff;
+				border-radius:84px;
+				box-shadow: 2px 15px 15px rgba(188, 188, 188, 0.7);
+			}
+		}
+		.ab-face-txt{
+			padding-top:20px;
+			span{
+				font-family: "RobotoBold";
+				font-size: 24px;
+				color: #31A900;
+			}
+		}
+		.ab-face-txt-2{
+			padding-left:22px;
+			span{
+				color: #D2A900;
+			}
+		}
+		.ab-face-txt-3{
+			padding-left:7px;
+			span{
+				color: #F40000;
+			}
+		}
+		.ab-face-number{
+			background:url(../img/ab-bg-num.png) no-repeat center;
+			width: 127px;
+			height: 40px;
+			padding-top:14px;
+			padding:4px 0px;
+			margin-top: 7px;
+			margin-left: 31px;
+			position:relative;
+			span{
+				font-family: "Arial";
+				font-weight: bold;
+				font-size: 28px;
+				padding-left:8px;
+			}
+			span:nth-child(2){
+				padding-left:11px;
+			}
+			span:nth-child(3){
+				padding-left:12px;
+			}
+			span:nth-child(4){
+				padding-left:13px;
+			}
+		}
+		.ab-face-number:after{
+			background:url(../img/ab-line.png) no-repeat center;
+			content: "";
+			position:absolute;
+			width: 128px;
+			height: 6px;
+			top: 17px;
+			right: -1px;
+		}
+		.ab-face-number-2{
+			background:url(../img/ab-bg-num-2.png) no-repeat center !important;
+			width:95px;
+			height: 40px; 
+			position:relative;
+			margin-left:50px;
+		}
+		.ab-face-number-2:after{
+			background:url(../img/ab-line-2.png) no-repeat center !important;
+			content: "";
+			position:absolute;
+			width: 97px;
+			height: 6px;
+			right: -1px;
+			top: 17px;
+		}
+	}
+	.ab-comments-wrap{
+		margin-top:32px; 
+		background:#fff;
+		//padding:50px 70px;
+		padding:50px 15px;
+		box-shadow: 0 0 5px 3px #D5D5D5;
+		border-radius:5px;
+		.ab-comments-txt{
+			text-align: center;
+			span{
+				display: block;
+			}
+			span:first-child{
+				font-family: "RobotoBold";
+				font-size: 20px;
+				padding-bottom:33px;
+			}
+			span:last-child{
+				font-family: "RobotoRegular";
+				font-size: 16px;
+				color: #797979;
+			}
+		}
+		.ab-comform-wrap{
+			margin-top:37px; 
+			.ab-comform{
+				.ab-text-area{
+					border:1px solid #D0D0D0;
+					border-radius:5px;
+					resize: none;
+					padding-top:5px;
+					padding-left:5px;
+					font-family: "RobotoRegular";
+					font-size: 16px;
+					height: 118px;
+				}
+			}
+		}
+		.ab-chekbos-title{
+			font-family: "RobotoBold";
+			font-size: 18px;
+			padding-bottom:11px;
+			text-align: center;
+			padding-top:10px;
+		}
+		.ab-my-chekbox-wrap{
+			width: 102px;
+			height: 74px;
+			margin:0 auto;
+			.ab-chekbox-span{
+				font-family: "RobotoRegular";
+				font-size: 12px;
+				color:#B1B1B1;
+				padding-top: 11px;
+			}
+			.ab-my-chekbox{
+				position:relative;
+				.checkbox {
+				    display: none;
+				}
+				.checkbox-custom {
+				    position: relative;    
+				    width: 31px;             
+				    height: 30px;            
+				    border: 2px solid #A18F8F;
+				    background:none;
+				    border-radius: 5px;
+				    margin-top: 13px;
+				}
+				.checkbox-custom, .label {
+				    display: inline-block;
+				    vertical-align: middle;
+				}
+				.checkbox:checked + .checkbox-custom::before {
+				    content: "";            
+				    display: block;          
+				    position: absolute;      
+				    top: 4px;
+				    right: 2px;
+				    bottom: 2px;
+				    left: 1px;
+				    background: url(../img/ab-galka.png) no-repeat;
+				    border-radius: 2px;
+				}	
+			}
+			.ab-my-chekbox:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-1.png) no-repeat;
+				width: 54px;
+				height: 56px;
+			}
+			.ab-my-chekbox-2:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-2.png) no-repeat !important;
+				width: 54px;
+				height: 56px;
+			}
+			.ab-my-chekbox-3:after{
+				position:absolute;
+				content: "";
+				top: 0;
+				background: url(../img/ab-anim-3.png) no-repeat !important;
+				width: 54px;
+				height: 56px;
+			}
+		}
+		.col-padding-left-0{
+			padding-left:0;
+		}
+		.ab-last-block-comments-wrap{
+			text-align: center;
+			div{
+				margin-top: 32px; 
+			}
+			padding-top:32px;
+			.ab-last-block-txt{
+				font-family: "RobotoBold";
+				font-size: 18px;
+			}
+			.ab-last-block-input{
+				.ab-in-put{
+					border: 1px solid #D0D0D0;
+					border-radius:5px;
+					width: 226px;
+					//width: 258px;
+					height: 48px;
+					padding-left:5px;
+				}
+			}
+			.ab-last-block-button{
+				a{
+					display: inline-block;
+					font-family: "RobotoBold";
+					font-size: 24px;
+					background:#FFC600;
+					padding:8px 33px;
+					color: #131313;
+					border-radius:5px;
+				}
+			}
+			.ab-last-block-txt-bottom{
+				font-family: "RobotoRegular";
+				font-size: 14px;
+				color:#838383;
+			}
+		}
+	}
+}
+
+/*================== Конец Отзывы ===============*/
+
+/*================== Нижняя часть Хедер ===============*/
+
+
+.header-bottom{
+	background:url(../img/big-bg.jpg) no-repeat center;
+	background-size:cover;
+	height:660px;
+	padding-top:30px;
+	.ab-div-logo{
+		img{
+			margin: 0 auto; 
+		}
+	}
+	.ab-top-txt{
+		padding-bottom:10px;
+		padding-top:10px;
+		text-align: center;
+		a:first-child{
+			font-family: "RobotoBold";
+			font-size: 14px;
+			color:#2C3139;
+		}
+		a:last-child{
+			font-family: "RobotoRegular";
+			font-size: 14px;
+			color:#2C3139;
+			border-bottom: 1px dashed #2C3139;
+			margin-left: 9px;
+		}
+	}
+	.ab-top-right{
+		text-align: center;
+		span:first-child{
+			font-family: "RobotoBold";
+			font-size: 28px;
+			color:#2C3139;
+			display: block;
+		}
+		span:nth-child(2){
+			font-family: "RobotoRegular";
+			font-size: 14px;
+			display: block;
+			padding-top: 8px;
+			padding-bottom:13px;
+		}
+		a{
+			display: inline-block;
+			font-family: "RobotoBold";
+			font-size: 14px;
+			text-transform: uppercase;
+			padding:17px 19px;
+			background:#FFC600;
+			border-radius:5px;
+			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
+			transition: 1s linear;
+		}
+		a:hover{
+			background:#FFE21C;
+		}
+	}
+	.ab-down{
+		text-align: center;
+		margin-top:200px;
+		span{
+			display: block;
+			font-family: "RobotoBold";
+			//font-size: 46px;
+			font-size: 38px;
+			text-transform: uppercase;
+		}
+		a{
+			display: inline-block;
+			font-family: "RobotoBold";
+			//font-size: 20px;
+			font-size: 14px;
+			text-transform: uppercase;
+			padding:17px 19px;
+			background:#FFC600;
+			border-radius:5px;
+			box-shadow: 2px 15px 15px rgba(177, 184, 178, 0.7);
+			transition: 1s linear;
+			margin-top:18px; 
+
+		}
+		a:hover{
+			background:#FFE21C;
+		}
+	}
+}
+
+
+/*=============== Конец Нижняя часть Хедер ===========*/
+
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+
+	.search-box{
+	    min-width: 375px;
+	    .ab-first-input{
+	    	position:relative;
+	    }
+	    .ab-first-input:after{
+			width: 20px;
+			height: 20px;
+			top: 29px;
+			right: 157px !important;
+	    }
+
+	    .ab-second-input:after{
+			width: 19px;
+			height: 20px;
+			top: 29px;
+			right: 157px !important;
+	    }
+	}
+	.ab-form{
+	    min-width: 375px;
+		input[type="text"]{
+		    min-width: 375px;
+		}
+	}	
+
+	.ab-pochemy-mi-title{
+		span{
+			font-size: 35px !important;
+		}
+	}
+
+	.ab-text-area{
+		width: 100%;
+	}
+	.ab-my-chekbox-wrap{
+		float: left;
+		
+	}
+	
+	.ab-chekbos-title{
+		text-align: left !important;
+	}
+	.ab-in-put{
+		width: 258px !important;
+	}
+	.margin-left20{
+		margin-left: 20px !important;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.ab-pochemy-mi-title{
+		span{
+			font-size: 48px !important;
+		}
+	}
+
+}
+
+@media only screen and (min-width : 992px) {
+
+	.ab-pochemy-mi{
+		text-align: left;
+		.ab-pochemy-mi-img-box{
+			float: left;
+		}
+		.ab-pochemy-mi-txt{
+			float: left;
+			padding-left:34px;
+			max-width: 450px;
+			padding-top:11px;
+		}
+	}
+	.ab-medal{
+		margin-top:62px !important;
+		margin-bottom: 100px !important;
+		
+	}
+
+	.vhod-bottom{
+	    margin-bottom: 55px !important;
+	    padding-top:58px !important;
+	}    
+	.ab-zvonok-button{
+    	padding-top:58px !important;
+    	text-align: left !important;
+    }
+    .ab-zvonok-title{
+    	padding-right:149px;
+    	padding-top:48px;
+		span{
+			font-size: 48px;
+		}
+    }
+   .ab-zvonok-tel{
+   	padding-right:166px !important;
+   	padding-top:0 !important;
+   	padding-bottom: 76px !important;
+   		span{
+			font-size: 48px !important;
+		}
+    }
+    .ab-zvonok-tel-2{
+		font-size: 36px !important;
+		font-family: "RobotoRegular";
+		color: #fff;
+		padding-right:152px;
+		padding-bottom:10px;
+    }
+    .ab-zvonok-tel-3{
+		font-family: "RobotoRegular";
+		font-size: 48px !important;
+		color: #fff;
+		padding-right:163px;
+		padding-bottom:4px;
+    }
+    .ab-soc{
+		padding-right:137px;
+		padding-bottom:40px;
+    }
+    .ab-otziv-title{
+		text-align: center;
+		span{
+			font-size: 48px !important;
+		}
+	}
+	.ab-comments-wrap{
+		padding:50px 20px 50px 70px !important;
+	}
+	.ab-text-area{
+		width: 552px;
+	}
+	.ab-comform-wrap{
+		width: 552px;
+		float: left;
+	}
+	.ab-chekbox-wrap{
+		width: 464px;
+		float: left;
+		margin-left: 30px;
+	    margin-top: 25px;
+	}
+	.ab-last-block-comments-wrap{
+		text-align: left !important;
+	}
+	.ab-last-block-txt,	.ab-last-block-input, .ab-last-block-button{
+		float: left;
+	}
+	.ab-last-block-input, .ab-last-block-button{
+		padding-left:29px;
+	}
+	.ab-top-right{
+		text-align: right !important;
+		span:first-child{
+			font-size: 30px !important; 
+		}
+	}
+	.ab-top-txt{
+		padding-top:25px !important;
+	}
+	.ab-down{
+		margin-top: 322px !important;
+		span{
+			font-size: 46px;
+		} 
+	}	
+}
+
+@media only screen and (min-width : 1248px) {
+
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //outline: 5px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}

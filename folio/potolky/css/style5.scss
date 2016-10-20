@@ -1,0 +1,316 @@
+
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+
+/*# sourceMappingURL=style5.css.map */
+                    //FOTOGRAFII---------------------------------
+.clear{
+    clear:both;
+}
+.zk_photos_osn{        
+            .first, .second{
+          font-size: 26px;
+          font-family: "PFBeauSansPro-SeBold";
+          color:#000000;
+          padding-bottom: 16px;
+          margin-left: 23px;
+          border-bottom: 2px solid #f3b217;width:155px;          
+          }
+          .second{
+            margin-top: 35px;           
+            border-bottom: 2px solid #f3b217;  width: 218px;            
+          }    
+        .zk_photos {
+            border-top:1px solid #e9e9ee;
+            padding-top: 30px;                                             
+            width: 100%;
+            display: block;
+            li.zk_photo {                
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    background-size: cover;                  
+                }
+            }  
+            li:last-child{
+                margin-right: 0;
+            }
+            li a{
+                display: block;
+                width: 100%;
+
+                position: relative;
+                z-index: 9;                
+            }     
+            li a:hover:before{
+                content:"";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left:0;
+                top:0;
+                background: rgba(#ffc300,0.7);
+                z-index: 10;
+            }  
+            li a:hover:after{
+                content:"";
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                left:50%;
+                top:40%;
+                background: url(../img/photo_hover.png) no-repeat left center;
+                z-index: 11;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+        }
+        .zk_videos{            
+            margin-bottom: 15px; 
+            border-top:1px solid #e9e9ee;
+            padding-top: 30px;
+            text-align: center;                                       
+            .zk_video {                
+                img{
+                    width: 100%;
+                    background-size: cover;
+                    margin:0 auto;
+                }
+                 li a{
+                    display: inline-block;
+                    position: relative;
+                    z-index: 9;                                
+                }     
+                 
+                 li a:hover:after{
+                    content:"";
+                    position: absolute;
+                    width: 51px;
+                    height: 60px;
+                    left:50%;
+                    top:40%;
+                    background: url(../img/video_hover.png) no-repeat left center;
+                    z-index: 10;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }  
+            }           
+
+        }
+}
+
+
+
+        //VOZNIKLIVOPROSI--------------------------------------
+
+
+.banner_vopros{
+     font-family: "PFBeauSansPro-SeBold";
+     height:auto;   
+     background: url(../img/zk_bg_vopros.png) repeat;
+     text-align: center;
+     height:195px;
+     margin-bottom: 37px;
+     margin-top: 30px;
+     padding:60px 0;
+     margin-left: 10px;
+     margin-right: 10px;     
+    .zk_text{ 
+            vertical-align: middle;
+         h3{
+            font-size:17px;      
+            color:#ffffff;
+            
+        }
+        p{
+            font-size:10px;                   
+            color:#acacae;
+            font-family: "PFBeauSansPro-Reg";
+            padding-right: 38px; 
+            margin-bottom: 7px;           
+        }
+        .zk_banner_vop{
+            width:60px;      
+            height: 15px;        
+            font-size: 9px;            
+            color:#ffffff;
+            background: #e32b45;
+            border-radius: 3px;
+            font-weight: bold;
+            text-align: center;
+            padding: 6px 4px;
+            margin-right: 130px;
+            transition-property:background;
+            transition-duration: 0.7s;                      
+        }
+        .zk_banner_vop:hover{
+            background: #d1003a;
+            
+        }
+    }
+    
+}
+                                                //ABOUT US PORTAL______________________________----------------
+
+
+
+.about_us_portal{
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 17px;
+    color:#303032;
+    margin:100px 26px;
+    line-height: 1.7em;
+    margin-top: 90px;
+    margin-bottom: 100px; 
+    h3{
+        font-family:"PFBeauSansPro-Book";
+        font-size:30px;
+        color:#000000;
+        margin-bottom: 20px;        
+    }
+    .about_us_img{
+         .zk_first{       
+            float:left;
+            margin:10px 0;
+            margin-right: 50px;
+            margin-top: -2px;             
+        }         
+        p{
+            margin-top: 18px;                     
+            b{
+                font-weight: bold;
+                color:black;
+                font-family:"PFBeauSansPro-SeBold";
+            }
+        }
+    }   
+}
+
+
+
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (min-width : 480px) {   
+    .zk_photos{ 
+        li.zk_photo {                
+            float: left;  
+            width: 50% !important;
+        }
+    }
+    .zk_videos{
+         
+    }
+    .banner_vopros{        
+        
+        .zk_text{                
+             h3{
+                font-size: 19.5px;                
+             }
+            p{
+                font-size: 11.5px;           
+             }
+            .zk_banner_vop{
+                font-size: 10px;
+                padding:7px 9px;                     
+                margin-right: 135px;             
+             }
+        }
+    }     
+    
+}
+
+@media only screen and (min-width : 768px) {
+    .zk_videos{ 
+        padding-left: 30px;
+        .zk_video li {            
+           width: 48%;
+           float:left;          
+           display: block;
+           padding-right: 10px;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width : 992px) {
+    .zk_photos { 
+        li.zk_photo {
+            max-height: 130px;         
+            overflow: hidden;
+            width: 19.75% !important;
+            margin-right: 0.312%;             
+        }  
+        li:last-child{
+            margin-right: 0;
+        }
+    }
+    .zk_videos{               
+            .zk_video {
+                 float: left;                 
+                li{            
+                  width:100% ;
+                  clear:both;
+                 }   
+            }
+    }
+    .banner_vopros{
+        background: url(../img/zk_vopros2.jpg) repeat-x;        
+        height:195px;
+        padding-top:70px;
+        padding-left: 330px;
+        .zk_text{                
+             h3{
+                font-size: 19px;                
+             }
+            p{
+                font-size: 11px;           
+             }
+            .zk_banner_vop{
+                font-size: 10px;
+                padding:7px 9px;           
+                margin-right: 127px;                
+             }
+        }
+    }                   
+}
+
+@media only screen and (min-width : 1200px) {
+    .banner_vopros{        
+        padding-left: 200px;       
+        .zk_text{               
+             h3{
+                font-size: 21.5px;                
+             }
+            p{
+                font-size: 13px;           
+             }
+            .zk_banner_vop{
+                font-size: 11px;
+                padding:7px 9px;           
+                margin-right: 153px;                
+             }
+        }
+    }
+    .float_left{
+        float:left;
+    }
+    .float_right{
+        float:right;
+    }
+    .zk_videos{
+        padding-left:22px;
+        padding-right:22px;        
+    }
+    
+}
+    

@@ -1,0 +1,264 @@
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.ah-bottomhead-box {
+  width: 100%;
+  min-height: 502px;
+  background: url(../img/ah-topfon.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 10px; }
+
+.ah-bottomhead-box1 {
+  width: 100%;
+  height: 480px;
+  border: 1px solid #fff; }
+
+.ah-bottomhead-box1-span {
+  display: inline-block;
+  font-family: "PFBeauSansPro-SeBold";
+  color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: #000;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px; }
+
+.ah-bottomhead-box2 {
+  margin-top: 68px;
+  margin-left: 15px;
+  font-size: 0; }
+
+.ah-bottomhead-info {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.11);
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: -50px; }
+  .ah-bottomhead-info p {
+    display: block;
+    font-family: "PFBeauSansPro-Reg";
+    color: #2f2f30;
+    font-size: 17px;
+    line-height: 24px;
+    vertical-align: middle; }
+  .ah-bottomhead-info a {
+    display: block;
+    width: 169px;
+    height: 49px;
+    background-color: #f3b217;
+    border-radius: 6px;
+    font-family: "PFBeauSansPro-SeBold";
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle; }
+
+.ah-head {
+  margin-top: 26px;
+  margin-bottom: 36px; }
+
+.ah-logobox-table {
+  display: block; }
+
+.ah-logobox {
+  display: block;
+  width: 190px;
+  height: 73px;
+  margin: 0 auto; }
+
+.ah-head-span {
+  position: relative;
+  display: block;
+  font-family: "PFBeauSansPro-Reg";
+  color: #070707;
+  font-size: 15px;
+  line-height: 21px;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-top: 0px;
+  text-align: center;
+  margin-top: 15px; }
+
+.ah-head-span:before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 41px;
+  top: 19px;
+  left: 22px;
+  background: none; }
+
+.ah-head-list {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px; }
+  .ah-head-list li {
+    display: block;
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 10px; }
+    .ah-head-list li a {
+      position: relative;
+      display: inline-block;
+      font-family: "PFBeauSansPro-Book";
+      font-size: 22px;
+      line-height: 21px;
+      color: #000; }
+    .ah-head-list li a:hover {
+      color: #b0b5c1; }
+    .ah-head-list li a:hover:before {
+      background: none; }
+  .ah-head-list li:last-child {
+    margin-right: 0px; }
+
+.ah-head-form {
+  margin-left: 0px; }
+  .ah-head-form label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e2e5ef;
+    border-radius: 6px;
+    outline: none; }
+  .ah-head-form input[type="text"] {
+    padding: 6px 30px 6px 5px;
+    width: 100%;
+    color: #5c5f62;
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 13px;
+    line-height: 21px;
+    outline: none;
+    border: none; }
+  .ah-head-form input[type="submit"] {
+    position: absolute;
+    top: 7px;
+    right: 3px;
+    width: 21px;
+    height: 21px;
+    background: url(../img/ah-top1.png) center center no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer; }
+
+@media only screen and (min-width: 768px) {
+  .ah-bottomhead-info {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.11);
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: -50px; }
+    .ah-bottomhead-info p {
+      display: table-cell;
+      font-family: "PFBeauSansPro-Reg";
+      color: #2f2f30;
+      font-size: 17px;
+      line-height: 24px;
+      vertical-align: middle; }
+    .ah-bottomhead-info a {
+      display: table-cell;
+      width: 169px;
+      height: 49px;
+      background-color: #f3b217;
+      border-radius: 6px;
+      font-family: "PFBeauSansPro-SeBold";
+      color: #fff;
+      font-size: 15px;
+      line-height: 50px;
+      text-transform: uppercase;
+      text-align: center;
+      vertical-align: middle; }
+
+  .ah-bottomhead-box2 {
+    margin-top: 68px;
+    margin-left: 65px;
+    font-size: 0; }
+
+  .ah-bottomhead-box1-span {
+    font-size: 55px;
+    line-height: 60px; } }
+@media only screen and (min-width: 992px) {
+  .ah-head-form {
+    margin-left: 8px; }
+    .ah-head-form label {
+      position: relative;
+      display: inline-block;
+      background-color: #fff;
+      border: 1px solid #e2e5ef;
+      border-radius: 6px;
+      outline: none; }
+    .ah-head-form input[type="text"] {
+      padding: 6px 40px 6px 22px; }
+    .ah-head-form input[type="submit"] {
+      position: absolute;
+      top: 7px;
+      right: 14px;
+      width: 21px;
+      height: 21px;
+      background: url(../img/ah-top1.png) center center no-repeat;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+
+  .ah-head-list {
+    margin-top: 5px;
+    margin-left: 11px;
+    margin-bottom: 18px; }
+    .ah-head-list li {
+      display: inline-block;
+      margin-right: 18px;
+      width: unset;
+      margin-bottom: 0px; }
+      .ah-head-list li a:hover:before {
+        color: #b0b5c1;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        top: -10px;
+        left: 0px;
+        background: #fab819; }
+    .ah-head-list li:last-child {
+      margin-right: 0px; }
+
+  .ah-logobox-table {
+    display: table; }
+
+  .ah-logobox {
+    display: table-cell;
+    vertical-align: middle; }
+
+  .ah-head-span {
+    position: relative;
+    display: table-cell;
+    padding-left: 42px;
+    padding-top: 5px;
+    text-align: left;
+    margin-top: 0; }
+
+  .ah-head-span:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 41px;
+    top: 19px;
+    left: 22px;
+    background: url(../img/ah-topbord.png) center center no-repeat; } }
+@media only screen and (min-width: 1200px) {
+  .ah-bottomhead-info {
+    display: table;
+    width: 1031px;
+    height: 122px; } }
+
+/*# sourceMappingURL=style2.css.map */
