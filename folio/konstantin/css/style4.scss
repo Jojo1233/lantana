@@ -11,14 +11,20 @@
 		.ab-box-txt{
 			position:absolute;
 			top: 0;
-			padding-left: 16px;
-			padding-top: 18px;
+			margin-left: 16px;
+			margin-top: 18px;
 			span{
 				color: #fff;
 				font-family: "HelveticaNeue-Medium";
 				display: block;
 				font-size: 23px;
 			}
+            a{
+                color: #fff;
+                font-family: "HelveticaNeue-Medium";
+                display: block;
+                font-size: 23px;
+            }
 			.ab-box-txt-span{
 				 font-family: "Helvetica";
 				 color:#fff;
@@ -119,6 +125,134 @@
 
 
 /*=============== end slider.php ==================*/
+
+.ab-logos{
+    .ab-logo-box{
+        img{
+            margin:20px auto;
+            height: auto;
+        }
+    }
+    .box1{
+        img{
+            max-width:135px;
+        }
+    }
+    .box2{
+        img{
+            max-width:179px;
+        }
+    }
+    .box3{
+        img{
+            max-width:64px;
+            padding-top:15px;
+        }
+    }
+    .box4{
+        img{
+            max-width:154px;
+        }
+    }
+    .box5{
+        img{
+            max-width:186px;
+        }
+    }
+    .box6{
+        img{
+            max-width:223px;
+        }
+    }
+    .box7{
+        img{
+            max-width:334px;
+        }
+    }
+   .box8{
+        img{
+            max-width:298px;
+        }
+    }
+    .box9{
+        img{
+            max-width:181px;
+        }
+    }
+    .box10{
+        img{
+            max-width:176px;
+        }
+    }
+    .box11{
+        img{
+            max-width:175px;
+        }
+    }
+    .box12{
+        img{
+            max-width:163px;
+        }
+    }
+    .box13{
+        img{
+            max-width:118px;
+        }
+    }
+    .box14{
+        img{
+            max-width:188px;
+        }
+    }
+    .box15{
+        img{
+            max-width:119px;
+        }
+    }
+    .box16{
+        img{
+            max-width:346px;
+        }
+    }
+    .box17{
+        img{
+            max-width:176px;
+        }
+    }
+
+    .box18{
+        img{
+            max-width:176px;
+        }
+    }
+    .box19{
+        img{
+            max-width:104px;
+        }
+    }
+    .box20{
+        img{
+            max-width:166px;
+        }
+    }
+    .box21{
+        img{
+            max-width:174px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Custom, iPhone Retina */
 
@@ -222,6 +356,8 @@
 
 @media only screen and (min-width : 768px) {
 
+   
+
 	.ab-footer-menu{
 		padding-top:25px;
 		padding-bottom: 16px;
@@ -259,6 +395,71 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+     .ab-logos{
+        .ab-logo-box{
+            float: left;
+            margin-left:105px;
+            //outline: 1px solid red; 
+        }
+        .box1{
+            margin-left: 0 !important;
+        }
+        .box6{
+            img{
+                margin-left:135px;
+                margin-top: 28px; 
+            }
+        }
+        .box7{
+            //outline: 1px solid red;
+            img{
+                 margin-left:90px;
+            }
+        }
+        .box9, .box10 {
+            margin-top: 20px;
+        }
+       .box8{
+            margin-left: 0 !important;
+            margin-top: 12px; 
+        }
+        .box11{
+            margin-left: 92px;
+            margin-top: -30px;  
+        }
+        .box12{
+            margin-left: 0;
+        }
+        .box13{
+           margin-left: 148px; 
+        }
+        .box14{
+           margin-left: 188px; 
+        }
+        .box15{
+            margin-left: 213px;
+            margin-top: -56px;
+        }
+        .box16{
+             margin-left: 133px;
+        }
+        .box17{
+            float: right;
+            margin-top: -16px;
+        }
+
+        .box18{
+           margin-left: 0 !important;
+        }
+        .box19, .box20{
+            margin-left: 176px;
+        }
+       
+        .box21{
+            float: right;
+        }
+    }
 
 	.ab-str{
 		left: 50%;

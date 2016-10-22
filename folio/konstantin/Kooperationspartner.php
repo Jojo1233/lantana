@@ -33,7 +33,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header7.php'); ?>
-	<section class="qq-impressum">
+	<section class="qq-impressum qq-krp">
 		<div class="container">
 
 			<div class="row">

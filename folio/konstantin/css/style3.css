@@ -94,10 +94,11 @@ body {
   .main-menu a {
     color: #000;
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    text-transform: uppercase; }
   .main-menu a:before {
     position: absolute;
-    top: 0px;
+    bottom: 2px;
     left: 0px;
     content: '';
     width: 0%;
@@ -105,6 +106,24 @@ body {
     background: #777;
     transition: width 0.5s ease-in-out; }
   .main-menu a:hover:before {
+    width: 100%; }
+
+.ab-footer-menu {
+  text-align: left; }
+  .ab-footer-menu a {
+    color: #000;
+    position: relative;
+    display: inline-block; }
+  .ab-footer-menu a:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #777;
+    transition: width 0.5s ease-in-out; }
+  .ab-footer-menu a:hover:before {
     width: 100%; }
 
 .az-head-span {
@@ -208,11 +227,27 @@ body {
 
 .ah-arr {
   position: absolute;
-  width: 100%;
+  width: 0%;
   height: 9px;
   background: #9dbd1a;
   transform-origin: 0px 0px;
-  animation: len 2.5s ease-in-out; }
+  animation: len 1s linear;
+  animation-fill-mode: both; }
+
+.ah-arr1 {
+  animation-delay: 1s; }
+
+.ah-arr2 {
+  animation-delay: 2s; }
+
+.ah-arr3 {
+  animation-delay: 3s; }
+
+.ah-arr4 {
+  animation-delay: 4s; }
+
+.ah-arr5 {
+  animation-delay: 5s; }
 
 .az-arrow {
   position: absolute;
@@ -230,10 +265,10 @@ body {
 @keyframes rot {
   0% {
     transform-origin: 0% 0%;
-    transform: rotate(0deg) translate(-50%, 0); }
+    transform: rotate(0deg) translate(32px, 0); }
   100% {
     transform-origin: 0% 0%;
-    transform: rotate(360deg) translate(-50%, 0); } }
+    transform: rotate(360deg) translate(32px, 0); } }
 .az-radar-elem-item {
   font-family: "Helvetica";
   border: 1px solid #e6e6e6;
@@ -384,6 +419,30 @@ body {
 .ab-str:hover {
   animation: shake 1s ease-in-out; }
 
+.ah-transakvol .col-md-12 {
+  position: relative; }
+
+.cube {
+  width: 2em;
+  transform-style: preserve-3d; }
+
+.side {
+  transition: all 1s ease-in-out; }
+  .side img {
+    transition: all 1s ease-in-out; }
+
+.side:hover {
+  transform: rotateY(-180deg); }
+  .side:hover img {
+    transform: rotateY(180deg); }
+
+.ab-main-img-box {
+  font-size: 0px;
+  transition: opacity 1s ease-in-out; }
+
+.ab-main-img-box:hover {
+  opacity: 0.8; }
+
 @media only screen and (min-width: 480px) {
   .slidetextbox-outer {
     padding: 0px; }
@@ -395,15 +454,18 @@ body {
   .az-radar-elem {
     opacity: 0; }
 
+  .az-radar-elems > div {
+    display: block; }
+
   .az-radar-arrow {
     position: fixed;
     top: 50%;
     left: 50%;
     box-shadow: 0 -10px 20px #aaa;
     animation: rot 4s linear infinite;
-    width: 1150px;
+    width: 543px;
     height: 3px;
-    background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px)); }
+    background: #fff; }
 
   .az-pos1 {
     position: fixed;

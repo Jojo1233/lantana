@@ -98,9 +98,9 @@
 	    loop: true,
 	    margin:0,
 	    items: 1,
-	    autoplay: false,
+	    autoplay: true,
 	    smartSpeed:500,
-	    autoplayTimeout:7000,
+	    autoplayTimeout:10000,
 	    nav: true,
 	    navText:['<span class="az-arrowleft"></span>','<span class="az-arrowright"></span>']
 	});

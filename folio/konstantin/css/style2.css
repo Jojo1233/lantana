@@ -1,9 +1,6 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
+.ah-br1 {
+  display: none; }
+
 .ah-resbody {
   background: url(../img/ah-resfon.jpg) top center no-repeat;
   background-size: cover !important; }
@@ -30,7 +27,8 @@
   background-color: #fff;
   padding: 25px 7px;
   text-align: center;
-  width: 150%; }
+  width: 150%;
+  height: 0px; }
 
 .ah-transleft {
   min-height: none;
@@ -57,6 +55,9 @@
   font-size: 25px;
   line-height: 60px; }
 
+.ah-resse {
+  padding-bottom: 25px; }
+
 .ah-pressebody {
   background: url(../img/ah-pressefon.jpg) top center no-repeat;
   background-size: cover !important; }
@@ -77,10 +78,15 @@
   min-height: 63px; }
 
 .ah-imgbox {
-  position: absolute;
+  position: none;
   left: 50%;
   bottom: 0;
-  margin-top: 5px; }
+  margin-top: 10px;
+  transform: translate(-50%, 0);
+  transition: all 1s ease-in-out; }
+
+.ah-imgbox:hover {
+  opacity: 0.6; }
 
 .ah-resse-title {
   display: block;
@@ -94,7 +100,8 @@
   font-family: "HelveticaNeue-Bold";
   color: #000;
   font-size: 16px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-bottom: 10px; }
   .ah-resse-text span {
     font-family: "HelveticaNeue-Light"; }
 
@@ -103,6 +110,15 @@
     background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
     background-size: cover !important; } }
 @media only screen and (min-width: 992px) {
+  .ah-br1 {
+    display: block; }
+
+  .ah-imgbox {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-top: 5px; }
+
   .ah-transleft, .ah-transright {
     padding: 25px 30px;
     width: 100%; }

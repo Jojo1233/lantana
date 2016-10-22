@@ -14,15 +14,16 @@
                         <div class="menu-list-pressed">
                             <label class="anz-menu-ch1" for="check_1"></label>
                             <ul class="main-menu">
-                                <li><a href="/KonstantinWettig.php">KONSTANTIN</a></li>
+                                <li><a href="/KonstantinWettig.php">KONSTANTIN WETTIG</a></li>
                                 <li><a href="/leistungen.php">LEISTUNGEN</a></li>
-                                <li><a href="#">GESCHÄFTSPARTNER</a></li>
-                                <li><a href="/transaktionsvolumen.php">TRANSAKTIONSVOLUMEN</a></li>
+                                <li><a href="/gescheftspartne.php">GESCHÄFTSPARTNER</a></li>
+                                <li><a href="/Transaktionsvolumen.php">TRANSAKTIONSVOLUMEN</a></li>
                                 <li><a href="/werte.php">WERTE</a></li>
                                 <li><a href="/Kooperationspartner.php">KOOPERATIONSPARTNER</a></li>
                                 <li><a href="/presse.php">PRESSE</a></li>
                                 <li><a href="/kontakt.php">KONTAKT</a></li>
                                 <li><a href="/impressum.php">IMPRESSUM</a></li>
+                                <li><a href="/gescheftspartne.php">gescheftspartne</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,10 +1,14 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
+// *****************************************
+
+.ah-ani:hover{
+	// transform: rotate(90deg);
+	// opacity: 0.6;
+
+}
+.ah-br1{
+	display: none;
+}
 
 // RES**************************************
 .ah-resbody{
@@ -39,6 +43,8 @@
 	padding: 25px 7px;
 	text-align: center;
 	width: 150%;
+	height: 0px;
+	
 	// top: 0px;
 }
 .ah-transleft{
@@ -68,6 +74,10 @@
 	line-height: 60px;
 }
 // PRESSE**************************
+.ah-resse{
+	padding-bottom: 25px;
+
+}
 .ah-pressebody{
 	background: url(../img/ah-pressefon.jpg) top center no-repeat;
 	background-size: cover !important;
@@ -89,10 +99,15 @@
 	min-height: 63px; 
 }
 .ah-imgbox{
-	position: absolute;
+	position: none;
 	left: 50%;
 	bottom: 0;
-	margin-top: 5px;
+	margin-top: 10px;
+	transform: translate(-50%, 0);
+	transition: all 1s ease-in-out;
+}
+.ah-imgbox:hover{
+	opacity: 0.6;
 }
 .ah-resse-title{
 	display: block;
@@ -107,6 +122,7 @@
 	color: #000;
 	font-size: 16px;
 	line-height: 20px;
+	margin-bottom: 10px;
 	span{
 		font-family: "HelveticaNeue-Light";
 	}
@@ -147,6 +163,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-br1{
+		display: block;
+	}
+	.ah-imgbox{
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		margin-top: 5px;
+	}
 	// .ah-transleft, .ah-transright{
 	// 	position: absolute;
 	// }

@@ -124,6 +124,8 @@ body{
     // padding: 0 4px;
     transition: all 0.5s ease-in-out;
     background: url(../img/az-menu.png) no-repeat top left;
+    // background: url(../img/1.svg) no-repeat top left;
+    // background-size: cover;
 }
 .anz-menu-ch:hover{
     opacity: 0.4;
@@ -140,10 +142,32 @@ body{
         color: #000;
         position: relative;
         display: inline-block;
+        text-transform: uppercase;
     }
     a:before{
         position: absolute;
-        top: 0px;
+        bottom: 2px;
+        left: 0px;
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #777;//#cd1719;
+        transition: width 0.5s ease-in-out;
+    }
+    a:hover:before{
+        width: 100%;
+    }
+}
+.ab-footer-menu{
+    text-align: left;
+    a{
+        color: #000;
+        position: relative;
+        display: inline-block;
+    }
+    a:before{
+        position: absolute;
+        bottom: -5px;
         left: 0px;
         content: '';
         width: 0%;
@@ -260,8 +284,30 @@ body{
         width: 100%;
     }
 }
-
-
+// @keyframes len2{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 119.299%;
+//     }
+// }
+// @keyframes len3{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 110%;
+//     }
+// }
+// @keyframes len4{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 110%;
+//     }
+// }
 .az-col{
     width: 20%;
     float: left;
@@ -271,12 +317,41 @@ body{
 }
 .ah-arr{
     position: absolute;
-    width: 100%;
+    width: 0%;
     height: 9px;
     background: #9dbd1a;
     transform-origin: 0px 0px;
     // transform: skewY(-40deg);
-    animation: len 2.5s ease-in-out;
+    animation: len 1s linear;
+    animation-fill-mode: both;
+    // width: 100%;
+}
+// .ah-arr_style2{
+//     animation: len2 1s linear;
+//     animation-fill-mode: both;
+// }
+// .ah-arr_style3{
+//     animation: len3 1s linear;
+//     animation-fill-mode: both;
+// }
+// .ah-arr_style4{
+//     animation: len4 1s linear;
+//     animation-fill-mode: both;
+// }
+.ah-arr1{
+    animation-delay: 1s;
+}
+.ah-arr2{
+    animation-delay: 2s;
+}
+.ah-arr3{
+    animation-delay: 3s;
+}
+.ah-arr4{
+    animation-delay: 4s;
+}
+.ah-arr5{
+    animation-delay: 5s;
 }
 .az-arrow{
     position: absolute;
@@ -298,11 +373,11 @@ body{
 @keyframes rot{
     0%{
         transform-origin: 0% 0%;
-        transform: rotate(0deg) translate(-50%, 0);
+        transform: rotate(0deg) translate(32px, 0);
     }
     100%{
         transform-origin: 0% 0%;
-        transform: rotate(360deg) translate(-50%, 0);
+        transform: rotate(360deg) translate(32px, 0);
     }
 }
 .az-radar-arrow{
@@ -484,7 +559,38 @@ body{
 .ab-str:hover{
     animation: shake 1s ease-in-out;
 }
+.ah-transakvol{
+    .col-md-12{
+        position: relative;
+    }
+}
 
+.cube {
+  width: 2em;
+  transform-style: preserve-3d;
+}
+
+.side {
+  transition: all 1s ease-in-out;
+  img{
+        transition: all 1s ease-in-out;
+  }
+}
+.side:hover{
+    transform: rotateY(-180deg);
+    img{
+        transform: rotateY(180deg);
+    }
+}
+
+.ab-main-img-box{
+    font-size: 0px;
+    transition: opacity 1s ease-in-out;
+
+}
+.ab-main-img-box:hover{
+    opacity: 0.8;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -500,15 +606,20 @@ body{
     .az-radar-elem{
         opacity: 0;
     }
+    .az-radar-elems{
+        >div{
+            display: block;
+        }
+    }
     .az-radar-arrow{
         position: fixed;
         top: 50%;
         left: 50%;
         box-shadow: 0 -10px 20px #aaa;
         animation: rot 4s linear infinite;
-        width: 1150px;
+        width: 543px;
         height: 3px;
-        background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px));
+        background: #fff
     }
     .az-pos1{
         position: fixed;
