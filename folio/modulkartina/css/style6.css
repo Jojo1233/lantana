@@ -1,0 +1,254 @@
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+@media only screen and (max-width: 480px) {
+  .xa-kor:before {
+    position: absolute;
+    content: url(../img/xa-cart.png);
+    left: -1000px !important;
+    top: -17px; } }
+@media only screen and (max-width: 1248px) {
+  .xa-min2 {
+    padding: 0; }
+
+  .xa-logo-a {
+    font-size: 24px !important; } }
+@media only screen and (max-width: 992px) {
+  .xa-logo-a {
+    font-size: 30px !important; }
+
+  .xa-per-box {
+    float: none !important; }
+
+  .col50 {
+    width: 33% !important;
+    text-align: center; }
+
+  .col500 {
+    width: 50% !important; } }
+@media only screen and (max-width: 992px) {
+  .xa-header {
+    text-align: center !important; }
+
+  .xa-none {
+    display: none; } }
+@media only screen and (max-width: 768px) {
+  .xa-tel {
+    text-align: center !important; }
+
+  .xa-alm3, .xa-alm2 {
+    text-align: center !important; }
+
+  .col50, .col500 {
+    width: 100% !important; }
+
+  .xa-dum p:before {
+    left: 48% !important; } }
+.col50 {
+  width: 20%;
+  text-align: center; }
+
+.xa-nopadding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.xa-header {
+  padding-bottom: 50px;
+  font-family: "OpenSans-Regular";
+  background-color: #54524e;
+  color: #eee; }
+  .xa-header a {
+    color: #eee; }
+  .xa-header .xa-logo {
+    padding-top: 15px; }
+  .xa-header .xa-logo-a {
+    font-size: 30px;
+    padding: 0;
+    font-family: "OpenSans-Bold"; }
+  .xa-header .xa-yellow {
+    color: #feb715; }
+  .xa-header .xa-im {
+    font-size: 13px;
+    padding: 0;
+    color: #ebebeb; }
+  .xa-header .xa-kaz {
+    display: inline-block;
+    color: #feb715;
+    font-family: "OpenSans-Semibold";
+    font-size: 13px;
+    border-bottom: 1px dashed #feb715;
+    text-transform: uppercase;
+    padding-top: 10px;
+    white-space: nowrap; }
+  .xa-header .xa-alm {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    padding-left: 20px; }
+  .xa-header .xa-alm:before {
+    position: relative;
+    top: 3px;
+    left: -20px;
+    content: url("../img/xa-marker.png"); }
+  .xa-header .xa-tel {
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 24px;
+    color: #feb715;
+    text-align: right; }
+  .xa-header .xa-telico {
+    position: relative; }
+  .xa-header .xa-telico:before {
+    position: relative;
+    top: 5px;
+    left: 0;
+    content: url("../img/xa-telico.png"); }
+  .xa-header .xa-alm2 {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 4px;
+    text-align: right; }
+  .xa-header .xa-alm3 {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 6px;
+    text-align: right; }
+  .xa-header .xa-min {
+    padding: 0; }
+  .xa-header .nav {
+    padding: 10px 0 10px 0px; }
+  .xa-header .nav li {
+    display: inline;
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .xa-header .xa-per-box {
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    float: right;
+    padding: 8px 0 8px 14px; }
+    .xa-header .xa-per-box .xa-out {
+      padding: 7px 17px 6px 17px;
+      border-radius: 3px !important;
+      border: 1px solid #fff; }
+  .xa-header .xa-per-box:before {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    content: url(../img/xa-left.png); }
+
+.xa-form-box {
+  font-family: "OpenSans-Regular";
+  background-color: #ececec;
+  z-index: 9999 !important; }
+  .xa-form-box .xa-ybox {
+    margin-top: -25px;
+    background-color: #feb715;
+    height: 50px;
+    border-radius: 5px; }
+  .xa-form-box .xa-kor {
+    position: relative;
+    margin-top: -4px;
+    text-align: right; }
+    .xa-form-box .xa-kor span {
+      display: block; }
+    .xa-form-box .xa-kor .xa-your {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: "OpenSans-Bold"; }
+    .xa-form-box .xa-kor .xa-price {
+      color: #7f6f5a; }
+  .xa-form-box .xa-kor:before {
+    position: absolute;
+    content: url(../img/xa-cart.png);
+    left: 0;
+    top: -17px; }
+  .xa-form-box .xa-ybox {
+    padding: 9px 0; }
+    .xa-form-box .xa-ybox input {
+      padding-left: 13px;
+      display: block;
+      width: 100%;
+      border: 1px solid #ffa630;
+      border-radius: 2px;
+      height: 30px; }
+
+.xa-first {
+  background-color: #ececec;
+  padding-top: 35px;
+  padding-bottom: 20px; }
+  .xa-first img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .xa-first p {
+    font-family: 'MarckScript-Regular';
+    padding: 15px 0;
+    font-size: 24px;
+    color: #6c4904; }
+
+footer {
+  padding-top: 30px;
+  background-color: #414042; }
+  footer .xa-header {
+    background-color: #414042;
+    padding-bottom: 30px; }
+
+.xa-popular {
+  background-color: #fff;
+  padding: 50px 0; }
+  .xa-popular h1 {
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 36px;
+    padding: 2px 0; }
+  .xa-popular h2 {
+    font-size: 26px;
+    font-family: "OpenSans-Regular";
+    padding: 2px 0; }
+  .xa-popular h3 {
+    font-size: 18px;
+    font-family: "OpenSans-Regular";
+    padding: 2px 0;
+    text-transform: uppercase; }
+  .xa-popular h4 {
+    font-family: "OpenSans-Bold";
+    font-size: 16px;
+    padding: 2px 0; }
+  .xa-popular p {
+    font-family: "OpenSans-Regular";
+    font-size: 15px; }
+  .xa-popular .xa-pbox {
+    padding-bottom: 20px; }
+
+.xa-dum {
+  background: linear-gradient(45deg, #4abecd, #3386ae);
+  padding-bottom: 20px; }
+  .xa-dum h2 {
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    padding-bottom: 80px; }
+  .xa-dum p {
+    position: relative;
+    padding-top: 10px;
+    font-family: "OpenSans-Regular";
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    min-height: 100px; }
+  .xa-dum p:before {
+    position: absolute;
+    left: 43%;
+    top: -44px;
+    content: url(../img/xa-galka.png); }
+
+/*# sourceMappingURL=style6.css.map */

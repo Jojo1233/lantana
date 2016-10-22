@@ -1,0 +1,54 @@
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style5.css);
+@import url(style6.css);
+@import url(fonts.css);
+.ab-choose .ab-choose-title {
+  text-align: center; }
+  .ab-choose .ab-choose-title span {
+    color: #2f2f2d;
+    font-family: "OpenSans", sans-serif;
+    font-size: 38px; }
+.ab-choose .ab-img-box {
+  text-align: center;
+  padding-top: 47px; }
+  .ab-choose .ab-img-box img {
+    margin: 0 auto; }
+  .ab-choose .ab-img-box .ab-choose-number {
+    text-align: center; }
+    .ab-choose .ab-img-box .ab-choose-number span {
+      color: #ff8f01;
+      font-family: "OpenSans-Regular";
+      font-size: 60px; }
+  .ab-choose .ab-img-box .ab-choosw-txt span {
+    color: #302F2D;
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 10px;
+    text-transform: uppercase; }
+
+@media only screen and (min-width: 992px) {
+  .ab-choose .ab-img-box {
+    float: left;
+    text-align: center;
+    padding-top: 47px;
+    margin-bottom: 47px;
+    margin-left: 49px; }
+    .ab-choose .ab-img-box img {
+      margin: 0 auto; }
+    .ab-choose .ab-img-box .ab-choose-number {
+      text-align: center; }
+  .ab-choose .box1 {
+    margin-left: 0; }
+  .ab-choose .box2 {
+    padding-top: 56px; }
+  .ab-choose .box3 {
+    padding-top: 25px; }
+  .ab-choose .box4 {
+    padding-top: 23px; }
+  .ab-choose .box5 {
+    padding-top: 36px;
+    float: right; } }
+
+/*# sourceMappingURL=style4.css.map */

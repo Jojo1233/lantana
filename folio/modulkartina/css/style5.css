@@ -1,0 +1,82 @@
+.zk_news_caption {
+  font-family: "OpenSans-Semibold";
+  font-size: 24px;
+  color: #414042;
+  margin: 65px 0 11px 0; }
+
+.zk_news_block .news_text {
+  min-height: 65px; }
+  .zk_news_block .news_text .zk-news-titlebox {
+    min-height: 45px; }
+    .zk_news_block .news_text .zk-news-titlebox a {
+      font-size: 16px;
+      color: #4da1a9;
+      font-family: "OpenSans-Semibold";
+      text-decoration: none;
+      line-height: 17px; }
+    .zk_news_block .news_text .zk-news-titlebox a:hover {
+      text-decoration: underline; }
+  .zk_news_block .news_text .zk-date {
+    font-size: 13px;
+    color: #808285;
+    display: block;
+    font-family: "OpenSans-Semibold";
+    min-height: 25px; }
+
+.weoffer-caption {
+  font-family: "OpenSans-LightOpenSans-Light";
+  font-size: 42px;
+  color: #414042;
+  margin-top: 60px; }
+
+.weoffer-text {
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
+  color: #808285;
+  line-height: 20px;
+  margin-bottom: 60px;
+  padding-left: 2px; }
+
+.zk-canvas {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%; }
+  .zk-canvas .zk-canvas-caption {
+    text-align: center;
+    font-size: 26px;
+    color: #414042;
+    font-family: "OpenSans-LightOpenSans-Light";
+    padding-bottom: 15px;
+    padding-top: 20px; }
+  .zk-canvas .canvas-block {
+    text-align: center;
+    float: left;
+    max-width: 245px;
+    min-width: 245px;
+    min-height: 160px;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-family: "OpenSans-Regular"; }
+
+@media only screen and (min-width: 320px) {
+  .zk-canvas {
+    padding-left: 15%; } }
+@media only screen and (min-width: 480px) {
+  .zk-canvas {
+    padding-left: 10%; } }
+@media only screen and (min-width: 768px) {
+  .zk-canvas {
+    padding-left: 20%; } }
+@media only screen and (min-width: 992px) {
+  .zk-canvas {
+    padding-left: 0%; } }
+@media only screen and (min-width: 1248px) {
+  .zk-canvas {
+    background: url(../img/zk_canvas_bg.png) no-repeat;
+    width: 100%;
+    height: 245px;
+    padding-left: 0; }
+    .zk-canvas .canvas-block {
+      width: 22% !important; } }
+
+/*# sourceMappingURL=style5.css.map */

@@ -1,0 +1,347 @@
+
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+
+
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (max-width : 480px) {
+	
+	.xa-kor:before{
+		position: absolute;
+		content: url(../img/xa-cart.png);
+		left: -1000px !important;
+		top: -17px;
+	}
+}
+
+@media only screen and (max-width : 1248px) {
+	.xa-min2{
+		padding: 0;
+	}
+	.xa-logo-a{
+		font-size: 24px !important;
+	}
+}
+@media only screen and (min-width : 992px) {
+	
+}
+@media only screen and (max-width : 992px) {
+	.xa-logo-a{
+		font-size: 30px !important;
+	}
+	.xa-per-box{
+		float: none !important;
+	}
+	.col50{
+		width: 33% !important;
+		text-align: center;
+	}
+	.col500{
+		width: 50% !important;
+	}
+}
+@media only screen and (max-width : 992px) {
+	.xa-header{
+		text-align: center !important;
+	}
+	.xa-none{
+		display: none;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.xa-tel{
+		text-align: center !important;
+	}
+	.xa-alm3, .xa-alm2	{
+		text-align: center !important;
+	}
+	.col50, .col500{
+		width: 100% !important;
+	}
+	.xa-dum p:before{
+		left: 48% !important;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+}
+
+@media only screen and (min-width : 1248px) {
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //outline: 1px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}
+.col50{
+	width: 20%;
+	text-align: center;
+}
+.xa-nopadding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.xa-header{
+	padding-bottom: 50px;
+	font-family: "OpenSans-Regular";
+	background-color: #54524e;
+	color: #eee;
+	a{
+		color: #eee;
+	}
+	.xa-logo{
+		padding-top: 15px;
+	}
+	.xa-logo-a{
+		font-size: 30px;
+		padding: 0;
+		font-family: "OpenSans-Bold";
+		
+	}
+	.xa-yellow{
+		color: #feb715;
+	}
+	.xa-im{
+		font-size: 13px;
+		padding: 0;
+		color: #ebebeb;
+	}
+	.xa-kaz{
+		display: inline-block;
+		color: #feb715;
+		font-family: "OpenSans-Semibold";
+		font-size: 13px;
+		border-bottom: 1px dashed #feb715;
+		text-transform: uppercase;
+		padding-top: 10px;
+		white-space: nowrap;
+	}
+	.xa-alm{
+		position: relative;
+		font-size: 13px;
+		color: #fff;
+		padding-top: 2px;
+		padding-left: 20px;
+
+
+	}
+	.xa-alm:before{
+		position: relative;
+		top: 3px;
+		left: -20px;
+		content: url('../img/xa-marker.png');
+
+	}
+	.xa-tel{
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 24px;
+		color: #feb715;
+		text-align: right;
+	}
+	.xa-telico{
+		position: relative;
+	}
+	.xa-telico:before{
+		position: relative;
+		top: 5px;
+		left: 0;
+		content: url('../img/xa-telico.png');
+	}
+	.xa-alm2{
+		position: relative;
+		font-size: 13px;
+		color: #fff;
+		padding-top: 4px;
+		text-align: right;
+
+	}
+	.xa-alm3{
+		position: relative;
+		font-size: 13px;
+		color: #fff;
+		padding-top: 6px;
+		text-align: right;
+
+	}
+	.xa-min{
+		padding: 0;
+	}
+
+	.nav{
+		padding: 10px 0 10px 0px;
+	}
+	.nav li{
+		display: inline;
+		font-size: 11px;
+		font-family: "OpenSans-Regular";
+		text-transform: uppercase;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.xa-per-box{
+		font-size: 12px;
+		text-transform: uppercase;
+		position: relative;
+		float: right;
+		padding: 8px 0 8px 14px;
+		.xa-out{
+			padding: 7px 17px 6px 17px;
+			border-radius: 3px !important;
+			border: 1px solid #fff;
+		}
+
+	}
+	.xa-per-box:before{
+		position: absolute;
+		top: 8px;
+		left: -16px;
+		content: url(../img/xa-left.png);
+	}
+}
+.xa-form-box{
+	font-family: "OpenSans-Regular";
+	background-color: #ececec;
+	z-index: 9999 !important;
+	.xa-ybox{
+		margin-top: -25px;
+		background-color: #feb715;
+		height: 50px;
+		border-radius: 5px;
+	}
+	.xa-kor{
+		position: relative;
+		margin-top: -4px;
+		text-align: right;
+		span{
+			display: block;
+		}
+		.xa-your{
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 15px;
+			font-family: "OpenSans-Bold";
+		}
+		.xa-price{
+			color: #7f6f5a;
+
+		}
+	}
+	.xa-kor:before{
+		position: absolute;
+		content: url(../img/xa-cart.png);
+		left: 0;
+		top: -17px;
+	}
+	.xa-ybox{
+		padding: 9px 0;
+		input{
+			padding-left: 13px;
+			display: block;
+			width: 100%;
+			border: 1px solid #ffa630;
+			border-radius: 2px;
+			height: 30px;
+			
+		}
+	}
+}
+.xa-first{
+	background-color: #ececec;
+	padding-top: 35px;
+	padding-bottom: 20px;
+	img{
+		box-shadow: 0 0 10px rgba(0,0,0,0.2)
+	}
+	p{
+		font-family: 'MarckScript-Regular';
+		padding: 15px 0;
+		font-size: 24px;
+		color: #6c4904;
+	}
+	
+}
+footer{
+	padding-top: 30px;
+	background-color: #414042; 
+
+	.xa-header{
+		background-color: #414042;
+		padding-bottom: 30px;
+	}
+
+}
+.xa-popular{
+	background-color: #fff;
+	padding: 50px 0;
+	h1{
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 36px;
+		padding: 2px 0;
+	}
+	h2{
+		font-size: 26px;
+		font-family: "OpenSans-Regular";
+		padding: 2px 0;
+	}
+	h3{
+		font-size: 18px;
+		font-family: "OpenSans-Regular";
+		padding: 2px 0;
+		text-transform: uppercase;
+	}
+	h4{
+		font-family: "OpenSans-Bold";
+		font-size: 16px;
+		padding: 2px 0;
+	}
+	p{
+		font-family: "OpenSans-Regular";
+		font-size: 15px;
+	}
+	.xa-pbox{
+		padding-bottom: 20px;
+
+	}
+}
+
+.xa-dum{
+	background: linear-gradient(45deg, #4abecd, #3386ae);
+	padding-bottom: 20px;
+	h2{
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 40px;
+		text-align: center;
+		color: #fff;
+		padding: 30px;
+		padding-bottom: 80px;
+	}
+	p{
+		position: relative;
+		padding-top: 10px;
+		font-family: "OpenSans-Regular";
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		min-height: 100px;
+	}
+	p:before{
+		position: absolute;
+		left: 43%;
+		top: -44px;
+		content: url(../img/xa-galka.png);
+	}
+}
