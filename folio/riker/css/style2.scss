@@ -1,0 +1,367 @@
+@import "reset.css";
+@import "style.css";
+@import "style2.css";
+@import "style3.css";
+@import "style4.css";
+@import "fonts.css";
+
+//news************************************
+.ah-newswrapp{
+	margin-bottom: 15px;
+}
+.n-news-text{
+	width: 100%;
+	display: block;
+    color: #9b9b9b;
+    font-family: MSC-1;
+    font-size: 10px;
+    line-height: 13px;
+    margin: 10px 0px;
+    text-align: left;
+}
+.n-news-title{
+	display: inline-block;
+	font-family: MC-500;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 2px dotted #2f64ad;
+    color: #2f64ad;
+    margin: 15px 0px;
+}
+.n-news{
+	box-shadow: 0 9px 24.3px 2.7px rgba(0, 0, 0, 0.07);
+	margin: 0 auto;
+	padding: 25px;
+}
+.n-news-span{
+	display: block;
+	float: none;
+	font-family: MC-700;
+    font-size: 16px;
+    margin-bottom: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.n-news-link{
+	display: inline-block;
+	position: relative;
+	float: none;
+	border-bottom: 2px dotted #2f64ad;
+	//border-right: 1px solid #e5e5e3;
+    color: #2f64ad;
+    font-family: MSC-1;
+    font-size: 11px;
+    padding-right: 10px;
+    margin-right: 0px; 
+    margin-bottom: 15px;
+}
+.n-news-link:before{
+	position: absolute;
+	content: "";
+	background: url(../img/ico-new.png);
+	width: 16px;
+	height: 16px;
+	right: -25px;
+	top: 0px;
+}
+.n-news-span1{
+	position: relative;
+	display: block;
+	color: #737678;
+    font-family: MSC-1;
+    font-size: 11px;
+    padding-left: 15px;
+    margin-bottom: 15px; 
+}
+.n-news-span1:before{
+	position: absolute;
+	content: "";
+	background: url(../img/ico-calendar.png);
+	width: 11px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+// footer*********************************
+.footer-bottom{
+	background-color: #434343; 
+	padding: 11px 0px;
+}
+.ah-fotleft{
+	display: block;
+	text-align: center;
+	float: none;
+}
+.ah-fotright{
+	display: block;
+	text-align: center;
+	float: none;
+}
+.ah-fotleft-span{
+	color: #fff;
+    font-family: MSC;
+    font-size: 10px;
+}
+.ah-fotright-span{
+	color: #676767;
+    font-family: MSC;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.footer{
+	margin-top: 50px;
+	position:relative;
+	.hr-footer{
+		display: none;
+	}
+}
+.ah-footer-list{
+	display: block;
+	margin-right: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+	li{
+		margin-bottom: 12px;
+		a{
+		    color: #737678;
+		    font-family: MC-700;
+		    font-size: 12px;
+		    line-height: 10px;
+		}
+	}
+	li:hover{
+		a{
+			color: red;
+		}
+	}
+	li:first-child{
+		margin-bottom: 20px !important;
+		a{
+			color: #A5ADB2  !important;
+			border-bottom: 2px solid transparent;
+			transition: border-bottom 0.7s ease 0s;
+		}
+	}
+	li:first-child:hover{
+		a{
+			border-bottom: 2px solid red;
+		}
+	}
+}
+.ah-inffot{
+	padding: 0px 30px;
+	text-align: center;
+}
+.ah-footform{
+	position: relative;
+	width: 100%;
+	font-size: 0px;
+	margin-top: 10px;
+	input[type="text"]{
+		background: #f9f9f9 url(../img/ico-search.png) no-repeat scroll 9px center;
+	    border: 1px solid #e5e5e3;
+	    display: inline-block;
+	    padding: 6px;
+	    vertical-align: top;
+	    width: 68%;
+		font-family: MSC-2;
+		font-size: 12px;
+		outline: none;
+	}
+	input[type="submit"]{
+	    background: #fff none repeat scroll 0 0;
+	    border: 1px solid #e5e5e3;
+	    color: #919191;
+	    display: inline-block;
+	    font-family: MC-700;
+	    font-size: 12px;
+	    line-height: 0px;
+	    padding: 13px 9px;
+	    vertical-align: top;
+	    box-sizing: border-box;
+	    width: 30%;
+		outline: none;
+		cursor: pointer;
+	}
+}
+.ah-logoblock{
+	display: table;
+	width: 100%;
+	padding: 0px 35px;
+	margin-bottom: 15px;
+}
+.ah-logoimg{
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.ah-logoblock-span{
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+    //color: #c5c5c5;
+    color: #434343;
+    font-family: MC-700;
+    font-size: 15px;
+    span{
+	    //color: #434343;
+	    color: #c5c5c5;
+	    font-family: MC-300;
+    }
+}
+.ah-fotbotblock{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ah-fotbotblock1{
+	float: none;
+	display: block;
+	margin-top: 0px;
+}
+.ah-fotbotblock2{
+	float: none;
+	display: block;
+}
+.ah-fotbotblock1-span, .ah-fotbotblock2-span{
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 6px;
+    font-family: MC-700;
+    font-size: 12px;
+}
+.ah-cardimg{
+	display: table-cell;
+	vertical-align: middle;
+}
+.ah-soc{
+	display: table-cell;
+	vertical-align: middle;
+	li{
+		display: inline-block;
+	}
+}
+// footer*********************************
+
+@media only screen and (min-width : 320px) {
+}
+
+@media only screen and (min-width : 480px) {
+	.ah-footer-list{
+		display: inline-block;
+		margin-right: 10px;
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+}
+
+@media only screen and (min-width : 992px) {
+	
+	.footer{
+	margin-top: 50px;
+	position:relative;
+		.hr-footer{
+			display: block;
+			width: 668px;
+			height: 1px;
+			position:absolute;
+			top:12px;
+		}
+	}
+
+	.ah-newswrapp{
+		margin-bottom: 0px;
+	}
+	.n-news-text{
+		width: 250px;
+		display: block;
+	    margin: 10px 0px;
+	    text-align: left;
+	}
+	.n-news-span1{
+		position: relative;
+		display: block;
+		color: #737678;
+		width: none;
+	    padding-left: 20px;
+	    margin-bottom: 12px; 
+	}
+	.n-news-link{
+		position: relative;
+		float: right;
+		border-bottom: 2px dotted #2f64ad;
+		border-right: 1px solid #e5e5e3;
+	    padding-right: 10px;
+	    margin-right: 25px;
+	    margin-bottom: 0px; 
+	}
+	.n-news-span{
+		float: left;
+		font-family: MC-700;
+	    font-size: 16px;
+	    margin-bottom: 23px;
+	    margin-top: 0px;
+	}
+	.ah-footform{
+		margin-top: 15px;
+	}
+	.ah-fotleft{
+		float: left;
+	}
+	.ah-fotright{
+		float: right;
+	}
+	// .ah-footer-list{
+	// 	display: inline-block;
+	// 	margin-right: 20px;
+	// }
+	.ah-fotbotblock1{
+		float: left;
+		display: table;
+		margin-top: 6px;
+	}
+	.ah-fotbotblock2{
+		float: right;
+		display: table;
+	}
+	.ah-logoblock{
+		display: table;
+		width: 100%;
+		padding: 0px 0px;
+		margin-bottom: 0px;
+	}
+	.ah-logoimg{
+		display: table-cell;
+		vertical-align: middle;
+		margin-bottom: 0px;
+	}
+	.ah-logoblock-span{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: right;
+		color: #434343;
+	    //color: #c5c5c5;
+	    font-family: MC-700;
+	    font-size: 15px;
+	    span{
+	    	color: #c5c5c5;
+		    //color: #434343;
+		    font-family: MC-300;
+	    }
+	}
+}
+
+@media only screen and (min-width : 1248px) {
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    // outline: 1px solid red;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+}
