@@ -21,58 +21,37 @@
     <?php endwhile;?>
     <?php wp_reset_query(); ?>
 
-
-    <a name="main"></a>
-    <section class="header">
-   
-        <?php require_once('template-top-header.php') ?>       
-        <div class="header-middle">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <?php echo $TopMainText; ?> 
-                    </div>
-                </div>
-            </div>  
-        </div>
-
-        <div class="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 left">
-                                <a href="#portfolio" class="button-1"><?php echo $button_portfolio; ?></a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 right">
-                                <a href="#services" class="button-1"><?php echo $button_pricing; ?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
+     <a name="home"></a>
+    <?php require_once('template-top-header.php') ?> 
+    <div class="main-content">
+        
     
+
     <div class="clearfix"></div>
 
 <a name="portfolio"></a>
-<section class="home-page-portfolio">	
-	<?php wp_reset_query(); ?>
-	<?php $wp_query = new WP_Query(array(
-	   'post_type' => 'portfolio',
-	   'post_status' => 'publish',
-	   'caller_get_posts'=> 1)
-	); ?>
-	<div class="container"> 
+<section class="section section_position home-page-portfolio">   
+    <?php  if ( 'ru' === $GLOBALS['q_config']['language']){ $ourtype='portfolio';} ?>
+    <?php  if ( 'en' === $GLOBALS['q_config']['language']){ $ourtype='portfolio_eng';} ?>
+    <?php wp_reset_query(); ?>
+
+    <?php $wp_query = new WP_Query(array(
+       'post_type' => $ourtype,
+       'post_status' => 'publish',
+       'caller_get_posts'=> 1)
+    ); ?>
+
+   
+
+    <div class="container"> 
         <div class="row">
             <div class="col-md-12">
                 <h2><?php echo $Head_portfoio ?></h2>
             </div>
             
-	    	<div class="clearfix"></div>
-		    <?php  while ($wp_query->have_posts()) : $wp_query->the_post(); ?>  
-		    <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="clearfix"></div>
+            <?php  while ($wp_query->have_posts()) : $wp_query->the_post(); ?>  
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="portfol-block">
                     <div class="figure">
                         <div class="figure-img">
@@ -115,16 +94,16 @@
                         </div>
                     </div>
                 </div>
-	  		</div>
-		    <?php endwhile; ?>
-		    <?php wp_reset_query(); ?>
-		    <div class="clearfix"></div>
+            </div>
+            <?php endwhile; ?>
+            <?php wp_reset_query(); ?>
+            <div class="clearfix"></div>
         </div>  
-	</div>
+    </div>
 </section>
 
 <a name="services"></a>
-<section class="service">
+<section class="section section_position section_service">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -154,12 +133,12 @@
 </section>
  
 
-<section class="advantage parallax-window" data-parallax="scroll" data-image-src="/video/avd2.jpg">
+<!-- <section class="advantage parallax-window" data-parallax="scroll" data-image-src="/video/avd2.jpg">
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Почему следует заказать услугу у нас?</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Почему следует заказать услугу у нас?</h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="adv-box">
@@ -190,13 +169,13 @@
             </div>
             <div class="clearfix"></div>
             
-		</div>
-	</div>
-</section> 
+        </div>
+    </div>
+</section>  -->
 
 <!-- Блок Технологии (Аслан) 17.09.16  -->
 
-<section class="ab-h2">
+<section class="section section_position">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -267,7 +246,7 @@
 
 
 
-<section class="testimonials">
+<section class="section section_position testimonials">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -298,7 +277,7 @@
 </section>
 
 <a name="contacts"></a>
-<section class="contacts-block">
+<section class="section section_position section_contacts-block">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -325,4 +304,4 @@
     </div>
 </section>
 <?php get_footer(); ?>
-	
+    

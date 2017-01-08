@@ -690,6 +690,50 @@ function portfolio_register() {
 }
 
 
+add_action('init', 'portfolio_eng_register');
+function portfolio_eng_register() {
+    $args = array(
+        'label'               => __('Портфолио Eng'),
+        'labels'              => array(
+            'name'               => __('Портфолио Eng'),
+            'singular_name'      => __('Портфолио Eng'),
+            'menu_name'          => __('Портфолио Eng'),
+            'all_items'          => __('Все работы'),
+            'add_new'            => _x('Добавить работу', 'portfolio'),
+            'add_new_item'       => __('Новая работа'),
+            'edit_item'          => __('Редактировать работу'),
+            'new_item'           => __('Новая работа'),
+            'view_item'          => __('Портфолио'),
+            'not_found'          => __('Работа не найден'),
+            'not_found_in_trash' => __('Удаленных работ нет'),
+            'search_items'       => __('Найти работу')
+        ),
+        'description'         => __('Портфолио Eng'),
+        'public'              => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'show_ui'             => true,
+        'show_in_nav_menus'   => true,
+        'show_in_menu'        => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'capability_type'     => 'post',
+        'hierarchical'        => false,
+        'supports'            => array(
+            'title',
+            'editor',
+   
+        ),
+        'has_archive'         => false,
+        'rewrite'             => array(
+            'slug'       => '',
+            'with_front' => false
+        )
+    );
+    register_post_type('portfolio_eng', $args);
+}
+
+
 
 class Mainmenu_Walker_Nav_Menu extends Walker_Nav_Menu{
     /**

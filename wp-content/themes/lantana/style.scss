@@ -59,8 +59,9 @@ blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
-html{
- 	
+html, body{
+	height: 100%;
+	min-height: 100%; 	
 }
 body{
 	font-family: "RobotoRegular";
@@ -90,12 +91,15 @@ em {
 
 
 
-/*----------- Стили для Блога (Аслан) 16.09.2016 ----------------------------------*/
-
-.col-md-offset-2 {
-	margin-bottom: 16px;
+.main-content{
+	//display: table-row;
+	//height: 0%;
 }
 
+.section_position{
+	width: 100%;
+	padding: 25px 0px;
+}
 .ab-h1-blog {
 	margin-bottom: -15px;
 		a {
@@ -261,10 +265,12 @@ h1{
 	padding-bottom: 40px;
 }
 h2{
-	font-family: "RobotoMedium";
-	font-size: 25px;
+	
+	font-size: 30px;
+	font-family: "Exo2-ExtraLight";
+	color: #000;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	color: darken($gray, 10%);
 }
 
@@ -276,7 +282,9 @@ h3{
 	color: #595959;
 	border-bottom: 1px solid #eee;
 }
-
+.section_position{
+	padding: 25px 0px;
+}
 .center{
 	text-align: center;
 }
@@ -325,26 +333,24 @@ textarea{
 	display: inline-block;
 	padding: 8px 15px;
 	min-width: 145px;
-	background: darken($accent, 10%);
+	
 	border: 1px solid $accent;
 	font-family: "RobotoLight";
 	font-size: 14px;
-	color: #fff;
+	color: $accent;
 	cursor: pointer;
 	transition: 0.5s;
 	line-height: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: .1em;
+	letter-spacing: .0.5em;
 }
 .button-1:hover{
-	background: none;
-
-	position: relative;
-
-	overflow: hidden;
+	background: darken($accent, 10%);
+	border: 1px solid darken($accent, 10%);
+	color: #fff;
 }
-.button-1:hover:after{
+.button-1:hover1:after{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -355,43 +361,8 @@ textarea{
 	animation: button 550ms ease-in-out;
 
 }
-@keyframes button{
-	0%{
 
-	}
-	50%{
-		
-	}
-	100%{
-		
-
-	}
-}
-
-.button-1{
-	display: inline-block;
-	padding: 8px 15px;
-	min-width: 145px;
-	background: darken($accent, 10%);
-	border: 1px solid $accent;
-	font-family: "RobotoLight";
-	font-size: 14px;
-	color: #fff;
-	cursor: pointer;
-	transition: 0.5s;
-	line-height: 30px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-}
-.button-1:hover{
-	background: none;
-
-	position: relative;
-
-	overflow: hidden;
-}
-.lang-box{
+.lang-box2{
 	margin-left: auto;
 	width: 23px;
 	min-height: 40px;
@@ -545,92 +516,151 @@ textarea{
 	background: #FD4040;
 	transition: 0.5s;
 }
-
+.wrap{
+	//display: table;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	
+}
 .header {
-	background: url(./img/ab-fon.jpg) top center;
+	background: url(./img/lantana2.jpg) top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	//padding: $page-padding;
 	color: #fff;
 	position: relative;
+	width: 100%;
+	height:100vh;
+	border-bottom: 1px solid #EBEBEB;
+
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background: rgba(#fff, 0.8);
+	width: 100%;
+	height: 100%;
 }
 
-.header:before{
+.header__top_position{
+	padding: 7px 0px;
+	padding-top: 30px;
+}
+.main-menu_view{
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding-top: 10px;
+	color: #000;
+}
+.main-menu__item_view{
+	display: inline-block;
+	margin-right: 45px;
+}
+.main-menu__item_view:last-child{
+	margin-right: 0
+}
+.main-menu__link_view{
+	color: #000;
+	letter-spacing: 0.05em;
+
+}
+.main-menu__link_view:hover{
+	position: relative;
+	
+}
+.main-menu__link_view:hover:before{
 	position: absolute;
 	content: "";
 	width: 100%;
-	height: 100%;
-	left: 0;
-	top:0 ;
-	background: rgba(#000, 0.5); 
+	height: 5px;
+	background: red;
+	left: 0px;
+	bottom: -6px;
+	animation: main-menu__link_view 350ms ease-in-out;
+	 /* fallback */ background-color: red; background-image: url(images/linear_bg_1.png); 
+	 background-repeat: repeat-y; 
+	 /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, left top, right top, from($accent), to($accent2)); 
+	 /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(left, $accent, $accent2);
+	 /* Firefox 3.6+ */ background: -moz-linear-gradient(left, $accent, $accent2);
+	 /* IE 10 */ background: -ms-linear-gradient(left, $accent, $accent2); 
+	 /* Opera 11.10+ */ background: -o-linear-gradient(left, $accent, $accent2);
 }
-
-video{
-	display: block;
+@keyframes main-menu__link_view {
+  	0% {
+    	width: 0;
+	}
+  
+  	100% {
+		width: 100%;
+    }
 }
-.header-inner {
-	background: $gray;
-	top: 0px;
-	left: 0%;
-	//padding: 25px 0px;
-	//padding-top: 25px;
-	//padding-bottom: 20px;
-	color: #000;
-}
-.header .container {
-  position: relative;
-  z-index: 100;
-}
-.header-top{
-	position: relative;
-  z-index: 100;
-}
-
-
 .header-fixed{
 	position: fixed;
 	width: 100%;
 	z-index: 500;
-	background: $gray;
+	background: #fff;
 	top: 0px;
 	left: 0%;
-	//padding-top: 15px;
-	//padding-bottom: 15px;
+	padding-top: 7px;
+	border-bottom: 1px solid #FBFBFB;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 
 	
 	
 }
 
-.header-vn{
-	width: 100%;
-	z-index: 500;
-	background: $gray;
-	//padding: 18px 0px;
-}
-.header-top-up{
-	background: rgba(#000, 0.6);
-	//background: #5F054E;
-	padding: 12px 0px;
+.header__middle_position{
+	font-family: "Exo2-ExtraLight";
+	color: #000;
+	padding-top: 150px;
+	font-size: 45px;
+	line-height: 55px;
 	text-align: center;
-	.ab-phone{
-		padding-bottom: 10px;
-		color: white;
-	}
-	.button-3{
-		margin-bottom: 10px;
-	}
 }
-.header-top-down{
-	padding: 8px 0px;
+
+.lang-box__view{
+	display: inline-block;
+	position: relative;
 }
-.burger-box{
-	text-align: right;
-	font-size: 32px;
-	.main_menu_button{
-		cursor: pointer;
+.lang-box__inner_position{
+	display: none;
+	position: absolute;
+	top: 0px;
+}
+.lang-box_view:hover{
+	position: relative;
+
+	.lang-box__inner_position{
+		animation: lang-box_view 350ms ease-in-out;
+		display: block;
 	}
+
 }
-.main-menu {
+.lang-box__view_flag_size{
+	width: 23px;
+	height: 16px;
+
+}
+
+@keyframes lang-box_view {
+  	0% {
+    	top: 30px;
+    	opacity: 0;
+	}
+ 	
+ 	100% {
+		top: 0px;
+		opacity: 1;
+    }
+}
+.header-buttons_position{
+	padding-top: 50px;
+}
+.main-menu22 {
 	text-align: right;
 	font-family: 'Open Sans', arial;
 	.sub-menu{
@@ -649,6 +679,7 @@ video{
 			display: block;
 			//padding: 0px !important;
 			margin-left: 0px;
+
 		}
 
 	}
@@ -657,6 +688,7 @@ video{
 		display: inline-block;
 		margin-left: 35px;
 		position: relative;
+		outline: 1px solid red;
 		//outline: 1px solid red;
 		a {
 			//outline: 1px solid red;
@@ -767,49 +799,27 @@ video{
 	}
 }
 
-
+.header-logo_view{
+	width: 50px;
+	height: 50px;
+	border-radius: 10em;
+	background: #F8F8F8;
+	text-align: center;
+}
   
-a.logo{
+.header-logo__link_view{
 	display: inline-block;
 	color: #fff;
 	font-family:"Palermo-Bold";
 	font-size: 28px;
 	text-transform: uppercase;
-	span{
-		color: $accent;
-	}
+	color: $accent;
+	padding-top: 13px;
+
 }
 
-.header-middle{
-	margin-top: 13%;
-	color: #fff;
-	text-align: center;
-	font-size: 35px;
-}
-.header-bottom{
-	text-align: center;
-	margin-top: 5%;
-	.button-1{
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-}
-.main-content{
-	padding: 25px 0px;
-	
-	p{
-		padding-bottom: 5px;
-		line-height: 1.525em;
-		padding-top: 15px;
-	}
-}
-.home-page-portfolio{
-	width: 100%;
-	padding: $page-padding;
-	h2{
-		//margin-top: 60px;
-	}
-}
+
+
 /**********MENU***********/
 #check_1{
     display: none;
@@ -1124,10 +1134,10 @@ a.logo{
 		margin: 0 auto;
 	}
 }
-.service{
-	width: 100%;
+.section_service{
+	
 	background: lighten(#A3B6C5, 25%);
-	padding: $page-padding;
+	
 	border-top: 3px solid lighten(#A3B6C5, 22%);
 	.service-block{
 		width: 100%;
@@ -1204,9 +1214,8 @@ a.logo{
 	}
 	
 }
-.contacts-block{
-	width: 100%;
-	padding: $page-padding;
+.section_contacts-block{
+
 	background: #182945;
 	color: #fff;
 	h2{
@@ -1285,10 +1294,14 @@ a.logo{
 }
 
 .footer{
+	//display: table-row;
+	//height: 0px;
 	width: 100%;
 	padding: 25px 0px;
   	color: #fff;
   	background: darken($gray, 10%);
+  	//display: table-row;
+  	//height: 1px;
   	.copyright{
 		display: inline-block;
 		padding-top: 10px;
@@ -1485,8 +1498,7 @@ a.logo{
   	}
 }
 .testimonials{
-	width: 100%;
-	padding: 50px 0px;
+
 	.name{
 		display: block;
 		font-weight: bold;
@@ -1791,11 +1803,7 @@ input, textarea{
 	}
 }
 
-.ab-h2{
-	h2{
-		padding-top: 40px;
-	}
-}
+
 
 .ab-right{
 		color: white;
@@ -1895,19 +1903,7 @@ input, textarea{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
-	// /*menu style*/
- //    .main-menu{
- //        a{
- //            font-family: "MyriadPro-SemiboldSemiExt";
- //            font-size: 16px;
- //            color: #000;
- //            text-transform: uppercase;
- //            letter-spacing: 0.03em;
- //            margin-right: 30px;
- //        }
 
- //    }
- //    /*menu style*/
 }
 
 /* Medium Devices, Desktops */
@@ -1917,27 +1913,12 @@ input, textarea{
     //     padding-right: 50px;
     // }
     // /*header*/
-    h2 {
-        padding: 10px 13px;
-    }
+   
     .anz-mobile{
         display: block;
     }
 
-   /*menu style*/
-    .main-menu{
-        a{
-            // font-family: "MyriadPro-SemiboldSemiExt";
-            // font-size: 15px;
-            // color: #000;
-            // text-transform: uppercase;
-            // letter-spacing: 0.03em;
-            //margin-right: 20px;
-        }
-    }
-    /*menu style*/
-
-        /*menu*/
+   
     
 
     #check_1{
@@ -2020,32 +2001,7 @@ input, textarea{
         border: 1px solid #828089;
         box-shadow: 0px 0px 5px #828089;
     }
-    .main-menu{
-        
-        li{
-            display: block;
-            //height: 55px;
-            //line-height: 55px;
-
-            a{
-                display: block;
-                color: $accent;
-                //line-height: 25px;
-            }
-            a:hover{
-            	animation: none !important;
-            	color: #fff;
-
-            }
-            a:hover:before, a:hover:after{
-            	content: "";
-            	animation: none;
-            }
-        }
-        li:hover{
-			
-        }
-    }
+    
 
 }
 
@@ -2157,14 +2113,6 @@ input, textarea{
 		text-align: left !important;
 	}
 	
-		h2 {
-    color: #2f0226;
-    font-family: "RobotoMedium";
-    font-size: 25px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: left;
-	}
 	
 	h3{
 		font-family: "RobotoMedium";
@@ -2203,22 +2151,14 @@ input, textarea{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.header-top-up{ 
-		padding: 3px 0;
-		.button-3{
-		margin-top: 10px;
+	
+	.section_position{
+		padding: 90px 0px;
 	}
-	.ab-phone{
-	text-align: left;
-	margin-top: 13px; 
-	color: white;
+	h2{
+		font-size: 40px;
+		margin-bottom: 90px;
 	}
-	.ab-right{
-		text-align: right;
-		margin-top: 13px;
-		color: white;
-	}
-}
 	.common-form{
         width: 378px;
         .close{

@@ -360,9 +360,13 @@ $("iframe").remove();
 function navigation_scroll(){
     var offset = $('.header').height() || $(window).height() || 50;
     var scroll = $(document).scrollTop();
+    if (scroll > 120) {
+        //$('.header').css('display','table-row');
+       // $('.wrap').css('display','table');
+    }
 
     if (scroll < 150) {
-        $('.header-top')
+        $('.header__top')
             .toggleClass('header-no-fixed', false)
              .toggleClass('header-fixed', false);
        
@@ -370,13 +374,13 @@ function navigation_scroll(){
            
      }     
     else if (scroll >= offset) {
-        $('.header-top')
+        $('.header__top')
             .toggleClass('header-no-fixed', false)
             .toggleClass('header-fixed', true);
             
     }
     else if (scroll < offset - 50) {
-        $('.header-top')
+        $('.header__top')
             .toggleClass('header-fixed', true)
             .toggleClass('header-no-fixed', false);
             
