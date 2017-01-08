@@ -21,8 +21,7 @@
     <?php endwhile;?>
     <?php wp_reset_query(); ?>
 
-     <a name="home"></a>
-    <?php require_once('template-top-header.php') ?> 
+    
     <div class="main-content">
         
     
@@ -304,4 +303,4 @@
     </div>
 </section>
 <?php get_footer(); ?>
-    
+</div>

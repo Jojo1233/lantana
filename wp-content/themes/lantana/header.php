@@ -71,5 +71,14 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/36925260" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+
 <div class="wrap">
-	
+	<a name="home"></a>
+    <?php 
+if ( is_home() ) {
+	require_once('template-top-header.php');
+}
+else {
+	require_once('template-top-header__inner.php');
+}
+ ?>

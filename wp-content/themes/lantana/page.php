@@ -1,10 +1,7 @@
 <?php get_header(); ?>
-<section class="header">
-	<?php include_once('template-top-header.php'); ?>
-</section>
 
 
-<section class="main-content">
+<section class="section section_position">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

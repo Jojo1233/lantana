@@ -1,25 +1,5 @@
-    <?php wp_reset_query(); ?>
-    <?php $wp_query = new WP_Query('page_id=128'); ?>
-    <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-    <?php 
-    $TopMainText = get_field('main_top_text'); 
-    $Head_portfoio = get_field('заголовок_портфолио'); 
-    $Head_service = get_field('заголовок_услуги'); 
-    $Head_review = get_field('заголовок_отзывы'); 
-    $Head_contacts = get_field('заголовок_контакты'); 
-
-    $button_portfolio = get_field('кнопка_посмотреть_портфолио'); 
-    $button_pricing = get_field('кнопка_узнать_стоимость'); 
-    $button_order = get_field('кнопка_заказать_сейчас'); 
-    $button_send = get_field('кнопка_отправить'); 
-    $button_code = get_field('кнопка_посмотреть_верстку'); 
-    $button_tosite = get_field('кнопка_перейти_на_сайт'); 
-
-    ?>
-    <?php endwhile;?>
-    <?php wp_reset_query(); ?>
-<div class="header">
-    <div class="header__top header__top_position">
+<div class="header-inner">
+    <div class="header__top header__top_inner_position">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -62,28 +42,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="header__middle header__middle_position">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="header-middle">
-                    <?php  if ( 'ru' === $GLOBALS['q_config']['language']){ ?>
-                    <span class="header-middle__title">Производственная студия. Профессиональная верстка и разработка сайтов на Wordpress</span>
-                    <?php } ?>
-                    <?php  if ( 'en' === $GLOBALS['q_config']['language']){?>
-                    <span class="header-middle__title">Production studio. Professional HTML, CSS coding and Wordpress development.</span>
-                    <?php } ?>
-                        
-                    </div>
-                    <div class="header-buttons header-buttons_position">
-                         <a href="#portfolio" class="button-1"><?php echo $button_portfolio; ?></a> <a href="#services" class="button-1"><?php echo $button_pricing; ?></a>
-                     </div>
-                </div>
-               
             </div>
         </div>
     </div>

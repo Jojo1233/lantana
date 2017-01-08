@@ -13,7 +13,6 @@ $footer_text1 = get_field('футер_текст_1');
 ?>
 <?php endwhile;?>
 <?php wp_reset_query(); ?>
-</div>
 
 <section class="footer">
 	<div class="container">
